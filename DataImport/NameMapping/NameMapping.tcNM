@@ -1,0 +1,936 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="6" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}" ParallelWalk="True">
+		<Children>
+			<Child Name="Sys" Key="{30398A0A-43A7-4325-9EEB-E12316647085}" ParallelWalk="True">
+				<Properties>
+					<Property Name="Name">
+						<Value PropertyType="0" Value="Sys" Type="5" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{F6DD0781-F666-4B62-B989-965C064B23B4}" ParallelWalk="True">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value PropertyType="0" Value="Browser" Type="5" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="BrowserWindow" Key="{CAE9ECFB-159B-41FD-AD2F-209DCF8ED9A4}" ParallelWalk="True">
+								<Image FileName="-278911540" Left="0" Top="0" Right="2692" Bottom="2150" />
+								<TypeInfo Item0="{581D15FD-3429-457C-9047-75EF3884CE60}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value PropertyType="0" Value="BrowserWindow" Type="5" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value PropertyType="0" Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageRegister" Key="{A0481853-26AB-48A2-ADB0-C8C6C2F165B5}" ParallelWalk="True">
+								<Image FileName="-1934894140" Left="13" Top="224" Right="2679" Bottom="2138" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value PropertyType="0" Value="Page" Type="5" />
+									</Property>
+									<Property Name="URL">
+										<Value PropertyType="0" Value="https://edfiserver:444/DataImport/Account/Register" Type="5" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="form" Key="{F87B10AD-61E2-434B-9628-190B644BF08E}" ExtendedFind="True" ParallelWalk="True">
+										<Image FileName="778825777" Left="206" Top="456" Right="2486" Bottom="975" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value PropertyType="0" Value="Form" Type="5" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="textboxEmail" Key="{50CEE1B7-E841-46C4-B4E7-092A2FD10F10}" ExtendedFind="True" ParallelWalk="True">
+												<Image FileName="778825777" Left="596" Top="581" Right="2486" Bottom="657" />
+												<TypeInfo Item0="{40251F3E-EC2E-4475-ADB3-2EB21B1E7916}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value PropertyType="0" Value="Textbox" Type="5" />
+													</Property>
+													<Property Name="idStr">
+														<Value PropertyType="0" Value="Email" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="passwordboxPassword" Key="{123379D7-05B0-40A9-B81C-DBCB895C6F64}" ExtendedFind="True" ParallelWalk="True">
+												<Image FileName="2017914750" Left="596" Top="687" Right="2486" Bottom="763" />
+												<TypeInfo Item0="{40251F3E-EC2E-4475-ADB3-2EB21B1E7916}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value PropertyType="0" Value="PasswordBox" Type="5" />
+													</Property>
+													<Property Name="idStr">
+														<Value PropertyType="0" Value="Password" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="passwordboxConfirmPassword" Key="{A627626B-2753-4EAA-BB6C-8527CC1B8EAD}" ExtendedFind="True" ParallelWalk="True">
+												<Image FileName="-1188251995" Left="596" Top="793" Right="2486" Bottom="869" />
+												<TypeInfo Item0="{40251F3E-EC2E-4475-ADB3-2EB21B1E7916}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value PropertyType="0" Value="PasswordBox" Type="5" />
+													</Property>
+													<Property Name="idStr">
+														<Value PropertyType="0" Value="ConfirmPassword" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="buttonRegister" Key="{DB024990-AF23-40F0-ACA4-6A702B092FE3}" ExtendedFind="True" ParallelWalk="True">
+												<Image FileName="578180975" Left="596" Top="899" Right="752" Bottom="975" />
+												<TypeInfo Item0="{65C5099D-9E38-4219-8DD0-F5A8093E90B5}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value PropertyType="0" Value="Button" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageLogin" Key="{35716F22-29B5-41AB-B7D1-A7FE759C0BCA}" ParallelWalk="True">
+								<Image FileName="-1934894140" Left="13" Top="224" Right="2679" Bottom="2138" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value PropertyType="0" Value="Page" Type="5" />
+									</Property>
+									<Property Name="URL">
+										<Value PropertyType="0" Value="https://edfiserver:444/DataImport/Account/Login*" Type="5" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="sectionLoginform" Key="{D9A4F856-7FB7-4D4A-95C5-4A1380CAFACE}" ExtendedFind="True" ParallelWalk="True">
+										<Image FileName="1163773317" Left="206" Top="456" Right="1706" Bottom="829" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value PropertyType="0" Value="Section" Type="5" />
+											</Property>
+											<Property Name="idStr">
+												<Value PropertyType="0" Value="loginForm" Type="5" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="form" Key="{4C2D91BD-D790-43CD-972C-D9BF1EAA5568}" ExtendedFind="True" ParallelWalk="True">
+												<Image FileName="1163773317" Left="206" Top="456" Right="1706" Bottom="829" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value PropertyType="0" Value="Form" Type="5" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="textboxEmail" Key="{40703769-CE7D-4454-BA5A-A2EB9E660E92}" ExtendedFind="True" ParallelWalk="True">
+														<Image FileName="1163773317" Left="466" Top="456" Right="1706" Bottom="532" />
+														<TypeInfo Item0="{40251F3E-EC2E-4475-ADB3-2EB21B1E7916}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value PropertyType="0" Value="Textbox" Type="5" />
+															</Property>
+															<Property Name="idStr">
+																<Value PropertyType="0" Value="Email" Type="5" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="passwordboxPassword" Key="{EE973DE3-4294-41BF-A563-42CFDF505399}" ExtendedFind="True" ParallelWalk="True">
+														<Image FileName="1385633880" Left="466" Top="562" Right="1706" Bottom="638" />
+														<TypeInfo Item0="{40251F3E-EC2E-4475-ADB3-2EB21B1E7916}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value PropertyType="0" Value="PasswordBox" Type="5" />
+															</Property>
+															<Property Name="idStr">
+																<Value PropertyType="0" Value="Password" Type="5" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="buttonLogIn" Key="{C1C81848-EC72-48F6-AC90-62093610D606}" ExtendedFind="True" ParallelWalk="True">
+														<Image FileName="1656293501" Left="466" Top="753" Right="594" Bottom="829" />
+														<TypeInfo Item0="{65C5099D-9E38-4219-8DD0-F5A8093E90B5}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value PropertyType="0" Value="Button" Type="5" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="checkboxRememberMe" Key="{C0E4F6DA-D77D-4CE2-BE14-604BDC90275A}" ExtendedFind="True" ParallelWalk="True">
+														<Image FileName="-1893194351" Left="466" Top="676" Right="492" Bottom="702" />
+														<TypeInfo Item0="{F1A8D76C-0807-4AC6-A58B-4EE13B6804BF}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value PropertyType="0" Value="Checkbox" Type="5" />
+															</Property>
+															<Property Name="idStr">
+																<Value PropertyType="0" Value="RememberMe" Type="5" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="link" Key="{39E5D752-2360-4417-B9B8-C50328685D5D}" ExtendedFind="True" ParallelWalk="True">
+										<Image FileName="767527554" Left="507" Top="863" Right="617" Bottom="894" />
+										<TypeInfo Item0="{F1A8D76C-0807-4AC6-A58B-4EE13B6804BF}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value PropertyType="0" Value="Link" Type="5" />
+											</Property>
+											<Property Name="href">
+												<Value PropertyType="0" Value="https://edfiserver:444/DataImport/Account/Register" Type="5" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageConfiguration" Key="{A0A4FC71-E00D-4DD8-A8E8-F1974ED03533}" ParallelWalk="True">
+								<Image FileName="-1934894140" Left="13" Top="224" Right="2679" Bottom="2138" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value PropertyType="0" Value="Page" Type="5" />
+									</Property>
+									<Property Name="URL">
+										<Value PropertyType="0" Value="https://edfiserver:444/DataImport/Configuration*" Type="5" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="formConfigurationform" Key="{81362F42-5462-4E6E-B155-32B8869C0FFE}" ExtendedFind="True" ParallelWalk="True">
+										<Image FileName="-1370473476" Left="189" Top="600" Right="2469" Bottom="1895" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value PropertyType="0" Value="Form" Type="5" />
+											</Property>
+											<Property Name="idStr">
+												<Value PropertyType="0" Value="configurationForm" Type="5" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="selectApiVersion" Key="{0345A9B0-7345-4E93-9941-78C489422944}" ExtendedFind="True" ParallelWalk="True">
+												<Image FileName="-1370473476" Left="579" Top="663" Right="2469" Bottom="739" />
+												<TypeInfo Item0="{21678A1C-F7BC-4C5E-B06D-D914AA06ED19}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value PropertyType="0" Value="Select" Type="5" />
+													</Property>
+													<Property Name="idStr">
+														<Value PropertyType="0" Value="ApiVersion" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="panel" Key="{08290915-D67F-4C5E-A906-D3ADD0357EAF}" ParallelWalk="True">
+												<Image FileName="1059852698" Left="159" Top="769" Right="2499" Bottom="915" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value PropertyType="0" Value="Panel" Type="5" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value PropertyType="0" Value="1" Type="0" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="textboxUrl" Key="{FCAE49CD-38E4-42F1-93EA-FDD7BA434C96}" ExtendedFind="True" ParallelWalk="True">
+														<Image FileName="1059852698" Left="579" Top="769" Right="2469" Bottom="845" />
+														<TypeInfo Item0="{40251F3E-EC2E-4475-ADB3-2EB21B1E7916}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value PropertyType="0" Value="Textbox" Type="5" />
+															</Property>
+															<Property Name="idStr">
+																<Value PropertyType="0" Value="ApiServerUrl" Type="5" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+											<Child Name="textboxKey" Key="{9D6F3709-8698-405A-9208-8452E5142675}" ExtendedFind="True" ParallelWalk="True">
+												<Image FileName="607795440" Left="579" Top="945" Right="2469" Bottom="1021" />
+												<TypeInfo Item0="{40251F3E-EC2E-4475-ADB3-2EB21B1E7916}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value PropertyType="0" Value="Textbox" Type="5" />
+													</Property>
+													<Property Name="idStr">
+														<Value PropertyType="0" Value="ApiServerKey" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="textboxSecret" Key="{62BA674F-CAE2-4D39-9A6A-96512229B70B}" ExtendedFind="True" ParallelWalk="True">
+												<Image FileName="-787490247" Left="579" Top="1051" Right="2469" Bottom="1127" />
+												<TypeInfo Item0="{40251F3E-EC2E-4475-ADB3-2EB21B1E7916}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value PropertyType="0" Value="Textbox" Type="5" />
+													</Property>
+													<Property Name="idStr">
+														<Value PropertyType="0" Value="ApiServerSecret" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="textboxName" Key="{6C3909B0-78C1-4EC1-9035-6440F3989C07}" ExtendedFind="True" ParallelWalk="True">
+												<Image FileName="-345251891" Left="579" Top="1501" Right="2469" Bottom="1577" />
+												<TypeInfo Item0="{40251F3E-EC2E-4475-ADB3-2EB21B1E7916}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value PropertyType="0" Value="Textbox" Type="5" />
+													</Property>
+													<Property Name="idStr">
+														<Value PropertyType="0" Value="ContactName" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="textboxOrganization" Key="{49E0FA94-01AE-42BA-8F94-11E8D53C1171}" ExtendedFind="True" ParallelWalk="True">
+												<Image FileName="-69574622" Left="579" Top="1713" Right="2469" Bottom="1789" />
+												<TypeInfo Item0="{40251F3E-EC2E-4475-ADB3-2EB21B1E7916}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value PropertyType="0" Value="Textbox" Type="5" />
+													</Property>
+													<Property Name="idStr">
+														<Value PropertyType="0" Value="ContactOrganization" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="panel2" Key="{74082010-F2D6-4BFA-A7D6-4FBF3BA30AF4}" ExtendedFind="True" ParallelWalk="True">
+												<Image FileName="-69574622" Left="159" Top="1713" Right="2499" Bottom="1789" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value PropertyType="0" Value="Panel" Type="5" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value PropertyType="0" Value="8" Type="0" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="textboxOrganization" Key="{76C845F6-DB5C-40D6-819D-CA533B68E4E4}" ExtendedFind="True" ParallelWalk="True">
+														<Image FileName="-69574622" Left="579" Top="1713" Right="2469" Bottom="1789" />
+														<TypeInfo Item0="{40251F3E-EC2E-4475-ADB3-2EB21B1E7916}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value PropertyType="0" Value="Textbox" Type="5" />
+															</Property>
+															<Property Name="idStr">
+																<Value PropertyType="0" Value="ContactOrganization" Type="5" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+											<Child Name="buttonTestApiConnection" Key="{9671320B-19BB-4562-98F2-A320014EC106}" ExtendedFind="True" ParallelWalk="True">
+												<Image FileName="-226750640" Left="579" Top="1157" Right="885" Bottom="1233" />
+												<TypeInfo Item0="{65C5099D-9E38-4219-8DD0-F5A8093E90B5}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value PropertyType="0" Value="Button" Type="5" />
+													</Property>
+													<Property Name="idStr">
+														<Value PropertyType="0" Value="btnTest" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="buttonUpdateConfiguration" Key="{FD72F778-B46F-4458-8FD9-4BF808D50670}" ExtendedFind="True" ParallelWalk="True">
+												<Image FileName="40497588" Left="579" Top="1819" Right="896" Bottom="1895" />
+												<TypeInfo Item0="{65C5099D-9E38-4219-8DD0-F5A8093E90B5}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value PropertyType="0" Value="Button" Type="5" />
+													</Property>
+													<Property Name="idStr">
+														<Value PropertyType="0" Value="btnUpdate" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="Alert" Key="{1389D8D4-5295-4F93-B674-AE5DEDD743F3}" ParallelWalk="True">
+										<Image FileName="1421903751" Left="882" Top="144" Right="1806" Bottom="432" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value PropertyType="0" Value="Alert" Type="5" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="buttonOk" Key="{694C9CDC-3B8E-4D75-B784-24D2555E9659}" ParallelWalk="True">
+												<Image FileName="1421903751" Left="1632" Top="318" Right="1760" Bottom="382" />
+												<TypeInfo Item0="{F1A8D76C-0807-4AC6-A58B-4EE13B6804BF}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value PropertyType="0" Value="Button" Type="5" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value PropertyType="0" Value="OK" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="navbarDataImportAdmin" Key="{0AC9674E-DA5B-403B-8ECC-E84DC5CA798C}" ExtendedFind="True" ParallelWalk="True">
+										<Image FileName="1506976460" Left="13" Top="224" Right="2679" Bottom="326" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value PropertyType="0" Value="Panel" Type="5" />
+											</Property>
+											<Property Name="ObjectIdentifier">
+												<Value PropertyType="0" Value="0" Type="0" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="wndChrome_WidgetWin_1" Key="{D49DED45-02C2-40A0-AE9E-86CC36514655}" ParallelWalk="True">
+								<Image FileName="-365482554" Left="0" Top="0" Right="668" Bottom="546" />
+								<TypeInfo Item0="{52BC649F-E370-44B0-BE35-DB3651F92697}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value PropertyType="0" Value="Chrome_WidgetWin_1" Type="5" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value PropertyType="0" Value="Save password?" Type="5" />
+									</Property>
+								</Properties>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{F6DD0781-F666-4B62-B989-965C064B23B4}">
+			<Child Name="BrowserWindow" Owner="{CAE9ECFB-159B-41FD-AD2F-209DCF8ED9A4}" />
+			<Child Name="pageRegister" Owner="{A0481853-26AB-48A2-ADB0-C8C6C2F165B5}">
+				<Child Name="form" Owner="{F87B10AD-61E2-434B-9628-190B644BF08E}">
+					<Child Name="textboxEmail" Owner="{50CEE1B7-E841-46C4-B4E7-092A2FD10F10}" />
+					<Child Name="passwordboxPassword" Owner="{123379D7-05B0-40A9-B81C-DBCB895C6F64}" />
+					<Child Name="passwordboxConfirmPassword" Owner="{A627626B-2753-4EAA-BB6C-8527CC1B8EAD}" />
+					<Child Name="buttonRegister" Owner="{DB024990-AF23-40F0-ACA4-6A702B092FE3}" />
+				</Child>
+			</Child>
+			<Child Name="pageLogin" Owner="{35716F22-29B5-41AB-B7D1-A7FE759C0BCA}">
+				<Child Name="sectionLoginform" Owner="{D9A4F856-7FB7-4D4A-95C5-4A1380CAFACE}">
+					<Child Name="form" Owner="{4C2D91BD-D790-43CD-972C-D9BF1EAA5568}">
+						<Child Name="textboxEmail" Owner="{40703769-CE7D-4454-BA5A-A2EB9E660E92}" />
+						<Child Name="passwordboxPassword" Owner="{EE973DE3-4294-41BF-A563-42CFDF505399}" />
+						<Child Name="buttonLogIn" Owner="{C1C81848-EC72-48F6-AC90-62093610D606}" />
+						<Child Name="checkboxRememberMe" Owner="{C0E4F6DA-D77D-4CE2-BE14-604BDC90275A}" />
+					</Child>
+				</Child>
+				<Child Name="link" Owner="{39E5D752-2360-4417-B9B8-C50328685D5D}" />
+			</Child>
+			<Child Name="pageConfiguration" Owner="{A0A4FC71-E00D-4DD8-A8E8-F1974ED03533}">
+				<Child Name="formConfigurationform" Owner="{81362F42-5462-4E6E-B155-32B8869C0FFE}">
+					<Child Name="selectApiVersion" Owner="{0345A9B0-7345-4E93-9941-78C489422944}" />
+					<Child Name="panel" Owner="{08290915-D67F-4C5E-A906-D3ADD0357EAF}">
+						<Child Name="textboxUrl" Owner="{FCAE49CD-38E4-42F1-93EA-FDD7BA434C96}" />
+					</Child>
+					<Child Name="textboxKey" Owner="{9D6F3709-8698-405A-9208-8452E5142675}" />
+					<Child Name="textboxSecret" Owner="{62BA674F-CAE2-4D39-9A6A-96512229B70B}" />
+					<Child Name="textboxName" Owner="{6C3909B0-78C1-4EC1-9035-6440F3989C07}" />
+					<Child Name="textboxOrganization" Owner="{49E0FA94-01AE-42BA-8F94-11E8D53C1171}" />
+					<Child Name="panel2" Owner="{74082010-F2D6-4BFA-A7D6-4FBF3BA30AF4}">
+						<Child Name="textboxOrganization" Owner="{76C845F6-DB5C-40D6-819D-CA533B68E4E4}" />
+					</Child>
+					<Child Name="buttonTestApiConnection" Owner="{9671320B-19BB-4562-98F2-A320014EC106}" />
+					<Child Name="buttonUpdateConfiguration" Owner="{FD72F778-B46F-4458-8FD9-4BF808D50670}" />
+				</Child>
+				<Child Name="Alert" Owner="{1389D8D4-5295-4F93-B674-AE5DEDD743F3}">
+					<Child Name="buttonOk" Owner="{694C9CDC-3B8E-4D75-B784-24D2555E9659}" />
+				</Child>
+				<Child Name="navbarDataImportAdmin" Owner="{0AC9674E-DA5B-403B-8ECC-E84DC5CA798C}" />
+			</Child>
+			<Child Name="wndChrome_WidgetWin_1" Owner="{D49DED45-02C2-40A0-AE9E-86CC36514655}" />
+		</Child>
+	</LogicalNodes>
+	<TypeInfo StoreCodeCompletion="1">
+		<Child Hash="1055146884" Key="{581D15FD-3429-457C-9047-75EF3884CE60}">
+			<Data Properties="65A61C41984BE6408D50EE6C78B88F4FUFFFFFFFFFFFFFFFFV4LBZZY">
+				<FunctionDescriptions>
+					<Child Name="SetFocus" Doc="Sets focus to the specified Window object." IsBasic="True" Data="ZI4L1L4ZN18ZN">
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="Close" Doc="Closes the specified Window object." IsBasic="True" Param0="WaitTimeout" Data="ZI4L1L4L1Z018ZN">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="2000" Type="0" />
+						</Param0>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="Position" Doc="Sets the specified position and size for the specific Window object." IsBasic="True" Param0="Left" Param1="Top" Param2="Width" Param3="Height" Data="ZI4L1L4L4Z018ZN">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="1" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="1" />
+						</Param2>
+						<Param3>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="1" />
+						</Param3>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="Click" Doc="Simulates a left-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="ZI4L1L4L3Z018ZN">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="TShiftKey" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="ClickR" Doc="Simulates a right-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="ZI4L1L4L3Z018ZN">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="TShiftKey" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="Keys" Doc="Simulates one or several keypresses." IsBasic="True" Param0="Keys" Data="ZI4L1L4L1Z018ZN">
+						<Param0>
+							<TypeDesc Param0="8" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="Visible" Doc="Specifies whether an onscreen object is visible to users." IsBasic="True" Data="ZI4L2L4ZOBZN">
+						<ReturnValue Param0="11" />
+					</Child>
+					<Child Name="Width" Doc="The object&apos;s width in pixels." IsBasic="True" Data="ZI4L2L4ZO3ZN">
+						<ReturnValue Param0="3" />
+					</Child>
+					<Child Name="Height" Doc="The object&apos;s height in pixels." IsBasic="True" Data="ZI4L2L4ZO3ZN">
+						<ReturnValue Param0="3" />
+					</Child>
+					<Child Name="Enabled" Doc="Specifies whether the object is enabled or disabled." IsBasic="True" Data="ZI4L2L4ZOBZN">
+						<ReturnValue Param0="11" />
+					</Child>
+					<Child Name="WndCaption" Doc="Returns the window&apos;s caption." IsBasic="True" Data="ZI4L2L4ZO8ZN">
+						<ReturnValue Param0="8" />
+					</Child>
+				</FunctionDescriptions>
+			</Data>
+		</Child>
+		<Child Hash="707330344" Key="{40251F3E-EC2E-4475-ADB3-2EB21B1E7916}">
+			<Data Properties="AD7898404F09DF46B596A6EA83583414UFFFFFFFFFFFFFFFFV4LAZZY">
+				<FunctionDescriptions>
+					<Child Name="SetText" Doc="Enters text in the text box." IsBasic="True" Param0="Text" Data="ZI4L1L4L1Z018ZN">
+						<Param0>
+							<TypeDesc Param0="8" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="Text" IsBasic="True" Data="ZI4L2L4ZO8ZN">
+						<ReturnValue Param0="8" />
+					</Child>
+					<Child Name="wText" IsBasic="True" Data="ZI4L2L4ZO8Z04L">
+						<ReturnValue Param0="8" />
+					</Child>
+					<Child Name="Visible" IsBasic="True" Data="ZI4L2L4ZOBZN">
+						<ReturnValue Param0="11" />
+					</Child>
+					<Child Name="Width" IsBasic="True" Data="ZI4L2L4ZN13ZN">
+						<ReturnValue Param0="19" />
+					</Child>
+					<Child Name="Height" IsBasic="True" Data="ZI4L2L4ZN13ZN">
+						<ReturnValue Param0="19" />
+					</Child>
+					<Child Name="Enabled" IsBasic="True" Data="ZI4L2L4ZOBZN">
+						<ReturnValue Param0="11" />
+					</Child>
+					<Child Name="Click" Doc="Simulates a left-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="ZI4L1L4L3Z018ZN">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="TShiftKey" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="ClickR" Doc="Simulates a right-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="ZI4L1L4L3Z018ZN">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="TShiftKey" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="Keys" Doc="Simulates one or several keypresses." IsBasic="True" Param0="Keys" Data="ZI4L1L4L1Z018ZN">
+						<Param0>
+							<TypeDesc Param0="8" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<ReturnValue Param0="24" />
+					</Child>
+				</FunctionDescriptions>
+			</Data>
+		</Child>
+		<Child Hash="-1539681432" Key="{21678A1C-F7BC-4C5E-B06D-D914AA06ED19}">
+			<Data Properties="6B8FE9BD45864641ADB7324DAF7DA6A3UFFFFFFFFFFFFFFFFV4LDZZY">
+				<FunctionDescriptions>
+					<Child Name="DropDown" Doc="Opens the control&apos;s drop-down window." IsBasic="True" Data="ZI4L1L4ZN18ZN">
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="wText" Doc="Returns the control text." IsBasic="True" Data="ZI4L2L4ZO8ZN">
+						<ReturnValue Param0="8" />
+					</Child>
+					<Child Name="ClickItem" Doc="Selects the item, specified as an index, from 0, or a name." IsBasic="True" Param0="Item" Data="ZI4L1L4L1Z018ZN">
+						<Param0>
+							<TypeDesc Param0="12" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="wItemCount" Doc="Returns the total number of items in the combo box." IsBasic="True" Data="ZI4L2L4ZO3ZN">
+						<ReturnValue Param0="3" />
+					</Child>
+					<Child Name="wItem" Doc="Returns the name of the item specified by its index." IsBasic="True" Param0="Index" Data="ZI4L2L4L1ZG8ZN">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<ReturnValue Param0="8" />
+					</Child>
+					<Child Name="wSelectedItem" Doc="Returns the index of the selected item." IsBasic="True" Data="ZI4L2L4ZO3ZN">
+						<ReturnValue Param0="3" />
+					</Child>
+					<Child Name="Visible" IsBasic="True" Data="ZI4L2L4ZOBZN">
+						<ReturnValue Param0="11" />
+					</Child>
+					<Child Name="Width" IsBasic="True" Data="ZI4L2L4ZN13ZN">
+						<ReturnValue Param0="19" />
+					</Child>
+					<Child Name="Height" IsBasic="True" Data="ZI4L2L4ZN13ZN">
+						<ReturnValue Param0="19" />
+					</Child>
+					<Child Name="Enabled" IsBasic="True" Data="ZI4L2L4ZOBZN">
+						<ReturnValue Param0="11" />
+					</Child>
+					<Child Name="Click" Doc="Simulates a left-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="ZI4L1L4L3Z018ZN">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="TShiftKey" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="ClickR" Doc="Simulates a right-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="ZI4L1L4L3Z018ZN">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="TShiftKey" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="Keys" Doc="Simulates one or several keypresses." IsBasic="True" Param0="Keys" Data="ZI4L1L4L1Z018ZN">
+						<Param0>
+							<TypeDesc Param0="8" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<ReturnValue Param0="24" />
+					</Child>
+				</FunctionDescriptions>
+			</Data>
+		</Child>
+		<Child Hash="631633770" Key="{52BC649F-E370-44B0-BE35-DB3651F92697}">
+			<Data Properties="2BA122461170B04F9A483F721A0A4B18UFFFFFFFFFFFFFFFFV4LFZZY">
+				<FunctionDescriptions>
+					<Child Name="SetFocus" Doc="Sets focus to the specified Window object." IsBasic="True" Data="ZI4L1L4ZN18ZN">
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="Close" Doc="Closes the specified Window object." IsBasic="True" Param0="WaitTimeout" Data="ZI4L1L4L1Z018ZN">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="2000" Type="0" />
+						</Param0>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="Position" Doc="Sets the specified position and size for the specific Window object." IsBasic="True" Param0="Left" Param1="Top" Param2="Width" Param3="Height" Data="ZI4L1L4L4Z018ZN">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="1" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="1" />
+						</Param2>
+						<Param3>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="1" />
+						</Param3>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="Click" Doc="Simulates a left-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="ZI4L1L4L3Z018ZN">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="TShiftKey" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="ClickR" Doc="Simulates a right-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="ZI4L1L4L3Z018ZN">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="TShiftKey" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="Keys" Doc="Simulates one or several keypresses." IsBasic="True" Param0="Keys" Data="ZI4L1L4L1Z018ZN">
+						<Param0>
+							<TypeDesc Param0="8" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="SetFocus" Doc="Sets focus to the specified Window object." IsBasic="True" Data="ZI4L1L4ZN18ZN">
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="Click" Doc="Simulates a left-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="ZI4L1L4L3Z018ZN">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="TShiftKey" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="ClickR" Doc="Simulates a right-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="ZI4L1L4L3Z018ZN">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="TShiftKey" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="Keys" Doc="Simulates one or several keypresses." IsBasic="True" Param0="Keys" Data="ZI4L1L4L1Z018ZN">
+						<Param0>
+							<TypeDesc Param0="8" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="Visible" Doc="Specifies whether an onscreen object is visible to users." IsBasic="True" Data="ZI4L2L4ZOBZN">
+						<ReturnValue Param0="11" />
+					</Child>
+					<Child Name="Width" Doc="The object&apos;s width in pixels." IsBasic="True" Data="ZI4L2L4ZO3ZN">
+						<ReturnValue Param0="3" />
+					</Child>
+					<Child Name="Height" Doc="The object&apos;s height in pixels." IsBasic="True" Data="ZI4L2L4ZO3ZN">
+						<ReturnValue Param0="3" />
+					</Child>
+					<Child Name="Enabled" Doc="Specifies whether the object is enabled or disabled." IsBasic="True" Data="ZI4L2L4ZOBZN">
+						<ReturnValue Param0="11" />
+					</Child>
+					<Child Name="WndCaption" Doc="Returns the window&apos;s caption." IsBasic="True" Data="ZI4L2L4ZO8ZN">
+						<ReturnValue Param0="8" />
+					</Child>
+				</FunctionDescriptions>
+			</Data>
+		</Child>
+		<Child Hash="-799264832" Key="{F1A8D76C-0807-4AC6-A58B-4EE13B6804BF}">
+			<Data Properties="6ADAA10B56F11946AF0DEE0CDC51DF44UFFFFFFFFFFFFFFFFV4L7ZZY">
+				<FunctionDescriptions>
+					<Child Name="Visible" IsBasic="True" Data="ZI4L2L4ZOBZN">
+						<ReturnValue Param0="11" />
+					</Child>
+					<Child Name="Width" IsBasic="True" Data="ZI4L2L4ZN13ZN">
+						<ReturnValue Param0="19" />
+					</Child>
+					<Child Name="Height" IsBasic="True" Data="ZI4L2L4ZN13ZN">
+						<ReturnValue Param0="19" />
+					</Child>
+					<Child Name="Enabled" IsBasic="True" Data="ZI4L2L4ZOBZN">
+						<ReturnValue Param0="11" />
+					</Child>
+					<Child Name="Click" Doc="Simulates a left-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="ZI4L1L4L3Z018ZN">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="TShiftKey" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="ClickR" Doc="Simulates a right-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="ZI4L1L4L3Z018ZN">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="TShiftKey" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="Keys" Doc="Simulates one or several keypresses." IsBasic="True" Param0="Keys" Data="ZI4L1L4L1Z018ZN">
+						<Param0>
+							<TypeDesc Param0="8" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<ReturnValue Param0="24" />
+					</Child>
+				</FunctionDescriptions>
+			</Data>
+		</Child>
+		<Child Hash="2125654207" Key="{65C5099D-9E38-4219-8DD0-F5A8093E90B5}">
+			<Data Properties="37D15384AD8B7648B05480B48DE1279FUFFFFFFFFFFFFFFFFV4LAZZY">
+				<FunctionDescriptions>
+					<Child Name="ClickButton" Doc="Performs a single click on the specified button." IsBasic="True" Data="ZI4L1L4ZN18ZN">
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="ObjectLabel" Doc="Gets the label of the control." IsBasic="True" Data="ZI4L2L4ZO8ZN">
+						<ReturnValue Param0="8" />
+					</Child>
+					<Child Name="ClickButton" Doc="Performs a single click on the specified button." IsBasic="True" Data="ZI4L1L4ZN18ZN">
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="Visible" IsBasic="True" Data="ZI4L2L4ZOBZN">
+						<ReturnValue Param0="11" />
+					</Child>
+					<Child Name="Width" IsBasic="True" Data="ZI4L2L4ZN13ZN">
+						<ReturnValue Param0="19" />
+					</Child>
+					<Child Name="Height" IsBasic="True" Data="ZI4L2L4ZN13ZN">
+						<ReturnValue Param0="19" />
+					</Child>
+					<Child Name="Enabled" IsBasic="True" Data="ZI4L2L4ZOBZN">
+						<ReturnValue Param0="11" />
+					</Child>
+					<Child Name="Click" Doc="Simulates a left-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="ZI4L1L4L3Z018ZN">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="TShiftKey" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="ClickR" Doc="Simulates a right-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="ZI4L1L4L3Z018ZN">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="TShiftKey" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="Keys" Doc="Simulates one or several keypresses." IsBasic="True" Param0="Keys" Data="ZI4L1L4L1Z018ZN">
+						<Param0>
+							<TypeDesc Param0="8" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<ReturnValue Param0="24" />
+					</Child>
+				</FunctionDescriptions>
+			</Data>
+		</Child>
+	</TypeInfo>
+</Root>
