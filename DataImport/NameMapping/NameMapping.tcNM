@@ -348,6 +348,18 @@
 													</Property>
 												</Properties>
 											</Child>
+											<Child Name="textboxEmail" Key="{134CCBF7-75D7-4BC7-BDB0-D2321803AC62}" ExtendedFind="True" ParallelWalk="True">
+												<Image FileName="46413428" Left="596" Top="1543" Right="2486" Bottom="1619" />
+												<TypeInfo Item0="{40251F3E-EC2E-4475-ADB3-2EB21B1E7916}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value PropertyType="0" Value="Textbox" Type="5" />
+													</Property>
+													<Property Name="idStr">
+														<Value PropertyType="0" Value="ContactEmail" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
 										</Children>
 									</Child>
 									<Child Name="Alert" Key="{1389D8D4-5295-4F93-B674-AE5DEDD743F3}" ParallelWalk="True">
@@ -440,6 +452,7 @@
 					</Child>
 					<Child Name="buttonTestApiConnection" Owner="{9671320B-19BB-4562-98F2-A320014EC106}" />
 					<Child Name="buttonUpdateConfiguration" Owner="{FD72F778-B46F-4458-8FD9-4BF808D50670}" />
+					<Child Name="textboxEmail" Owner="{134CCBF7-75D7-4BC7-BDB0-D2321803AC62}" />
 				</Child>
 				<Child Name="Alert" Owner="{1389D8D4-5295-4F93-B674-AE5DEDD743F3}">
 					<Child Name="buttonOk" Owner="{694C9CDC-3B8E-4D75-B784-24D2555E9659}" />
