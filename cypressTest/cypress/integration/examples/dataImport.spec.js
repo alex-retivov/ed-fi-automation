@@ -26,6 +26,8 @@ describe("Testing of Data Import Setup", () => {
           cy.get('.btn').click();
 
          //   cy.get('#UserName').type("admin");
+
+         cy.get('#ApiVersion').click().contains('3.1.1').click();
          //   cy.get('#Password').type("password");
          //   cy.get(".btn").click();
     
