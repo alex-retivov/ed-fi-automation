@@ -19,6 +19,12 @@ describe("Testing of Data Import Setup", () => {
 
     
     //Enters user name and password and clicks the login button.
+          cy.get('#logoutForm > .nav > :nth-child(2) > a').click();
+          cy.get('#Email').type("alexretivov@mac.com");
+          cy.get('#Password').type("March1234$");
+          cy.get('#RememberMe').click();
+          cy.get('.btn').click();
+
          //   cy.get('#UserName').type("admin");
          //   cy.get('#Password').type("password");
          //   cy.get(".btn").click();
