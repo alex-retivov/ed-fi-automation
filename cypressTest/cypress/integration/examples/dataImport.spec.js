@@ -31,7 +31,8 @@ describe("Testing of Data Import Setup", () => {
 
 
       // Add Api Selection from Ed-Fi Server.
-            cy.get('.body-content > :nth-child(2)').should("include","In order to proceed, please configure the API Server.");
+      
+            cy.get('.body-content > :nth-child(2)').should('have.value', 'In order to proceed, please configure the API Server.');
             cy.get('#ApiVersion').select('3.1.1');
             cy.get('#ApiServerUrl').type("https://api.ed-fi.org/v3.2.0/api/api/v3/2019");
             cy.get('#ApiServerKey').type("RvcohKz9zHI4");
