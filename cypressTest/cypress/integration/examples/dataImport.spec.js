@@ -7,35 +7,44 @@ describe("Testing of Data Import Setup", () => {
             cy.visit('https://edfiserver:444/DataImport');
         
     
-    //Identifies an element omn the page and click the login button.
-          //  cy.contains ("Login").click();
-          cy.get(':nth-child(2) > a').click();
+      // Select Register to create a new account.
+
+            cy.get(':nth-child(2) > a').click();
     
-        // Enter New Account user name and password and clicks the Register button.
+      // Enter New Account user name and password and clicks the Register button.
+
             cy.get('#Email').type("alexretivov@mac.com");
             cy.get('#Password').type("March1234$");
             cy.get('#ConfirmPassword').type("March1234$");
             cy.get('.btn').click();
-
     
-    //Enters user name and password and clicks the login button.
-          cy.get('#logoutForm > .nav > :nth-child(2) > a').click();
-          cy.get('#Email').type("alexretivov@mac.com");
-          cy.get('#Password').type("March1234$");
-          cy.get('#RememberMe').click();
-          cy.get('.btn').click();
+      // Log out of the account..
 
-         //   cy.get('#UserName').type("admin");
+            cy.get('#logoutForm > .nav > :nth-child(2) > a').click();
 
-         cy.get('#ApiVersion').click().contains('3.1.1').click();
-         //   cy.get('#Password').type("password");
-         //   cy.get(".btn").click();
+      // Enters user name and password and clicks the login button.
+
+            cy.get('#Email').type("alexretivov@mac.com");
+            cy.get('#Password').type("March1234$");
+            cy.get('#RememberMe').click();
+            cy.get('.btn').click();
+
+
+      // Add Api Selection from Ed-Fi Server.
+
+            cy.get('#ApiVersion').select('3.1.1');
+            cy.get('#ApiServerUrl').type("https://api.ed-fi.org/v3.2.0/api/api/v3/2019");
+            cy.get('#ApiServerKey').type("RvcohKz9zHI4");
+            cy.get('#ApiServerSecret').type("E1iEFusaNf81xzCxwHfbolkC");
+            cy.get('#btnTest').click();
     
-    //Click the Employee Tab
-         //   cy.contains("Employee List").click();
     
-    //Find all the items in the table using "Find and Filter"
-          //  cy.get('.table').find('tr').contains("Prashanth").parent().contains('Benefits').click();
+      // Add Submitter Information.
+
+            cy.get('#ContactName').type("Alex Retivov");
+            cy.get('#ContactEmail').type("alexretivov@mac.com");
+            cy.get('#ContactOrganization').type("Ed-Fi");
+            cy.get('#btnUpdate').click();
     
     })
     })
