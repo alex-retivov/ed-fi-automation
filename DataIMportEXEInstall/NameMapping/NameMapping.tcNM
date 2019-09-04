@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="6" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}" ParallelWalk="True">
+		<Children>
+			<Child Name="Sys" Key="{280FBDEE-8DD3-40C8-B4E1-6387635EBF89}" ParallelWalk="True">
+				<Properties>
+					<Property Name="Name">
+						<Value PropertyType="0" Value="Sys" Type="5" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="Ed_Fi_DataImport_1_0_642_rc" Key="{0CED5F59-03C4-41B7-B049-F84A53238F74}" ParallelWalk="True">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value PropertyType="0" Value="Ed-Fi_DataImport_1.0.642-rc" Type="5" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="dlgEdFiDataImportSetup" Key="{D29037F4-7762-48FB-AEA1-A4C6448E29E0}" ParallelWalk="True">
+								<Image FileName="-2076455558" Left="0" Top="0" Right="992" Bottom="771" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value PropertyType="0" Value="#32770" Type="5" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value PropertyType="0" Value="Ed-Fi Data Import Setup" Type="5" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="editUserName" Key="{A50EAF51-FAB7-457E-AC75-6479351D6B68}" ParallelWalk="True">
+										<Image FileName="-1813226577" Left="136" Top="325" Right="853" Bottom="373" />
+										<TypeInfo Item0="{09BEA668-FDF3-4731-80EC-7C2AA5B9EBC2}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value PropertyType="0" Value="Edit" Type="5" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value PropertyType="0" Value="" Type="5" />
+											</Property>
+											<Property Name="Index">
+												<Value PropertyType="0" Value="1" Type="0" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="editPassword" Key="{2FB366F2-FE00-4D91-83A2-0838C72181C9}" ParallelWalk="True">
+										<Image FileName="805854916" Left="136" Top="525" Right="853" Bottom="573" />
+										<TypeInfo Item0="{09BEA668-FDF3-4731-80EC-7C2AA5B9EBC2}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value PropertyType="0" Value="Edit" Type="5" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value PropertyType="0" Value="" Type="5" />
+											</Property>
+											<Property Name="Index">
+												<Value PropertyType="0" Value="3" Type="0" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="btnNext" Key="{2372522E-DD7B-495A-9473-22CF20B10A5E}" ParallelWalk="True">
+										<Image FileName="-2076455558" Left="632" Top="696" Right="781" Bottom="741" />
+										<TypeInfo Item0="{E8120D96-32A8-403D-B0CE-1809CC8A3D0A}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value PropertyType="0" Value="Button" Type="5" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value PropertyType="0" Value="&amp;Next &gt;" Type="5" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="cbxServer" Key="{0990D473-B3C7-4D6E-A884-1774FD4A8BEF}" ParallelWalk="True">
+										<Image FileName="1018089237" Left="256" Top="216" Right="922" Bottom="249" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value PropertyType="0" Value="ComboBox" Type="5" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value PropertyType="0" Value="" Type="5" />
+											</Property>
+											<Property Name="Index">
+												<Value PropertyType="0" Value="1" Type="0" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="btnTestSqlConnection" Key="{DB5374E6-52DA-46A1-A59B-7D386875867D}" ParallelWalk="True">
+										<Image FileName="-1843004589" Left="69" Top="696" Right="319" Bottom="741" />
+										<TypeInfo Item0="{E8120D96-32A8-403D-B0CE-1809CC8A3D0A}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value PropertyType="0" Value="Button" Type="5" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value PropertyType="0" Value="Test Sql Connection" Type="5" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="editDomain" Key="{91582FAD-CB4B-44B2-A48B-165D01A15630}" ParallelWalk="True">
+										<Image FileName="-1204146011" Left="136" Top="424" Right="853" Bottom="472" />
+										<TypeInfo Item0="{09BEA668-FDF3-4731-80EC-7C2AA5B9EBC2}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value PropertyType="0" Value="Edit" Type="5" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value PropertyType="0" Value="" Type="5" />
+											</Property>
+											<Property Name="Index">
+												<Value PropertyType="0" Value="2" Type="0" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="btnInstall" Key="{A60A7CC6-AEDE-43A0-A6A6-AC4C57F87E62}" ParallelWalk="True">
+										<Image FileName="1108511794" Left="632" Top="696" Right="797" Bottom="741" />
+										<TypeInfo Item0="{E8120D96-32A8-403D-B0CE-1809CC8A3D0A}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value PropertyType="0" Value="Button" Type="5" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value PropertyType="0" Value="&amp;Install" Type="5" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="btnFinish" Key="{21C98691-15CC-4E9C-89AF-E6C6B0A37B0A}" ParallelWalk="True">
+										<Image FileName="-751792204" Left="632" Top="696" Right="781" Bottom="741" />
+										<TypeInfo Item0="{E8120D96-32A8-403D-B0CE-1809CC8A3D0A}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value PropertyType="0" Value="Button" Type="5" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value PropertyType="0" Value="&amp;Finish" Type="5" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="Ed_Fi_DataImport_1_0_642_rc" Owner="{0CED5F59-03C4-41B7-B049-F84A53238F74}">
+			<Child Name="dlgEdFiDataImportSetup" Owner="{D29037F4-7762-48FB-AEA1-A4C6448E29E0}">
+				<Child Name="editUserName" Owner="{A50EAF51-FAB7-457E-AC75-6479351D6B68}" />
+				<Child Name="editPassword" Owner="{2FB366F2-FE00-4D91-83A2-0838C72181C9}" />
+				<Child Name="btnNext" Owner="{2372522E-DD7B-495A-9473-22CF20B10A5E}" />
+				<Child Name="cbxServer" Owner="{0990D473-B3C7-4D6E-A884-1774FD4A8BEF}" />
+				<Child Name="btnTestSqlConnection" Owner="{DB5374E6-52DA-46A1-A59B-7D386875867D}" />
+				<Child Name="editDomain" Owner="{91582FAD-CB4B-44B2-A48B-165D01A15630}" />
+				<Child Name="btnInstall" Owner="{A60A7CC6-AEDE-43A0-A6A6-AC4C57F87E62}" />
+				<Child Name="btnFinish" Owner="{21C98691-15CC-4E9C-89AF-E6C6B0A37B0A}" />
+			</Child>
+		</Child>
+	</LogicalNodes>
+	<TypeInfo StoreCodeCompletion="1">
+		<Child Hash="-934726023" Key="{09BEA668-FDF3-4731-80EC-7C2AA5B9EBC2}">
+			<Data Properties="5D36523D20628F4C9181313E4117B238UFFFFFFFFFFFFFFFFV4LCZZY">
+				<FunctionDescriptions>
+					<Child Name="SetText" Doc="Enters text in the text editor." IsBasic="True" Param0="Text" Data="ZI4L1L4L1Z018ZN">
+						<Param0>
+							<TypeDesc Param0="8" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="wText" Doc="Contents of the edit control, as text string." IsBasic="True" Data="ZI4L2L4ZO8ZN">
+						<ReturnValue Param0="8" />
+					</Child>
+					<Child Name="wSelection" Doc="Retrieves the selected text." IsBasic="True" Data="ZI4L2L4ZO8ZN">
+						<ReturnValue Param0="8" />
+					</Child>
+					<Child Name="SetFocus" Doc="Sets focus to the specified Window object." IsBasic="True" Data="ZI4L1L4ZN18ZN">
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="Click" Doc="Simulates a left-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="ZI4L1L4L3Z018ZN">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="TShiftKey" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="ClickR" Doc="Simulates a right-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="ZI4L1L4L3Z018ZN">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="TShiftKey" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="Keys" Doc="Simulates one or several keypresses." IsBasic="True" Param0="Keys" Data="ZI4L1L4L1Z018ZN">
+						<Param0>
+							<TypeDesc Param0="8" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="Visible" Doc="Specifies whether an onscreen object is visible to users." IsBasic="True" Data="ZI4L2L4ZOBZN">
+						<ReturnValue Param0="11" />
+					</Child>
+					<Child Name="Width" Doc="The object&apos;s width in pixels." IsBasic="True" Data="ZI4L2L4ZO3ZN">
+						<ReturnValue Param0="3" />
+					</Child>
+					<Child Name="Height" Doc="The object&apos;s height in pixels." IsBasic="True" Data="ZI4L2L4ZO3ZN">
+						<ReturnValue Param0="3" />
+					</Child>
+					<Child Name="Enabled" Doc="Specifies whether the object is enabled or disabled." IsBasic="True" Data="ZI4L2L4ZOBZN">
+						<ReturnValue Param0="11" />
+					</Child>
+					<Child Name="WndCaption" Doc="Returns the window&apos;s caption." IsBasic="True" Data="ZI4L2L4ZO8ZN">
+						<ReturnValue Param0="8" />
+					</Child>
+				</FunctionDescriptions>
+			</Data>
+		</Child>
+		<Child Hash="1098928521" Key="{E8120D96-32A8-403D-B0CE-1809CC8A3D0A}">
+			<Data Properties="410E47647028284E94C1CD51CFBD833AUFFFFFFFFFFFFFFFFV4LAZZY">
+				<FunctionDescriptions>
+					<Child Name="ClickButton" Doc="Performs a single click on the specified button." IsBasic="True" Data="ZI4L1L4ZN18ZN">
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="SetFocus" Doc="Sets focus to the specified Window object." IsBasic="True" Data="ZI4L1L4ZN18ZN">
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="Click" Doc="Simulates a left-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="ZI4L1L4L3Z018ZN">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="TShiftKey" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="ClickR" Doc="Simulates a right-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="ZI4L1L4L3Z018ZN">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="TShiftKey" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="Keys" Doc="Simulates one or several keypresses." IsBasic="True" Param0="Keys" Data="ZI4L1L4L1Z018ZN">
+						<Param0>
+							<TypeDesc Param0="8" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="Visible" Doc="Specifies whether an onscreen object is visible to users." IsBasic="True" Data="ZI4L2L4ZOBZN">
+						<ReturnValue Param0="11" />
+					</Child>
+					<Child Name="Width" Doc="The object&apos;s width in pixels." IsBasic="True" Data="ZI4L2L4ZO3ZN">
+						<ReturnValue Param0="3" />
+					</Child>
+					<Child Name="Height" Doc="The object&apos;s height in pixels." IsBasic="True" Data="ZI4L2L4ZO3ZN">
+						<ReturnValue Param0="3" />
+					</Child>
+					<Child Name="Enabled" Doc="Specifies whether the object is enabled or disabled." IsBasic="True" Data="ZI4L2L4ZOBZN">
+						<ReturnValue Param0="11" />
+					</Child>
+					<Child Name="WndCaption" Doc="Returns the window&apos;s caption." IsBasic="True" Data="ZI4L2L4ZO8ZN">
+						<ReturnValue Param0="8" />
+					</Child>
+				</FunctionDescriptions>
+			</Data>
+		</Child>
+	</TypeInfo>
+</Root>

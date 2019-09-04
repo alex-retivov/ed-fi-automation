@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="14.0" key="{64140C7E-E513-4AF7-B2B0-C2942127A26E}">
+	<children>
+		<child name="DataIMportEXEInstall" key="{BBB5CD89-0C78-4106-966F-382F17D1BE49}" path="DataIMportEXEInstall\DataIMportEXEInstall.mds" />
+	</children>
+	<testItems key="{6ED8A2D1-333A-442A-A442-E05F339D75FC}">
+		<children>
+			<testItem key="{BBB5CD89-0C78-4106-966F-382F17D1BE49}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{27A6F9D2-8537-4E9C-A855-F28E6E3709EE}">
+		<data Version="3" />
+	</variables>
+	<analysis key="{AC83CEE3-9718-4376-9301-84FEAE9866F7}" />
+	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
+		<data />
+	</scc>
+	<extender key="{1A3FC97E-9A66-4716-B166-35D10B4146E0}">
+		<CrossBrowserTesting Enable="False" />
+	</extender>
+</Root>
