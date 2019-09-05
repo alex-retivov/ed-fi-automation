@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="14.0">
 	<children>
-		<child name="Test1" key="{7C618EBA-9B52-42FB-9E21-D19DD8EE14B1}" path="Test1.tcKDTest" />
+		<child name="DataImportEXE" key="{7C618EBA-9B52-42FB-9E21-D19DD8EE14B1}" path="DataImportEXE.tcKDTest" />
 	</children>
 </Root>
