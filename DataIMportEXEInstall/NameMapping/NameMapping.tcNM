@@ -141,6 +141,87 @@
 							</Child>
 						</Children>
 					</Child>
+					<Child Name="explorer" Key="{04274E0C-4A87-4FBA-9F32-E33C2EEA8DD9}" ParallelWalk="True">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value PropertyType="0" Value="explorer" Type="5" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndProgman" Key="{4C46E5DE-2D49-4177-97C6-8E7C1F504F25}" ParallelWalk="True">
+								<Image FileName="807126321" Left="0" Top="0" Right="3746" Bottom="2194" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value PropertyType="0" Value="Progman" Type="5" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value PropertyType="0" Value="Program Manager" Type="5" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="SHELLDLL_DefView" Key="{DA1FCE45-01DB-4891-A1B9-30803B85AF6E}" ParallelWalk="True">
+										<Image FileName="807126321" Left="0" Top="0" Right="3746" Bottom="2194" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value PropertyType="0" Value="SHELLDLL_DefView" Type="5" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="FolderView" Key="{434FFA0A-C714-414E-9B65-99B359C363E3}" ParallelWalk="True">
+												<Image FileName="807126321" Left="0" Top="0" Right="3746" Bottom="2194" />
+												<TypeInfo Item0="{2F0B5002-3C9A-4DA9-8485-56372CC49ACC}" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value PropertyType="0" Value="SysListView32" Type="5" />
+													</Property>
+													<Property Name="WndCaption">
+														<Value PropertyType="0" Value="FolderView" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="Ed_Fi_ODS_Database_3_2_0" Key="{31D21899-D00B-43A3-9B1F-FA5253CD6D20}" ParallelWalk="True">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value PropertyType="0" Value="Ed-Fi_ODS_Database_3.2.0" Type="5" />
+							</Property>
+							<Property Name="Index">
+								<Value PropertyType="0" Value="2" Type="0" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="dlgError" Key="{42ACB25D-B9BF-40CA-81CF-6AE248C64EE9}" ParallelWalk="True">
+								<Image FileName="660054202" Left="0" Top="0" Right="679" Bottom="331" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value PropertyType="0" Value="#32770" Type="5" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value PropertyType="0" Value="Error" Type="5" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="btnOK" Key="{AC48842F-8734-4A6A-838F-235F33C06C9C}" ParallelWalk="True">
+										<Image FileName="660054202" Left="474" Top="244" Right="637" Bottom="300" />
+										<TypeInfo Item0="{E8120D96-32A8-403D-B0CE-1809CC8A3D0A}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value PropertyType="0" Value="Button" Type="5" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value PropertyType="0" Value="OK" Type="5" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
 				</Children>
 			</Child>
 		</Children>
@@ -156,6 +237,18 @@
 				<Child Name="editDomain" Owner="{91582FAD-CB4B-44B2-A48B-165D01A15630}" />
 				<Child Name="btnInstall" Owner="{A60A7CC6-AEDE-43A0-A6A6-AC4C57F87E62}" />
 				<Child Name="btnFinish" Owner="{21C98691-15CC-4E9C-89AF-E6C6B0A37B0A}" />
+			</Child>
+		</Child>
+		<Child Name="explorer" Owner="{04274E0C-4A87-4FBA-9F32-E33C2EEA8DD9}">
+			<Child Name="wndProgman" Owner="{4C46E5DE-2D49-4177-97C6-8E7C1F504F25}">
+				<Child Name="SHELLDLL_DefView" Owner="{DA1FCE45-01DB-4891-A1B9-30803B85AF6E}">
+					<Child Name="FolderView" Owner="{434FFA0A-C714-414E-9B65-99B359C363E3}" />
+				</Child>
+			</Child>
+		</Child>
+		<Child Name="Ed_Fi_ODS_Database_3_2_0" Owner="{31D21899-D00B-43A3-9B1F-FA5253CD6D20}">
+			<Child Name="dlgError" Owner="{42ACB25D-B9BF-40CA-81CF-6AE248C64EE9}">
+				<Child Name="btnOK" Owner="{AC48842F-8734-4A6A-838F-235F33C06C9C}" />
 			</Child>
 		</Child>
 	</LogicalNodes>
@@ -239,6 +332,96 @@
 				<FunctionDescriptions>
 					<Child Name="ClickButton" Doc="Performs a single click on the specified button." IsBasic="True" Data="ZI4L1L4ZN18ZN">
 						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="SetFocus" Doc="Sets focus to the specified Window object." IsBasic="True" Data="ZI4L1L4ZN18ZN">
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="Click" Doc="Simulates a left-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="ZI4L1L4L3Z018ZN">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="TShiftKey" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="ClickR" Doc="Simulates a right-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="ZI4L1L4L3Z018ZN">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="TShiftKey" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="Keys" Doc="Simulates one or several keypresses." IsBasic="True" Param0="Keys" Data="ZI4L1L4L1Z018ZN">
+						<Param0>
+							<TypeDesc Param0="8" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="Visible" Doc="Specifies whether an onscreen object is visible to users." IsBasic="True" Data="ZI4L2L4ZOBZN">
+						<ReturnValue Param0="11" />
+					</Child>
+					<Child Name="Width" Doc="The object&apos;s width in pixels." IsBasic="True" Data="ZI4L2L4ZO3ZN">
+						<ReturnValue Param0="3" />
+					</Child>
+					<Child Name="Height" Doc="The object&apos;s height in pixels." IsBasic="True" Data="ZI4L2L4ZO3ZN">
+						<ReturnValue Param0="3" />
+					</Child>
+					<Child Name="Enabled" Doc="Specifies whether the object is enabled or disabled." IsBasic="True" Data="ZI4L2L4ZOBZN">
+						<ReturnValue Param0="11" />
+					</Child>
+					<Child Name="WndCaption" Doc="Returns the window&apos;s caption." IsBasic="True" Data="ZI4L2L4ZO8ZN">
+						<ReturnValue Param0="8" />
+					</Child>
+				</FunctionDescriptions>
+			</Data>
+		</Child>
+		<Child Hash="-1018564327" Key="{2F0B5002-3C9A-4DA9-8485-56372CC49ACC}">
+			<Data Properties="9D2415E69398EC43A989246A266D7108UFFFFFFFFFFFFFFFFV4LCZZY">
+				<FunctionDescriptions>
+					<Child Name="ClickItem" Doc="Moves the mouse cursor to Item and then simulates a single click. Item may be specified by index, from 0, or by name." IsBasic="True" Param0="Item" Param1="SubItem" Param2="Shift" Data="ZI4L1L4L3Z018ZN">
+						<Param0>
+							<TypeDesc Param0="12" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="12" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="TShiftKey" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="wItemCount" Doc="Returns the total number of items in the list view." IsBasic="True" Data="ZI4L2L4ZO3ZN">
+						<ReturnValue Param0="3" />
+					</Child>
+					<Child Name="wItem" Doc="Returns the name of the item specified by its index or using a wildcard." IsBasic="True" Param0="Item" Param1="SubItem" Data="ZI4L2L4L2ZG8ZN">
+						<Param0>
+							<TypeDesc Param0="12" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="12" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param1>
+						<ReturnValue Param0="8" />
 					</Child>
 					<Child Name="SetFocus" Doc="Sets focus to the specified Window object." IsBasic="True" Data="ZI4L1L4ZN18ZN">
 						<ReturnValue Param0="24" />
