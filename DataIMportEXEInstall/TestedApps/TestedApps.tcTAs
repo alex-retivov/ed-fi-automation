@@ -5,7 +5,7 @@
 	<data />
 	<children>
 		<child key="{000DCAC6-6DDA-4FB3-8BD5-22E1488167D8}">
-			<config nodeName="Ed_Fi_DataImport_1_0" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="True">
+			<config nodeName="Ed_Fi_DataImport_1_0" autorunOnRecording="True" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="True">
 				<runModeParams activeRunMode="Simple">
 					<param name="RunAs" parameters="" workFolder="" userName="" password="" domain="" />
 					<param name="Profile" parameters="" workFolder="" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="0" forceRunMode="False" />
@@ -17,7 +17,7 @@
 			<data />
 		</child>
 		<child key="{25F7FB74-341E-4B00-B3DC-90B65F0DDA0A}">
-			<config nodeName="Ed_Fi_ODS_Database_3_2_0" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
+			<config nodeName="Ed_Fi_ODS_Database_3_2_0" autorunOnRecording="True" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
 				<runModeParams activeRunMode="Simple">
 					<param name="RunAs" parameters="" workFolder="" userName="" password="" domain="" />
 					<param name="Profile" parameters="" workFolder="" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="0" forceRunMode="False" />
@@ -29,7 +29,7 @@
 			<data />
 		</child>
 		<child key="{8BFB90DC-17ED-44B0-A99E-46FED3859F3A}">
-			<config nodeName="Ed_Fi_ODS_Websites_3_2_0" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
+			<config nodeName="Ed_Fi_ODS_Websites_3_2_0" autorunOnRecording="True" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
 				<runModeParams activeRunMode="Simple">
 					<param name="RunAs" parameters="" workFolder="" userName="" password="" domain="" />
 					<param name="Profile" parameters="" workFolder="" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="0" forceRunMode="False" />
@@ -41,7 +41,7 @@
 			<data />
 		</child>
 		<child key="{BDE6194F-924F-402B-B5F9-6D65BEAD9248}">
-			<config nodeName="Ed_Fi_ODS_AdminApp_1_6_3_2" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
+			<config nodeName="Ed_Fi_ODS_AdminApp_1_6_3_2" autorunOnRecording="True" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
 				<runModeParams activeRunMode="Simple">
 					<param name="RunAs" parameters="" workFolder="" userName="" password="" domain="" />
 					<param name="Profile" parameters="" workFolder="" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="0" forceRunMode="False" />

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="14.0">
-	<TestData Description="" Key="{C2EDBBEB-C38A-4C6F-B982-7941BD3BAC74}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+	<TestData Description="" Key="{38C22111-1512-4432-9D09-E1870628B393}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
 		<Data>
 			<Extenders>
 				<NodeBitmaps />
@@ -8,7 +8,7 @@
 		</Data>
 		<Children>
 			<Operation Type="{66F32D5F-A5DB-420E-9CB4-3DB7CADE2692}">
-				<Data Description="Runs the &quot;Ed_Fi_ODS_Database_3_2_0&quot; tested application." TestedApp="Ed_Fi_ODS_Database_3_2_0">
+				<Data Description="Runs the &quot;Ed_Fi_ODS_Websites_3_2_0&quot; tested application." TestedApp="Ed_Fi_ODS_Websites_3_2_0">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 						<Parameter Name="Count" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
 						<Parameter Name="IgnoreRunning" DefVarType="11" DefValueType="7" DefValueValue="False" VarType="11" ValueType="7" ValueValue="False" />
@@ -18,6 +18,6 @@
 			</Operation>
 		</Children>
 	</TestData>
-	<Variables Version="3" Key="{AF29B1C6-3BC4-4451-951F-E3038B120D32}" />
-	<Parameters Key="{096DB93B-B7ED-4CD7-A5D9-A01DB9582453}" />
+	<Variables Version="3" Key="{BE53F424-4036-48F4-947E-29272EA7B3CB}" />
+	<Parameters Key="{FA338EA4-155C-4033-96B7-9B5A0D03C841}" />
 </Root>
