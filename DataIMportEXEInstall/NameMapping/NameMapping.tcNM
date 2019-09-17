@@ -222,6 +222,377 @@
 							</Child>
 						</Children>
 					</Child>
+					<Child Name="Ed_Fi_ODS_Database_3_2_02" Key="{14349E31-BBF1-43B9-A11A-C9F07ED808C2}" ParallelWalk="True">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value PropertyType="0" Value="Ed-Fi_ODS_Database_3.2.0" Type="5" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="dlgEdFiODSDatabasesSetup" Key="{7A306059-550E-49F1-AAC9-7CADFEB1A189}" ParallelWalk="True">
+								<Image FileName="592523996" Left="0" Top="0" Right="992" Bottom="771" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value PropertyType="0" Value="#32770" Type="5" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value PropertyType="0" Value="Ed-Fi ODS Databases Setup" Type="5" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="editUserName" Key="{8222B734-6486-48A5-8122-91A05026966E}" ParallelWalk="True">
+										<Image FileName="1440681832" Left="136" Top="285" Right="853" Bottom="333" />
+										<TypeInfo Item0="{09BEA668-FDF3-4731-80EC-7C2AA5B9EBC2}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value PropertyType="0" Value="Edit" Type="5" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value PropertyType="0" Value="" Type="5" />
+											</Property>
+											<Property Name="Index">
+												<Value PropertyType="0" Value="1" Type="0" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="btnNext" Key="{479CB809-B2F0-4D9B-8C73-CB7EF2C4C65E}" ParallelWalk="True">
+										<Image FileName="592523996" Left="632" Top="696" Right="781" Bottom="741" />
+										<TypeInfo Item0="{E8120D96-32A8-403D-B0CE-1809CC8A3D0A}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value PropertyType="0" Value="Button" Type="5" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value PropertyType="0" Value="&amp;Next &gt;" Type="5" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="radio" Key="{FA462850-9A65-45EA-948F-7813DB37E280}" ParallelWalk="True">
+										<Image FileName="613705703" Left="69" Top="546" Right="735" Bottom="586" />
+										<TypeInfo Item0="{166F1EAD-F5E1-4036-9F0F-1E6AAE63EC99}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value PropertyType="0" Value="Button" Type="5" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value PropertyType="0" Value="I &amp;accept the terms in the License Agreement" Type="5" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="btnTestSqlConnection" Key="{82FA1821-7D68-4130-AF61-09AA849AFF76}" ParallelWalk="True">
+										<Image FileName="-522401719" Left="69" Top="530" Right="319" Bottom="575" />
+										<TypeInfo Item0="{E8120D96-32A8-403D-B0CE-1809CC8A3D0A}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value PropertyType="0" Value="Button" Type="5" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value PropertyType="0" Value="Test Sql Connection" Type="5" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="radioProduction" Key="{06261DE6-7590-4632-988B-FB628E6F968F}" ParallelWalk="True">
+										<Image FileName="917577276" Left="147" Top="314" Right="344" Bottom="362" />
+										<TypeInfo Item0="{166F1EAD-F5E1-4036-9F0F-1E6AAE63EC99}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value PropertyType="0" Value="Button" Type="5" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value PropertyType="0" Value="Production" Type="5" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="btnFinish" Key="{3850D5B3-CFF1-483E-BBC3-CA7885E1CF2B}" ParallelWalk="True">
+										<Image FileName="1495464784" Left="632" Top="696" Right="781" Bottom="741" />
+										<TypeInfo Item0="{E8120D96-32A8-403D-B0CE-1809CC8A3D0A}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value PropertyType="0" Value="Button" Type="5" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value PropertyType="0" Value="&amp;Finish" Type="5" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="Ed_Fi_ODS_Websites_3_2_0" Key="{909FD9F7-BD9C-421A-95BD-E465973551C5}" ParallelWalk="True">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value PropertyType="0" Value="Ed-Fi_ODS_Websites_3.2.0" Type="5" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="dlgEdFiODSWebSetup" Key="{2732008D-C2C6-46D6-A687-3BB9E6163525}" ParallelWalk="True">
+								<Image FileName="-1370851988" Left="0" Top="0" Right="992" Bottom="771" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value PropertyType="0" Value="#32770" Type="5" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value PropertyType="0" Value="Ed-Fi ODS Web Setup" Type="5" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="editUserName" Key="{776BF4C9-4A6A-4B69-B888-AFE1BB2BE1C6}" ParallelWalk="True">
+										<Image FileName="-942939893" Left="136" Top="285" Right="853" Bottom="333" />
+										<TypeInfo Item0="{09BEA668-FDF3-4731-80EC-7C2AA5B9EBC2}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value PropertyType="0" Value="Edit" Type="5" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value PropertyType="0" Value="" Type="5" />
+											</Property>
+											<Property Name="Index">
+												<Value PropertyType="0" Value="1" Type="0" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="editPassword" Key="{34A198A4-5F5A-490D-9BAB-C133BAFCECCF}" ParallelWalk="True">
+										<Image FileName="-170012606" Left="136" Top="485" Right="853" Bottom="533" />
+										<TypeInfo Item0="{09BEA668-FDF3-4731-80EC-7C2AA5B9EBC2}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value PropertyType="0" Value="Edit" Type="5" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value PropertyType="0" Value="" Type="5" />
+											</Property>
+											<Property Name="Index">
+												<Value PropertyType="0" Value="3" Type="0" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="btnNext" Key="{F3D329F5-93BB-43C3-82E1-B536136DCD40}" ParallelWalk="True">
+										<Image FileName="-1370851988" Left="632" Top="696" Right="781" Bottom="741" />
+										<TypeInfo Item0="{E8120D96-32A8-403D-B0CE-1809CC8A3D0A}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value PropertyType="0" Value="Button" Type="5" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value PropertyType="0" Value="&amp;Next &gt;" Type="5" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="radio" Key="{B3A37A52-C1A0-475E-81D6-EB9920E49398}" ParallelWalk="True">
+										<Image FileName="-1277691199" Left="69" Top="546" Right="735" Bottom="586" />
+										<TypeInfo Item0="{166F1EAD-F5E1-4036-9F0F-1E6AAE63EC99}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value PropertyType="0" Value="Button" Type="5" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value PropertyType="0" Value="I &amp;accept the terms in the License Agreement" Type="5" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="radio2" Key="{D9E11CFB-0853-401C-8DE0-DDBCAE5DE26F}" ParallelWalk="True">
+										<Image FileName="-199004529" Left="147" Top="314" Right="827" Bottom="362" />
+										<TypeInfo Item0="{166F1EAD-F5E1-4036-9F0F-1E6AAE63EC99}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value PropertyType="0" Value="Button" Type="5" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value PropertyType="0" Value="Production - install API" Type="5" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="btnTestSqlConnection" Key="{B52604BB-E874-4852-BB97-EF2B20FF562E}" ParallelWalk="True">
+										<Image FileName="96823007" Left="69" Top="536" Right="319" Bottom="581" />
+										<TypeInfo Item0="{E8120D96-32A8-403D-B0CE-1809CC8A3D0A}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value PropertyType="0" Value="Button" Type="5" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value PropertyType="0" Value="Test Sql Connection" Type="5" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="btnFinish" Key="{E1F833AD-59D4-479B-B2DA-B6CC09EB1652}" ParallelWalk="True">
+										<Image FileName="-108015599" Left="632" Top="696" Right="781" Bottom="741" />
+										<TypeInfo Item0="{E8120D96-32A8-403D-B0CE-1809CC8A3D0A}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value PropertyType="0" Value="Button" Type="5" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value PropertyType="0" Value="&amp;Finish" Type="5" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="msiexec" Key="{E5AE0DAF-095B-4A7E-BAD5-829A822F58A9}" ParallelWalk="True">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value PropertyType="0" Value="msiexec" Type="5" />
+							</Property>
+							<Property Name="Index">
+								<Value PropertyType="0" Value="3" Type="0" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndMsiDialogCloseClass" Key="{A81E3BF6-8A26-4B00-9F6B-B9D6739C3099}" ParallelWalk="True">
+								<Image FileName="-128588323" Left="0" Top="0" Right="992" Bottom="771" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value PropertyType="0" Value="MsiDialogCloseClass" Type="5" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value PropertyType="0" Value="IIS URL Rewrite Module 2 Setup" Type="5" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="check" Key="{CB8EC27E-F508-4BFA-961F-73AFFF01D984}" ParallelWalk="True">
+										<Image FileName="-128588323" Left="349" Top="600" Right="951" Bottom="648" />
+										<TypeInfo Item0="{C2370460-9B49-4587-98CD-F438D8B6F580}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value PropertyType="0" Value="Button" Type="5" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value PropertyType="0" Value="I &amp;accept the terms in the License Agreement" Type="5" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="btnInstall" Key="{461B726A-6675-48DB-9E6D-E2F4231CFC9E}" ParallelWalk="True">
+										<Image FileName="-256683910" Left="568" Top="696" Right="781" Bottom="741" />
+										<TypeInfo Item0="{E8120D96-32A8-403D-B0CE-1809CC8A3D0A}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value PropertyType="0" Value="Button" Type="5" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value PropertyType="0" Value="&amp;Install" Type="5" />
+											</Property>
+											<Property Name="Index">
+												<Value PropertyType="0" Value="4" Type="0" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="btnFinish" Key="{F36338DE-D306-42B8-85D8-775E9D7D9CD5}" ParallelWalk="True">
+										<Image FileName="1563067612" Left="632" Top="696" Right="781" Bottom="741" />
+										<TypeInfo Item0="{E8120D96-32A8-403D-B0CE-1809CC8A3D0A}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value PropertyType="0" Value="Button" Type="5" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value PropertyType="0" Value="&amp;Finish" Type="5" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="Ed_Fi_ODS_AdminApp_1_6_3_2" Key="{7D579F58-E116-4528-875E-1F386DF42127}" ParallelWalk="True">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value PropertyType="0" Value="Ed-Fi_ODS_AdminApp_1.6_3.2" Type="5" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="dlgEdFiODSAdminAppWebSetup" Key="{2176C8CA-ECD1-4FED-8047-B3C2F73F693E}" ParallelWalk="True">
+								<Image FileName="-1962092562" Left="0" Top="0" Right="992" Bottom="771" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value PropertyType="0" Value="#32770" Type="5" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value PropertyType="0" Value="Ed-Fi ODS AdminApp Web Setup" Type="5" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="editUserName" Key="{2E819B4A-6ACC-4FA9-9C86-4C154815323F}" ParallelWalk="True">
+										<Image FileName="1051387174" Left="136" Top="285" Right="853" Bottom="333" />
+										<TypeInfo Item0="{09BEA668-FDF3-4731-80EC-7C2AA5B9EBC2}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value PropertyType="0" Value="Edit" Type="5" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value PropertyType="0" Value="" Type="5" />
+											</Property>
+											<Property Name="Index">
+												<Value PropertyType="0" Value="1" Type="0" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="btnNext" Key="{19BE8317-C44E-4301-AD25-AC2A855884C8}" ParallelWalk="True">
+										<Image FileName="-1962092562" Left="632" Top="696" Right="781" Bottom="741" />
+										<TypeInfo Item0="{E8120D96-32A8-403D-B0CE-1809CC8A3D0A}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value PropertyType="0" Value="Button" Type="5" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value PropertyType="0" Value="&amp;Next &gt;" Type="5" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="btnTestSqlConnection" Key="{25B25EFB-4F20-429B-82F8-9A6B2543FDE0}" ParallelWalk="True">
+										<Image FileName="2019524228" Left="69" Top="536" Right="319" Bottom="581" />
+										<TypeInfo Item0="{E8120D96-32A8-403D-B0CE-1809CC8A3D0A}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value PropertyType="0" Value="Button" Type="5" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value PropertyType="0" Value="Test Sql Connection" Type="5" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="btnFinish" Key="{FC63AB65-21FB-4FE6-B81A-7AD54CD9B177}" ParallelWalk="True">
+										<Image FileName="-303070604" Left="632" Top="696" Right="781" Bottom="741" />
+										<TypeInfo Item0="{E8120D96-32A8-403D-B0CE-1809CC8A3D0A}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value PropertyType="0" Value="Button" Type="5" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value PropertyType="0" Value="&amp;Finish" Type="5" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="dlgEdFiODSAdminAppWeb" Key="{CA5E8052-2AD7-4632-A5F4-91C665CAFF91}" ParallelWalk="True">
+								<Image FileName="1288925900" Left="0" Top="0" Right="822" Bottom="395" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value PropertyType="0" Value="#32770" Type="5" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value PropertyType="0" Value="Ed-Fi ODS AdminApp Web" Type="5" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="btnYes" Key="{33677691-BE46-4CEE-BDD0-68A35B514685}" ParallelWalk="True">
+										<Image FileName="1288925900" Left="439" Top="308" Right="602" Bottom="364" />
+										<TypeInfo Item0="{E8120D96-32A8-403D-B0CE-1809CC8A3D0A}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value PropertyType="0" Value="Button" Type="5" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value PropertyType="0" Value="&amp;Yes" Type="5" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
 				</Children>
 			</Child>
 		</Children>
@@ -249,6 +620,45 @@
 		<Child Name="Ed_Fi_ODS_Database_3_2_0" Owner="{31D21899-D00B-43A3-9B1F-FA5253CD6D20}">
 			<Child Name="dlgError" Owner="{42ACB25D-B9BF-40CA-81CF-6AE248C64EE9}">
 				<Child Name="btnOK" Owner="{AC48842F-8734-4A6A-838F-235F33C06C9C}" />
+			</Child>
+		</Child>
+		<Child Name="Ed_Fi_ODS_Database_3_2_02" Owner="{14349E31-BBF1-43B9-A11A-C9F07ED808C2}">
+			<Child Name="dlgEdFiODSDatabasesSetup" Owner="{7A306059-550E-49F1-AAC9-7CADFEB1A189}">
+				<Child Name="editUserName" Owner="{8222B734-6486-48A5-8122-91A05026966E}" />
+				<Child Name="btnNext" Owner="{479CB809-B2F0-4D9B-8C73-CB7EF2C4C65E}" />
+				<Child Name="radio" Owner="{FA462850-9A65-45EA-948F-7813DB37E280}" />
+				<Child Name="btnTestSqlConnection" Owner="{82FA1821-7D68-4130-AF61-09AA849AFF76}" />
+				<Child Name="radioProduction" Owner="{06261DE6-7590-4632-988B-FB628E6F968F}" />
+				<Child Name="btnFinish" Owner="{3850D5B3-CFF1-483E-BBC3-CA7885E1CF2B}" />
+			</Child>
+		</Child>
+		<Child Name="Ed_Fi_ODS_Websites_3_2_0" Owner="{909FD9F7-BD9C-421A-95BD-E465973551C5}">
+			<Child Name="dlgEdFiODSWebSetup" Owner="{2732008D-C2C6-46D6-A687-3BB9E6163525}">
+				<Child Name="editUserName" Owner="{776BF4C9-4A6A-4B69-B888-AFE1BB2BE1C6}" />
+				<Child Name="editPassword" Owner="{34A198A4-5F5A-490D-9BAB-C133BAFCECCF}" />
+				<Child Name="btnNext" Owner="{F3D329F5-93BB-43C3-82E1-B536136DCD40}" />
+				<Child Name="radio" Owner="{B3A37A52-C1A0-475E-81D6-EB9920E49398}" />
+				<Child Name="radio2" Owner="{D9E11CFB-0853-401C-8DE0-DDBCAE5DE26F}" />
+				<Child Name="btnTestSqlConnection" Owner="{B52604BB-E874-4852-BB97-EF2B20FF562E}" />
+				<Child Name="btnFinish" Owner="{E1F833AD-59D4-479B-B2DA-B6CC09EB1652}" />
+			</Child>
+		</Child>
+		<Child Name="msiexec" Owner="{E5AE0DAF-095B-4A7E-BAD5-829A822F58A9}">
+			<Child Name="wndMsiDialogCloseClass" Owner="{A81E3BF6-8A26-4B00-9F6B-B9D6739C3099}">
+				<Child Name="check" Owner="{CB8EC27E-F508-4BFA-961F-73AFFF01D984}" />
+				<Child Name="btnInstall" Owner="{461B726A-6675-48DB-9E6D-E2F4231CFC9E}" />
+				<Child Name="btnFinish" Owner="{F36338DE-D306-42B8-85D8-775E9D7D9CD5}" />
+			</Child>
+		</Child>
+		<Child Name="Ed_Fi_ODS_AdminApp_1_6_3_2" Owner="{7D579F58-E116-4528-875E-1F386DF42127}">
+			<Child Name="dlgEdFiODSAdminAppWebSetup" Owner="{2176C8CA-ECD1-4FED-8047-B3C2F73F693E}">
+				<Child Name="editUserName" Owner="{2E819B4A-6ACC-4FA9-9C86-4C154815323F}" />
+				<Child Name="btnNext" Owner="{19BE8317-C44E-4301-AD25-AC2A855884C8}" />
+				<Child Name="btnTestSqlConnection" Owner="{25B25EFB-4F20-429B-82F8-9A6B2543FDE0}" />
+				<Child Name="btnFinish" Owner="{FC63AB65-21FB-4FE6-B81A-7AD54CD9B177}" />
+			</Child>
+			<Child Name="dlgEdFiODSAdminAppWeb" Owner="{CA5E8052-2AD7-4632-A5F4-91C665CAFF91}">
+				<Child Name="btnYes" Owner="{33677691-BE46-4CEE-BDD0-68A35B514685}" />
 			</Child>
 		</Child>
 	</LogicalNodes>
@@ -422,6 +832,144 @@
 							<ParamDesc Flags="49" Value="0" Type="0" />
 						</Param1>
 						<ReturnValue Param0="8" />
+					</Child>
+					<Child Name="SetFocus" Doc="Sets focus to the specified Window object." IsBasic="True" Data="ZI4L1L4ZN18ZN">
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="Click" Doc="Simulates a left-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="ZI4L1L4L3Z018ZN">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="TShiftKey" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="ClickR" Doc="Simulates a right-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="ZI4L1L4L3Z018ZN">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="TShiftKey" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="Keys" Doc="Simulates one or several keypresses." IsBasic="True" Param0="Keys" Data="ZI4L1L4L1Z018ZN">
+						<Param0>
+							<TypeDesc Param0="8" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="Visible" Doc="Specifies whether an onscreen object is visible to users." IsBasic="True" Data="ZI4L2L4ZOBZN">
+						<ReturnValue Param0="11" />
+					</Child>
+					<Child Name="Width" Doc="The object&apos;s width in pixels." IsBasic="True" Data="ZI4L2L4ZO3ZN">
+						<ReturnValue Param0="3" />
+					</Child>
+					<Child Name="Height" Doc="The object&apos;s height in pixels." IsBasic="True" Data="ZI4L2L4ZO3ZN">
+						<ReturnValue Param0="3" />
+					</Child>
+					<Child Name="Enabled" Doc="Specifies whether the object is enabled or disabled." IsBasic="True" Data="ZI4L2L4ZOBZN">
+						<ReturnValue Param0="11" />
+					</Child>
+					<Child Name="WndCaption" Doc="Returns the window&apos;s caption." IsBasic="True" Data="ZI4L2L4ZO8ZN">
+						<ReturnValue Param0="8" />
+					</Child>
+				</FunctionDescriptions>
+			</Data>
+		</Child>
+		<Child Hash="-575447367" Key="{166F1EAD-F5E1-4036-9F0F-1E6AAE63EC99}">
+			<Data Properties="5A904595406A4847860479B527E546BBUFFFFFFFFFFFFFFFFV4LBZZY">
+				<FunctionDescriptions>
+					<Child Name="ClickButton" Doc="Moves the mouse cursor to the radio button and then simulates a single click, thus selecting it." IsBasic="True" Data="ZI4L1L4ZN18ZN">
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="wChecked" Doc="Returns True if the radio button is selected, else False." IsBasic="True" Data="ZI4L2L4ZOBZN">
+						<ReturnValue Param0="11" />
+					</Child>
+					<Child Name="SetFocus" Doc="Sets focus to the specified Window object." IsBasic="True" Data="ZI4L1L4ZN18ZN">
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="Click" Doc="Simulates a left-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="ZI4L1L4L3Z018ZN">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="TShiftKey" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="ClickR" Doc="Simulates a right-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="ZI4L1L4L3Z018ZN">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="TShiftKey" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="Keys" Doc="Simulates one or several keypresses." IsBasic="True" Param0="Keys" Data="ZI4L1L4L1Z018ZN">
+						<Param0>
+							<TypeDesc Param0="8" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="Visible" Doc="Specifies whether an onscreen object is visible to users." IsBasic="True" Data="ZI4L2L4ZOBZN">
+						<ReturnValue Param0="11" />
+					</Child>
+					<Child Name="Width" Doc="The object&apos;s width in pixels." IsBasic="True" Data="ZI4L2L4ZO3ZN">
+						<ReturnValue Param0="3" />
+					</Child>
+					<Child Name="Height" Doc="The object&apos;s height in pixels." IsBasic="True" Data="ZI4L2L4ZO3ZN">
+						<ReturnValue Param0="3" />
+					</Child>
+					<Child Name="Enabled" Doc="Specifies whether the object is enabled or disabled." IsBasic="True" Data="ZI4L2L4ZOBZN">
+						<ReturnValue Param0="11" />
+					</Child>
+					<Child Name="WndCaption" Doc="Returns the window&apos;s caption." IsBasic="True" Data="ZI4L2L4ZO8ZN">
+						<ReturnValue Param0="8" />
+					</Child>
+				</FunctionDescriptions>
+			</Data>
+		</Child>
+		<Child Hash="1875001315" Key="{C2370460-9B49-4587-98CD-F438D8B6F580}">
+			<Data Properties="12F155299D78DB4287EF49DE0B39476VFFFFFFFFFFFFFFFFV4LBZZY">
+				<FunctionDescriptions>
+					<Child Name="ClickButton" Doc="Moves the mouse cursor to a control and clicks it with the left mouse button until the specified state is reached." IsBasic="True" Param0="State" Data="ZI4L1L4L1Z018ZN">
+						<Param0>
+							<TypeDesc Param0="12" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="wState" Doc="Gets or sets the current state of the check box, that is, cbUnchecked, cbChecked or cbGrayed." IsBasic="True" Data="ZI4L2L4ZO3ZN">
+						<ReturnValue Param0="3" />
 					</Child>
 					<Child Name="SetFocus" Doc="Sets focus to the specified Window object." IsBasic="True" Data="ZI4L1L4ZN18ZN">
 						<ReturnValue Param0="24" />
