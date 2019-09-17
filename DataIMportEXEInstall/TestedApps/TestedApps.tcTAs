@@ -41,7 +41,7 @@
 			<data />
 		</child>
 		<child key="{BDE6194F-924F-402B-B5F9-6D65BEAD9248}">
-			<config nodeName="Ed_Fi_ODS_AdminApp_1_6_3_2" autorunOnRecording="True" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
+			<config nodeName="Ed_Fi_ODS_AdminApp_1_6_3_2" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
 				<runModeParams activeRunMode="Simple">
 					<param name="RunAs" parameters="" workFolder="" userName="" password="" domain="" />
 					<param name="Profile" parameters="" workFolder="" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="0" forceRunMode="False" />

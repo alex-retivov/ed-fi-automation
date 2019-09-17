@@ -20,7 +20,17 @@
 <Nodes version="1">
 	<Node name="root">
 		<Node name="folders"/>
-		<Node name="logs"/>
+		<Node name="logs">
+			<Node name="log idx=0000">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43724.8948947801"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{0276CAA4-3436-4748-B638-7DC3C091E325}"/>
+				<Prp name="nameofroot" type="S" value="Keyword Test Log [ODSDatabaseEXE]"/>
+				<Prp name="relpath" type="S" value="9_16_2019_9_28 PM_38_909\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+		</Node>
 		<Prp name="signature" type="S" value="{681DCC69-A39F-4C4D-8E7D-B2D9362FAF4F}"/>
 		<Prp name="version" type="S" value="11.0"/>
 	</Node>
