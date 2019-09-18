@@ -85,6 +85,17 @@
 												<Value PropertyType="0" Value="1" Type="0" />
 											</Property>
 										</Properties>
+										<Children>
+											<Child Name="Edit" Key="{EB9A2AAE-D7C3-483F-9DCF-9F557225E87F}" ParallelWalk="True">
+												<Image FileName="1826089209" Left="259" Top="219" Right="885" Bottom="246" />
+												<TypeInfo Item0="{09BEA668-FDF3-4731-80EC-7C2AA5B9EBC2}" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value PropertyType="0" Value="Edit" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
 									</Child>
 									<Child Name="btnTestSqlConnection" Key="{DB5374E6-52DA-46A1-A59B-7D386875867D}" ParallelWalk="True">
 										<Image FileName="-1843004589" Left="69" Top="696" Right="319" Bottom="741" />
@@ -427,6 +438,50 @@
 											</Property>
 										</Properties>
 									</Child>
+									<Child Name="cbxServer" Key="{9A4CFCC6-767A-400D-9CC1-3FAB9E217E1A}" ParallelWalk="True">
+										<Image FileName="1542328516" Left="256" Top="216" Right="922" Bottom="249" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value PropertyType="0" Value="ComboBox" Type="5" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="Edit" Key="{74F215E7-0E44-4474-8C1F-5913E8DF602C}" ParallelWalk="True">
+												<Image FileName="1542328516" Left="259" Top="219" Right="885" Bottom="246" />
+												<TypeInfo Item0="{09BEA668-FDF3-4731-80EC-7C2AA5B9EBC2}" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value PropertyType="0" Value="Edit" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="dlgEdFiODSWeb" Key="{7863BE7E-45B1-4F98-A0A3-351208D6FBFC}" ParallelWalk="True">
+								<Image FileName="1186325381" Left="0" Top="0" Right="822" Bottom="395" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value PropertyType="0" Value="#32770" Type="5" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value PropertyType="0" Value="Ed-Fi ODS Web" Type="5" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="btnYes" Key="{C759AD33-2909-40F4-959E-2CD7D5356E19}" ParallelWalk="True">
+										<Image FileName="1186325381" Left="439" Top="308" Right="602" Bottom="364" />
+										<TypeInfo Item0="{E8120D96-32A8-403D-B0CE-1809CC8A3D0A}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value PropertyType="0" Value="Button" Type="5" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value PropertyType="0" Value="&amp;Yes" Type="5" />
+											</Property>
+										</Properties>
+									</Child>
 								</Children>
 							</Child>
 						</Children>
@@ -603,7 +658,9 @@
 				<Child Name="editUserName" Owner="{A50EAF51-FAB7-457E-AC75-6479351D6B68}" />
 				<Child Name="editPassword" Owner="{2FB366F2-FE00-4D91-83A2-0838C72181C9}" />
 				<Child Name="btnNext" Owner="{2372522E-DD7B-495A-9473-22CF20B10A5E}" />
-				<Child Name="cbxServer" Owner="{0990D473-B3C7-4D6E-A884-1774FD4A8BEF}" />
+				<Child Name="cbxServer" Owner="{0990D473-B3C7-4D6E-A884-1774FD4A8BEF}">
+					<Child Name="Edit" Owner="{EB9A2AAE-D7C3-483F-9DCF-9F557225E87F}" />
+				</Child>
 				<Child Name="btnTestSqlConnection" Owner="{DB5374E6-52DA-46A1-A59B-7D386875867D}" />
 				<Child Name="editDomain" Owner="{91582FAD-CB4B-44B2-A48B-165D01A15630}" />
 				<Child Name="btnInstall" Owner="{A60A7CC6-AEDE-43A0-A6A6-AC4C57F87E62}" />
@@ -641,6 +698,12 @@
 				<Child Name="radio2" Owner="{D9E11CFB-0853-401C-8DE0-DDBCAE5DE26F}" />
 				<Child Name="btnTestSqlConnection" Owner="{B52604BB-E874-4852-BB97-EF2B20FF562E}" />
 				<Child Name="btnFinish" Owner="{E1F833AD-59D4-479B-B2DA-B6CC09EB1652}" />
+				<Child Name="cbxServer" Owner="{9A4CFCC6-767A-400D-9CC1-3FAB9E217E1A}">
+					<Child Name="Edit" Owner="{74F215E7-0E44-4474-8C1F-5913E8DF602C}" />
+				</Child>
+			</Child>
+			<Child Name="dlgEdFiODSWeb" Owner="{7863BE7E-45B1-4F98-A0A3-351208D6FBFC}">
+				<Child Name="btnYes" Owner="{C759AD33-2909-40F4-959E-2CD7D5356E19}" />
 			</Child>
 		</Child>
 		<Child Name="msiexec" Owner="{E5AE0DAF-095B-4A7E-BAD5-829A822F58A9}">
