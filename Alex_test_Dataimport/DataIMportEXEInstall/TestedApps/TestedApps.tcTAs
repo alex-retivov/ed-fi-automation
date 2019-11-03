@@ -4,18 +4,6 @@
 	<testData />
 	<data />
 	<children>
-		<child key="{000DCAC6-6DDA-4FB3-8BD5-22E1488167D8}">
-			<config nodeName="Ed_Fi_DataImport_1_0" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="True">
-				<runModeParams activeRunMode="Simple">
-					<param name="RunAs" parameters="" workFolder="" userName="" password="" domain="" />
-					<param name="Profile" parameters="" workFolder="" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="0" forceRunMode="False" />
-					<param name="Debug" parameters="" workFolder="" />
-					<param name="Simple" fileName="Ed-Fi_DataImport_1.0.642-rc.exe" filePath="C:\Users\alexretivov\Desktop\" parameters="" workFolder="" />
-				</runModeParams>
-			</config>
-			<testData />
-			<data />
-		</child>
 		<child key="{25F7FB74-341E-4B00-B3DC-90B65F0DDA0A}">
 			<config nodeName="Ed_Fi_ODS_Database_3_2_0" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
 				<runModeParams activeRunMode="Simple">
@@ -47,6 +35,18 @@
 					<param name="Profile" parameters="" workFolder="" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="0" forceRunMode="False" />
 					<param name="Debug" parameters="" workFolder="" />
 					<param name="Simple" fileName="Ed-Fi_ODS_AdminApp_1.6_3.2.exe" filePath="C:\Users\alexretivov\Desktop\" parameters="" workFolder="" />
+				</runModeParams>
+			</config>
+			<testData />
+			<data />
+		</child>
+		<child key="{E3A9B7FD-4EF4-43E1-9C05-C54715EE1DA0}">
+			<config nodeName="Ed_Fi_DataImport_1_0" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
+				<runModeParams activeRunMode="Simple">
+					<param name="RunAs" parameters="" workFolder="" userName="" password="" domain="" />
+					<param name="Profile" parameters="" workFolder="" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="0" forceRunMode="False" />
+					<param name="Debug" parameters="" workFolder="" />
+					<param name="Simple" fileName="Ed-Fi_DataImport_1.0.exe" filePath="C:\Users\alexretivov\Desktop\" parameters="" workFolder="" />
 				</runModeParams>
 			</config>
 			<testData />

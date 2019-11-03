@@ -5,7 +5,5 @@
 		<child name="ODSDatabaseEXE" key="{2160CAFA-E0A1-4A50-B743-61D94918B811}" path="ODSDatabaseEXE.tcKDTest" />
 		<child name="ODSWebEXE" key="{157E8D3F-C7DE-4322-97A5-FDC7B54F49DE}" path="ODSWebEXE.tcKDTest" />
 		<child name="AdminAppEXE" key="{2A1509B6-47FC-4F08-894D-7D0DAD2252F7}" path="AdminAppEXE.tcKDTest" />
-		<child name="Test1" key="{5631F5B2-65FC-4804-9E49-319DB29CA183}" path="Test1.tcKDTest" />
-		<child name="Test2" key="{54112FB6-A69C-4893-A35E-385619690651}" path="Test2.tcKDTest" />
 	</children>
 </Root>
