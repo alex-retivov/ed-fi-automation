@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="data">
+			<Node name="{038d0518-0281-443d-914c-9cc8865bd1e0}">
+				<Prp name="relpath" type="S" value="DataImport-EXEUninstall\DataImport-EXEUninstall.mds.tcLS"/>
+			</Node>
+			<Node name="{24b6fa0b-0143-461a-9758-aeb9e9a9428b}">
+				<Prp name="default project" type="S" value="{AB1AED89-8E5C-4D3C-86B7-E97729881C35}"/>
+			</Node>
+			<Node name="{764107da-ca55-4a05-862f-8590985f58a8}">
+				<Prp name="relpath" type="S" value="DataImport-GrandBend\DataImport-GrandBend.mds.tcLS"/>
+			</Node>
+			<Node name="{ab1aed89-8e5c-4d3c-86b7-e97729881c35}">
+				<Prp name="relpath" type="S" value="DataImport-EXEInstall\DataImport-EXEInstall.mds.tcLS"/>
+			</Node>
+			<Node name="logs">
+				<Prp name="key" type="S" value="{8A2F93E9-0DAD-499C-B1F1-771C002AD51D}"/>
+				<Prp name="relpath" type="S" value="Log"/>
+			</Node>
+			<Node name="variables"/>
+		</Node>
+		<Prp name="signature" type="S" value="{71078212-FAEB-4856-A901-B237C89E6B5C}"/>
+	</Node>
+</Nodes>

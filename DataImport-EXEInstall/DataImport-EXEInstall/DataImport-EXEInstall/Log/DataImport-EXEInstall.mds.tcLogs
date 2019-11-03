@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="folders"/>
+		<Node name="logs">
+			<Node name="log idx=0000">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43763.8960742361"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{0F962724-C89B-4367-89F2-01B571D30CDB}"/>
+				<Prp name="nameofroot" type="S" value="DataImport-EXEInstall"/>
+				<Prp name="relpath" type="S" value="10_25_2019_9_30 PM_20_814\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0001">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43763.8977038079"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{055AF699-F973-4A5F-B565-E83E1DF77800}"/>
+				<Prp name="nameofroot" type="S" value="DataImport-EXEInstall"/>
+				<Prp name="relpath" type="S" value="10_25_2019_9_32 PM_41_609\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0002">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43763.9166392593"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{51FCED90-1E3C-4097-8B1E-CDE6F0AA630B}"/>
+				<Prp name="nameofroot" type="S" value="DataImport-EXEInstall"/>
+				<Prp name="relpath" type="S" value="10_25_2019_9_59 PM_57_632\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0003">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43763.9169845602"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{281206F6-CEFF-455F-8DFC-7F0C11B6CD7B}"/>
+				<Prp name="nameofroot" type="S" value="Keyword Test Log [Test1]"/>
+				<Prp name="relpath" type="S" value="10_25_2019_10_00 PM_27_466\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0004">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43763.9173064352"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{60828476-60B1-4032-9A9E-7DDD1B67B2F9}"/>
+				<Prp name="nameofroot" type="S" value="Keyword Test Log [Test1]"/>
+				<Prp name="relpath" type="S" value="10_25_2019_10_00 PM_55_286\Description.tcLog"/>
+				<Prp name="status" type="I" value="1"/>
+			</Node>
+			<Node name="log idx=0005">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43763.9194766319"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{94BAC80F-28A7-47B6-BA1C-631A5D6D41E5}"/>
+				<Prp name="nameofroot" type="S" value="DataImport-EXEInstall"/>
+				<Prp name="relpath" type="S" value="10_25_2019_10_04 PM_02_781\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0006">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43763.9197319792"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{FFBF3B4E-8B90-489F-AEA1-E2B452E6A3F0}"/>
+				<Prp name="nameofroot" type="S" value="DataImport-EXEInstall"/>
+				<Prp name="relpath" type="S" value="10_25_2019_10_04 PM_24_843\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0007">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43763.9212041088"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{6699DFF2-B9CD-4413-8B49-F99912E924B1}"/>
+				<Prp name="nameofroot" type="S" value="DataImport-EXEInstall"/>
+				<Prp name="relpath" type="S" value="10_25_2019_10_06 PM_32_35\Description.tcLog"/>
+				<Prp name="status" type="I" value="1"/>
+			</Node>
+			<Node name="log idx=0008">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43763.9382796412"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{3A5DC13E-9544-4FB3-9C06-BD89A6A89118}"/>
+				<Prp name="nameofroot" type="S" value="DataImport-EXEInstall"/>
+				<Prp name="relpath" type="S" value="10_25_2019_10_31 PM_07_361\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0009">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43765.8812389005"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{52618C21-D7D4-4A61-AF89-17409D130F3A}"/>
+				<Prp name="nameofroot" type="S" value="DataImport-EXEInstall"/>
+				<Prp name="relpath" type="S" value="10_27_2019_9_08 PM_59_41\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0010">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43765.8850545833"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{07A71456-E2C5-44BC-95D2-AE2C62544617}"/>
+				<Prp name="nameofroot" type="S" value="DataImport-EXEInstall"/>
+				<Prp name="relpath" type="S" value="10_27_2019_9_14 PM_28_716\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+		</Node>
+		<Prp name="signature" type="S" value="{681DCC69-A39F-4C4D-8E7D-B2D9362FAF4F}"/>
+		<Prp name="version" type="S" value="11.0"/>
+	</Node>
+</Nodes>

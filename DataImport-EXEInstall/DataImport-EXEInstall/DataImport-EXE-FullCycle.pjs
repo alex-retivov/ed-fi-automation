@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="14.0" key="{5973E12E-8975-41BE-AE54-0836BD2D9518}">
+	<children>
+		<child name="DataImport-EXEInstall" key="{AB1AED89-8E5C-4D3C-86B7-E97729881C35}" path="DataImport-EXEInstall\DataImport-EXEInstall.mds" />
+		<child name="DataImport-EXEUninstall" key="{038D0518-0281-443D-914C-9CC8865BD1E0}" path="DataImport-EXEUninstall\DataImport-EXEUninstall.mds" />
+		<child name="DataImport-GrandBend" key="{764107DA-CA55-4A05-862F-8590985F58A8}" path="DataImport-GrandBend\DataImport-GrandBend.mds" />
+	</children>
+	<testItems key="{08295E13-B802-457A-B0A5-20A64B8BC017}">
+		<children>
+			<testItem key="{AB1AED89-8E5C-4D3C-86B7-E97729881C35}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{764107DA-CA55-4A05-862F-8590985F58A8}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{038D0518-0281-443D-914C-9CC8865BD1E0}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{0CFB6DBA-6B87-4EC1-B642-A23EB09A8105}">
+		<data Version="3" />
+	</variables>
+	<analysis key="{6103BDC4-C5C4-401D-A598-76ED5D7696BA}" />
+	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
+		<data />
+	</scc>
+	<extender key="{1A3FC97E-9A66-4716-B166-35D10B4146E0}">
+		<CrossBrowserTesting Enable="False" />
+	</extender>
+</Root>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="folders"/>
+		<Node name="logs">
+			<Node name="log idx=0000">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43763.8967270486"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{FBB0BD94-D91B-47D4-BEE4-F3D29F7D8C8B}"/>
+				<Prp name="nameofroot" type="S" value="DataImport-EXEUninstall"/>
+				<Prp name="relpath" type="S" value="10_25_2019_9_31 PM_17_217\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0001">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43763.9162955208"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{F30B25C7-4AFE-4031-904C-7864912CDF51}"/>
+				<Prp name="nameofroot" type="S" value="DataImport-EXEUninstall"/>
+				<Prp name="relpath" type="S" value="10_25_2019_9_59 PM_27_933\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0002">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43763.9188564583"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{577E636E-E01C-44B0-AE54-1C9B3F074299}"/>
+				<Prp name="nameofroot" type="S" value="DataImport-EXEUninstall"/>
+				<Prp name="relpath" type="S" value="10_25_2019_10_03 PM_09_198\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0003">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43765.8847771181"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{53892C1F-ED95-477F-99A2-84A04692EE3A}"/>
+				<Prp name="nameofroot" type="S" value="DataImport-EXEUninstall"/>
+				<Prp name="relpath" type="S" value="10_27_2019_9_14 PM_04_743\Description.tcLog"/>
+				<Prp name="status" type="I" value="1"/>
+			</Node>
+		</Node>
+		<Prp name="signature" type="S" value="{681DCC69-A39F-4C4D-8E7D-B2D9362FAF4F}"/>
+		<Prp name="version" type="S" value="11.0"/>
+	</Node>
+</Nodes>

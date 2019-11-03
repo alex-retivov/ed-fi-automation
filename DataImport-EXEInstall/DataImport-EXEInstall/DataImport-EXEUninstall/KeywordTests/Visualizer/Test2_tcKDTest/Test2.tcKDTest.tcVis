@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{7A3C6E77-9627-4997-B2D4-B22894230BA4}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="1" kind="0" dateTime="43763.8949537037" objectName="Aliases.Ed_Fi_DataImport_1_0.dlgEdFiDataImportSetup.btnNext" objectLeft="396" objectTop="437" objectRight="489" objectBottom="465" clickPointX="452" clickPointY="454" imageFileName="tcvi156117164240.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="43763.8949768519" objectName="Aliases.Ed_Fi_DataImport_1_0.dlgEdFiDataImportSetup.btn" objectLeft="86" objectTop="303" objectRight="149" objectBottom="366" clickPointX="113" clickPointY="345" imageFileName="tcvi156257864241.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="3" kind="0" dateTime="43763.8949884259" objectName="Aliases.Ed_Fi_DataImport_1_0.dlgEdFiDataImportSetup.btnRemove" objectLeft="396" objectTop="437" objectRight="489" objectBottom="465" clickPointX="432" clickPointY="453" imageFileName="tcvi156385964242.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="4" kind="0" dateTime="43763.8953009259" objectName="Aliases.Ed_Fi_DataImport_1_0.dlgEdFiDataImportSetup.btnFinish" objectLeft="396" objectTop="437" objectRight="489" objectBottom="465" clickPointX="432" clickPointY="453" imageFileName="tcvi159084364244.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

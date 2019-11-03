@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="projects">
+			<Node name="project0">
+				<Node name="tests">
+					<Node name="test0">
+						<Node name="warnings">
+							<Node name="warning0">
+								<Prp name="msg" type="S" value="There is (are) 1 running instance(s) of &quot;C:\Users\odstoolsadmin\Desktop\Ed-Fi_DataImport_1.0.exe&quot;. New instances will not be launched."/>
+							</Node>
+						</Node>
+						<Node name="errors"/>
+						<Prp name="durationwithoutchildren" type="I" value="13167"/>
+						<Prp name="duration" type="I" value="13167"/>
+						<Prp name="starttime" type="D" value="43765.884777581"/>
+						<Prp name="name" type="S" value="ProjectTestItem1"/>
+						<Prp name="status" type="I" value="1"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBDADIAMwA5ADgARgAwAEUALQAyADMAOAA3AC0ANABFADgAOQAtADkAMwAzAEIALQA5AEMAMABEADkAQQBCADkAQgBEAEYAMQB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+					</Node>
+				</Node>
+				<Prp name="duration" type="I" value="13167"/>
+				<Prp name="starttime" type="D" value="43765.884777581"/>
+				<Prp name="warningtests" type="I" value="1"/>
+				<Prp name="name" type="S" value="DataImport-EXEUninstall"/>
+				<Prp name="incompletedtests" type="I" value="0"/>
+				<Prp name="failedtests" type="I" value="0"/>
+			</Node>
+		</Node>
+		<Prp name="user" type="S" value="odstoolsadmin"/>
+		<Prp name="stop" type="D" value="43765.884931713"/>
+		<Prp name="executionstatus" type="I" value="1"/>
+		<Prp name="failedtests" type="I" value="0"/>
+		<Prp name="tests" type="I" value="1"/>
+		<Prp name="host" type="S" value="test-complete"/>
+		<Prp name="testname" type="S" value="DataImport-EXEUninstall"/>
+		<Prp name="incompletedtests" type="I" value="0"/>
+		<Prp name="key" type="S" value="{6D0F2C44-1EB5-40B1-AFF6-2F12DDD68AAC}"/>
+		<Prp name="starttime" type="D" value="43765.8847772338"/>
+		<Prp name="warningtests" type="I" value="1"/>
+		<Prp name="name" type="S" value="DataImport-EXEInstall"/>
+	</Node>
+</Nodes>

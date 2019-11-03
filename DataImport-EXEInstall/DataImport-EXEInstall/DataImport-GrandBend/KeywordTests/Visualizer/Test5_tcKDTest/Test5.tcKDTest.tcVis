@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{F3748CAB-0841-4134-BEFC-1D24ED102FE1}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="1" kind="0" dateTime="43763.9046064815" objectName="Aliases.browser.BrowserWindow" objectLeft="293" objectTop="63" objectRight="491" objectBottom="88" clickPointX="356" clickPointY="85" imageFileName="tcvi239448473609.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="3" kind="0" dateTime="43763.9047106481" objectName="Aliases.browser.BrowserWindow" objectLeft="162" objectTop="56" objectRight="424" objectBottom="94" clickPointX="303" clickPointY="75" imageFileName="tcvi2403265736012.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="4" kind="0" dateTime="43763.9047453704" objectName="Aliases.explorer.wndShell_TrayWnd.Start" objectLeft="0" objectTop="0" objectRight="60" objectBottom="50" clickPointX="29" clickPointY="34" imageFileName="tcvi240684313122.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="5" kind="0" dateTime="43763.9048611111" objectName="Aliases.Microsoft_Windows_ShellExperienceHost.wndStart" objectLeft="0" objectTop="0" objectRight="795" objectBottom="800" clickPointX="434" clickPointY="655" imageFileName="tcvi241728151920.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

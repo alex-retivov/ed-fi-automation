@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="14.0" key="{9A158E20-D836-49A5-95F4-FF6465539CCA}">
+	<children />
+	<testItems key="{EE7D01A3-3AB4-4474-8918-8B476C3DE5A2}">
+		<children />
+	</testItems>
+	<variables key="{0A6CE940-15C1-48E0-8C5A-0D65BDF43712}">
+		<data Version="3" />
+	</variables>
+	<analysis key="{D4AAB3E6-07C5-4E9F-AC4E-DE2B484ED158}" />
+	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
+		<data />
+	</scc>
+	<extender key="{1A3FC97E-9A66-4716-B166-35D10B4146E0}">
+		<CrossBrowserTesting Enable="True" />
+	</extender>
+</Root>
