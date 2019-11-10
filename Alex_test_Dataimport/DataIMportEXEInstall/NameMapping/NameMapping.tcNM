@@ -648,6 +648,134 @@
 							</Child>
 						</Children>
 					</Child>
+					<Child Name="Ed_Fi_DataImport_1_0_725_pre" Key="{5F9CAD65-DB9D-46A2-8AE2-DF08A9292BB0}" ParallelWalk="True">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value PropertyType="0" Value="Ed-Fi_DataImport_1.0.725-pre" Type="5" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="dlgEdFiDataImportSetup" Key="{B2EFE2F4-20CD-4B9E-A0BB-A8BDF75D0EB1}" ParallelWalk="True">
+								<Image FileName="683224721" Left="0" Top="0" Right="992" Bottom="771" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value PropertyType="0" Value="#32770" Type="5" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value PropertyType="0" Value="Ed-Fi Data Import Setup" Type="5" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="cbxServer" Key="{BA0DC68F-2882-4A40-9994-49706D8FAF27}" ParallelWalk="True">
+										<Image FileName="765584989" Left="256" Top="216" Right="922" Bottom="249" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value PropertyType="0" Value="ComboBox" Type="5" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value PropertyType="0" Value="" Type="5" />
+											</Property>
+											<Property Name="Index">
+												<Value PropertyType="0" Value="1" Type="0" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="Edit" Key="{AE175235-9126-471A-8AFC-10503D012651}" ParallelWalk="True">
+												<Image FileName="765584989" Left="259" Top="219" Right="885" Bottom="246" />
+												<TypeInfo Item0="{09BEA668-FDF3-4731-80EC-7C2AA5B9EBC2}" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value PropertyType="0" Value="Edit" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="editUserName" Key="{76DD9BAB-DDB3-417C-8D3D-0C59180E1B5C}" ParallelWalk="True">
+										<Image FileName="-114371576" Left="136" Top="325" Right="853" Bottom="373" />
+										<TypeInfo Item0="{09BEA668-FDF3-4731-80EC-7C2AA5B9EBC2}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value PropertyType="0" Value="Edit" Type="5" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value PropertyType="0" Value="" Type="5" />
+											</Property>
+											<Property Name="Index">
+												<Value PropertyType="0" Value="1" Type="0" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="editDomain" Key="{35A45EF5-80C7-4BB3-A19C-BA7029B07337}" ParallelWalk="True">
+										<Image FileName="-1887848345" Left="136" Top="424" Right="853" Bottom="472" />
+										<TypeInfo Item0="{09BEA668-FDF3-4731-80EC-7C2AA5B9EBC2}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value PropertyType="0" Value="Edit" Type="5" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value PropertyType="0" Value="" Type="5" />
+											</Property>
+											<Property Name="Index">
+												<Value PropertyType="0" Value="2" Type="0" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="editPassword" Key="{474B2AE9-1243-4587-98CE-E7A2865D12E5}" ParallelWalk="True">
+										<Image FileName="-648581163" Left="136" Top="525" Right="853" Bottom="573" />
+										<TypeInfo Item0="{09BEA668-FDF3-4731-80EC-7C2AA5B9EBC2}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value PropertyType="0" Value="Edit" Type="5" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value PropertyType="0" Value="" Type="5" />
+											</Property>
+											<Property Name="Index">
+												<Value PropertyType="0" Value="3" Type="0" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="btnNext" Key="{9E1A71D3-F5F8-4E4C-85DC-21A20763A58B}" ParallelWalk="True">
+										<Image FileName="-1868449391" Left="632" Top="696" Right="781" Bottom="741" />
+										<TypeInfo Item0="{E8120D96-32A8-403D-B0CE-1809CC8A3D0A}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value PropertyType="0" Value="Button" Type="5" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value PropertyType="0" Value="&amp;Next &gt;" Type="5" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="btnInstall" Key="{F7AF6E1D-31C4-4614-A70E-88DEA8B96828}" ParallelWalk="True">
+										<Image FileName="-151752877" Left="632" Top="696" Right="797" Bottom="741" />
+										<TypeInfo Item0="{E8120D96-32A8-403D-B0CE-1809CC8A3D0A}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value PropertyType="0" Value="Button" Type="5" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value PropertyType="0" Value="&amp;Install" Type="5" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="btnFinish" Key="{8A8C525E-C97E-4019-9350-4BA6A1603C59}" ParallelWalk="True">
+										<Image FileName="-945095841" Left="632" Top="696" Right="781" Bottom="741" />
+										<TypeInfo Item0="{E8120D96-32A8-403D-B0CE-1809CC8A3D0A}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value PropertyType="0" Value="Button" Type="5" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value PropertyType="0" Value="&amp;Finish" Type="5" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
 				</Children>
 			</Child>
 		</Children>
@@ -722,6 +850,19 @@
 			</Child>
 			<Child Name="dlgEdFiODSAdminAppWeb" Owner="{CA5E8052-2AD7-4632-A5F4-91C665CAFF91}">
 				<Child Name="btnYes" Owner="{33677691-BE46-4CEE-BDD0-68A35B514685}" />
+			</Child>
+		</Child>
+		<Child Name="Ed_Fi_DataImport_1_0_725_pre" Owner="{5F9CAD65-DB9D-46A2-8AE2-DF08A9292BB0}">
+			<Child Name="dlgEdFiDataImportSetup" Owner="{B2EFE2F4-20CD-4B9E-A0BB-A8BDF75D0EB1}">
+				<Child Name="cbxServer" Owner="{BA0DC68F-2882-4A40-9994-49706D8FAF27}">
+					<Child Name="Edit" Owner="{AE175235-9126-471A-8AFC-10503D012651}" />
+				</Child>
+				<Child Name="editUserName" Owner="{76DD9BAB-DDB3-417C-8D3D-0C59180E1B5C}" />
+				<Child Name="editDomain" Owner="{35A45EF5-80C7-4BB3-A19C-BA7029B07337}" />
+				<Child Name="editPassword" Owner="{474B2AE9-1243-4587-98CE-E7A2865D12E5}" />
+				<Child Name="btnNext" Owner="{9E1A71D3-F5F8-4E4C-85DC-21A20763A58B}" />
+				<Child Name="btnInstall" Owner="{F7AF6E1D-31C4-4614-A70E-88DEA8B96828}" />
+				<Child Name="btnFinish" Owner="{8A8C525E-C97E-4019-9350-4BA6A1603C59}" />
 			</Child>
 		</Child>
 	</LogicalNodes>
