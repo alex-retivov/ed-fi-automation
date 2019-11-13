@@ -20,35 +20,7 @@
 <Nodes version="1">
 	<Node name="root">
 		<Node name="folders"/>
-		<Node name="logs">
-			<Node name="log idx=0000">
-				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="43724.8948947801"/>
-				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{0276CAA4-3436-4748-B638-7DC3C091E325}"/>
-				<Prp name="nameofroot" type="S" value="Keyword Test Log [ODSDatabaseEXE]"/>
-				<Prp name="relpath" type="S" value="9_16_2019_9_28 PM_38_909\Description.tcLog"/>
-				<Prp name="status" type="I" value="2"/>
-			</Node>
-			<Node name="log idx=0001">
-				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="43772.7015459491"/>
-				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{5D001E86-2F11-482E-B753-33940E020BD9}"/>
-				<Prp name="nameofroot" type="S" value="Keyword Test Log [DataImportEXE]"/>
-				<Prp name="relpath" type="S" value="11_3_2019_4_50 PM_13_570\Description.tcLog"/>
-				<Prp name="status" type="I" value="2"/>
-			</Node>
-			<Node name="log idx=0002">
-				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="43779.6924114583"/>
-				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{860E2474-08E3-404E-B046-9C787377A2C9}"/>
-				<Prp name="nameofroot" type="S" value="Keyword Test Log [DataImportEXE]"/>
-				<Prp name="relpath" type="S" value="11_10_2019_4_37 PM_04_350\Description.tcLog"/>
-				<Prp name="status" type="I" value="2"/>
-			</Node>
-		</Node>
+		<Node name="logs"/>
 		<Prp name="signature" type="S" value="{681DCC69-A39F-4C4D-8E7D-B2D9362FAF4F}"/>
 		<Prp name="version" type="S" value="11.0"/>
 	</Node>

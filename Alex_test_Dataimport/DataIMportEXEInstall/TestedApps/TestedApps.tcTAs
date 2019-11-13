@@ -40,25 +40,25 @@
 			<testData />
 			<data />
 		</child>
-		<child key="{E3A9B7FD-4EF4-43E1-9C05-C54715EE1DA0}">
+		<child key="{BAF00C69-964E-4DCF-924E-C19FC0732D20}">
 			<config nodeName="Ed_Fi_DataImport_1_0" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
 				<runModeParams activeRunMode="Simple">
 					<param name="RunAs" parameters="" workFolder="" userName="" password="" domain="" />
 					<param name="Profile" parameters="" workFolder="" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="0" forceRunMode="False" />
 					<param name="Debug" parameters="" workFolder="" />
-					<param name="Simple" fileName="Ed-Fi_DataImport_1.0.exe" filePath="C:\Users\alexretivov\Desktop\" parameters="" workFolder="" />
+					<param name="Simple" fileName="Ed-Fi_DataImport_1.0.exe" filePath="C:\Users\alexretivov\Desktop\DataImportInstallers\" parameters="" workFolder="" />
 				</runModeParams>
 			</config>
 			<testData />
 			<data />
 		</child>
-		<child key="{26F49C1D-E200-4E44-A1D6-0C6045A92309}">
+		<child key="{404EE8DE-42E6-4E27-8414-E7987F3AE876}">
 			<config nodeName="Ed_Fi_DataImport_1_0_725_pre" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
 				<runModeParams activeRunMode="Simple">
 					<param name="RunAs" parameters="" workFolder="" userName="" password="" domain="" />
 					<param name="Profile" parameters="" workFolder="" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="0" forceRunMode="False" />
 					<param name="Debug" parameters="" workFolder="" />
-					<param name="Simple" fileName="Ed-Fi_DataImport_1.0.725-pre.exe" filePath="C:\Users\alexretivov\Desktop\" parameters="" workFolder="" />
+					<param name="Simple" fileName="Ed-Fi_DataImport_1.0.725-pre.exe" filePath="C:\Users\alexretivov\Desktop\DataImportInstallers\" parameters="" workFolder="" />
 				</runModeParams>
 			</config>
 			<testData />

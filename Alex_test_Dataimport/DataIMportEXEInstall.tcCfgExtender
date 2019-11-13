@@ -21,56 +21,12 @@
 	<Node name="root">
 		<Node name="data">
 			<Node name="{24b6fa0b-0143-461a-9758-aeb9e9a9428b}">
-				<Prp name="activity" type="S" value="{7C618EBA-9B52-42FB-9E21-D19DD8EE14B1}"/>
+				<Prp name="activity" type="S" value="{2A1509B6-47FC-4F08-894D-7D0DAD2252F7}"/>
 			</Node>
 			<Node name="{2c786620-2489-4cbb-9c1e-1a94437a9245}"/>
 			<Node name="{415b5aa1-c6ac-4d4d-9a53-063a521a45ab}">
 				<Node name="workspace">
-					<Node name="0">
-						<Node name="editor">
-							<Node name="{4f9540d5-d9ab-44cd-8dca-73f5f2e7a572}"/>
-							<Node name="{8c45957c-f4b3-4dd7-9212-49cbd350f69f}">
-								<Prp name="key" type="S" value="{9A554892-8C9E-4533-9F8F-6B7E30E40BB1}"/>
-							</Node>
-							<Node name="{90fe4d39-229d-4887-ac6f-07b02ce523fc}">
-								<Node name="main">
-									<Prp name="height" type="I" value="150"/>
-									<Prp name="minimized" type="B" value="-1"/>
-								</Node>
-								<Node name="tables">
-									<Prp name="active" type="S" value=""/>
-								</Node>
-								<Node name="toolbox">
-									<Prp name="active" type="S" value=""/>
-								</Node>
-								<Prp name="key" type="S" value="{A911632B-48F3-45CB-88A9-7DD8C87E8EC4}"/>
-							</Node>
-							<Node name="{eb7c9d82-bc63-4167-ad95-a6b053bbda71}"/>
-							<Prp name="editor" type="S" value="{36D42BBD-22DD-4DF7-A239-78451371E938}"/>
-							<Prp name="focused" type="S" value="{A911632B-48F3-45CB-88A9-7DD8C87E8EC4}"/>
-						</Node>
-						<Prp name="edititem" type="S" value="{7C618EBA-9B52-42FB-9E21-D19DD8EE14B1}"/>
-					</Node>
-					<Node name="1">
-						<Node name="editor">
-							<Node name="{6ad0a550-4d53-4c87-b52b-74f8d09ac0f4}">
-								<Prp name="key" type="S" value="{1C9D271E-2E15-4388-849C-7CD9517A5A95}"/>
-							</Node>
-							<Prp name="editor" type="S" value="{39B55514-E295-49CC-BFAA-9FC93C74B670}"/>
-							<Prp name="focused" type="S" value="{3C4F7EFE-B7E4-40FB-8A09-D0BDF5FDF759}"/>
-						</Node>
-						<Prp name="edititem" type="S" value="{A9668341-CA8A-4E61-8AD7-F686FD391ECB}"/>
-					</Node>
-					<Node name="2">
-						<Node name="editor">
-							<Prp name="editor" type="S" value="{B101560F-4F63-4BE2-8AD4-3EE030DBCA2B}"/>
-							<Prp name="focused" type="S" value="{193BB1B6-518B-4FA6-9859-13EB4638D1EB}"/>
-						</Node>
-						<Prp name="edititem" type="S" value="{25C37806-ADF4-46DA-8ACE-9899FCA45EC6}"/>
-					</Node>
-					<Prp name="docking" type="H" value="617162696E000000010000003E0300007801730C74F177F6E66680023520BD95878181890326828FFECA0491BDE3FDECBD7BEB47E7C59DD7AF94BE91E564DC03946006CAB5EEBC7CC322E691EF14E155AA0B0A96FE71038A3F038AFFE66360388469050B3ECB4072FFA1E0102303C3092C7CBCFA0F806441AE5A0B6200017F18E3C664FF47DE5D57EC1E18DC3EA5ED09749D10D0E46F40D7ED43761D175071304309432243119054600800B2D2195281A2747031D096CD400C027BB5AF98DD55FAEEBBC8B2C255B8F0A5054E07F30215BB001D0972B227432E4301433ED8E9AE0C110CAE4039FA387B23C8CD402012BAD572EAA3339EFB57CD3F6953B2AD00A7B381098F210418AEC54087A732A43038021D5E00E42930680165E8E36860FC130F00607795A6"/>
-					<Prp name="editorscount" type="I" value="3"/>
-					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="editorscount" type="I" value="0"/>
 				</Node>
 			</Node>
 			<Node name="{78a745b3-10ae-4253-9f16-55a8bcaf43c6}">
@@ -141,9 +97,7 @@
 						<Node name="testedapps"/>
 					</Node>
 				</Node>
-				<Node name="dataimportexeinstall logs">
-					<Node name="dataimportexeinstall logs"/>
-				</Node>
+				<Node name="dataimportexeinstall logs"/>
 			</Node>
 		</Node>
 		<Prp name="signature" type="S" value="{8EBE6EB3-803D-4913-AD7A-D71552123A67}"/>
