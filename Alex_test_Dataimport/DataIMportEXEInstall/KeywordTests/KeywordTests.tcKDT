@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="14.0">
 	<children>
-		<child name="DataImportEXE" key="{7C618EBA-9B52-42FB-9E21-D19DD8EE14B1}" path="DataImportEXE.tcKDTest" />
 		<child name="ODSDatabaseEXE" key="{2160CAFA-E0A1-4A50-B743-61D94918B811}" path="ODSDatabaseEXE.tcKDTest" />
 		<child name="ODSWebEXE" key="{157E8D3F-C7DE-4322-97A5-FDC7B54F49DE}" path="ODSWebEXE.tcKDTest" />
 		<child name="AdminAppEXE" key="{2A1509B6-47FC-4F08-894D-7D0DAD2252F7}" path="AdminAppEXE.tcKDTest" />
+		<child name="DataImportHappy" key="{6C366365-648C-4CA7-BFC0-8E7FC3C47B10}" path="DataImportHappy.tcKDTest" />
 	</children>
 </Root>

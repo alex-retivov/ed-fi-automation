@@ -772,6 +772,55 @@
 											</Property>
 										</Properties>
 									</Child>
+									<Child Name="cbxDatabase" Key="{30D348F2-7824-4DF7-BDB7-9FA3143F18DB}" ParallelWalk="True">
+										<Image FileName="394250674" Left="161" Top="300" Right="544" Bottom="326" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value PropertyType="0" Value="ComboBox" Type="5" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value PropertyType="0" Value="" Type="5" />
+											</Property>
+											<Property Name="Index">
+												<Value PropertyType="0" Value="2" Type="0" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="Edit" Key="{07C6FBFA-6ECE-4DC0-B475-E682F0BFB19A}" ParallelWalk="True">
+												<Image FileName="394250674" Left="165" Top="304" Right="519" Bottom="323" />
+												<TypeInfo Item0="{09BEA668-FDF3-4731-80EC-7C2AA5B9EBC2}" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value PropertyType="0" Value="Edit" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="Static" Key="{084F6C0D-5D55-4C18-9C2F-8561CF52BC25}" ParallelWalk="True">
+										<Image FileName="78411875" Left="45" Top="384" Right="461" Bottom="402" />
+										<TypeInfo Item0="{AA64EC37-F566-4E2C-8115-DC8F61B4CF85}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value PropertyType="0" Value="Static" Type="5" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value PropertyType="0" Value="Connection successful" Type="5" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="btnTestSqlConnection" Key="{3582AEF6-1B53-4128-985B-301A19D77F72}" ParallelWalk="True">
+										<Image FileName="-1554260804" Left="45" Top="438" Right="201" Bottom="466" />
+										<TypeInfo Item0="{E8120D96-32A8-403D-B0CE-1809CC8A3D0A}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value PropertyType="0" Value="Button" Type="5" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value PropertyType="0" Value="Test Sql Connection" Type="5" />
+											</Property>
+										</Properties>
+									</Child>
 								</Children>
 							</Child>
 						</Children>
@@ -863,6 +912,11 @@
 				<Child Name="btnNext" Owner="{9E1A71D3-F5F8-4E4C-85DC-21A20763A58B}" />
 				<Child Name="btnInstall" Owner="{F7AF6E1D-31C4-4614-A70E-88DEA8B96828}" />
 				<Child Name="btnFinish" Owner="{8A8C525E-C97E-4019-9350-4BA6A1603C59}" />
+				<Child Name="cbxDatabase" Owner="{30D348F2-7824-4DF7-BDB7-9FA3143F18DB}">
+					<Child Name="Edit" Owner="{07C6FBFA-6ECE-4DC0-B475-E682F0BFB19A}" />
+				</Child>
+				<Child Name="Static" Owner="{084F6C0D-5D55-4C18-9C2F-8561CF52BC25}" />
+				<Child Name="btnTestSqlConnection" Owner="{3582AEF6-1B53-4128-985B-301A19D77F72}" />
 			</Child>
 		</Child>
 	</LogicalNodes>
@@ -1175,6 +1229,67 @@
 					<Child Name="wState" Doc="Gets or sets the current state of the check box, that is, cbUnchecked, cbChecked or cbGrayed." IsBasic="True" Data="ZI4L2L4ZO3ZN">
 						<ReturnValue Param0="3" />
 					</Child>
+					<Child Name="SetFocus" Doc="Sets focus to the specified Window object." IsBasic="True" Data="ZI4L1L4ZN18ZN">
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="Click" Doc="Simulates a left-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="ZI4L1L4L3Z018ZN">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="TShiftKey" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="ClickR" Doc="Simulates a right-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="ZI4L1L4L3Z018ZN">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="TShiftKey" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="Keys" Doc="Simulates one or several keypresses." IsBasic="True" Param0="Keys" Data="ZI4L1L4L1Z018ZN">
+						<Param0>
+							<TypeDesc Param0="8" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="Visible" Doc="Specifies whether an onscreen object is visible to users." IsBasic="True" Data="ZI4L2L4ZOBZN">
+						<ReturnValue Param0="11" />
+					</Child>
+					<Child Name="Width" Doc="The object&apos;s width in pixels." IsBasic="True" Data="ZI4L2L4ZO3ZN">
+						<ReturnValue Param0="3" />
+					</Child>
+					<Child Name="Height" Doc="The object&apos;s height in pixels." IsBasic="True" Data="ZI4L2L4ZO3ZN">
+						<ReturnValue Param0="3" />
+					</Child>
+					<Child Name="Enabled" Doc="Specifies whether the object is enabled or disabled." IsBasic="True" Data="ZI4L2L4ZOBZN">
+						<ReturnValue Param0="11" />
+					</Child>
+					<Child Name="WndCaption" Doc="Returns the window&apos;s caption." IsBasic="True" Data="ZI4L2L4ZO8ZN">
+						<ReturnValue Param0="8" />
+					</Child>
+				</FunctionDescriptions>
+			</Data>
+		</Child>
+		<Child Hash="268948303" Key="{AA64EC37-F566-4E2C-8115-DC8F61B4CF85}">
+			<Data Properties="DFD68BD21747CB4DAF4C131AFF4414ABUFFFFFFFFFFFFFFFFV4L9ZZY">
+				<FunctionDescriptions>
 					<Child Name="SetFocus" Doc="Sets focus to the specified Window object." IsBasic="True" Data="ZI4L1L4ZN18ZN">
 						<ReturnValue Param0="24" />
 					</Child>
