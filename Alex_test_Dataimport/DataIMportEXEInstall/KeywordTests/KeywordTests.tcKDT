@@ -5,5 +5,6 @@
 		<child name="ODSWebEXE" key="{157E8D3F-C7DE-4322-97A5-FDC7B54F49DE}" path="ODSWebEXE.tcKDTest" />
 		<child name="AdminAppEXE" key="{2A1509B6-47FC-4F08-894D-7D0DAD2252F7}" path="AdminAppEXE.tcKDTest" />
 		<child name="DataImportHappy" key="{6C366365-648C-4CA7-BFC0-8E7FC3C47B10}" path="DataImportHappy.tcKDTest" />
+		<child name="DataImportRemoveHappy" key="{E4A1391B-83EF-4A94-A3B1-D8377B6554B6}" path="DataImportRemoveHappy.tcKDTest" />
 	</children>
 </Root>

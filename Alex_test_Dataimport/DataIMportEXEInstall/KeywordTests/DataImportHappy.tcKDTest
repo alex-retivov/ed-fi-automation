@@ -3,7 +3,10 @@
 	<TestData Description="" Key="{FE1DD67E-AED6-4D7A-BA5E-4D7078A7858B}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
 		<Data>
 			<Extenders>
-				<NodeBitmaps />
+				<NodeBitmaps>
+					<Bitmap Name="Aliases.Ed_Fi_DataImport_1_0_725_pre" Data="61717A697000000001000000360400007801CD524D6B1351144DA90BDD48378D59C60F6289BA3410B2292EB229FE007722410D7EC40FB0AB62164253836009C6656D4141AB2E621409620D741128A92660A124A5E4CB4CD2A49974DA99349979C737EFA543232A7521F4C2BBEFDC7BCF39DC79CCB9F38E0326160E9A87E819E89E3E9395221ADD392F78C67F8CC0D7CE3FBB67EB1AD3A884E07389E344034836F766B558E69A63CFDB4CF04600469240B61007211AE6BF857E6B343BD7627D7B5861F7F1176D8C658093F3C0CBD82528ADBF2F20D0BD758F7599E0D453055BF4D36D54AB87DC1221BC33435CBC8C4AD4022132C807DD5C5CDA66C8E96DC0754DA47B12D8A9C795EF9CA06B0851512F7E3474AA5236B0B0D2C6FB49BE9FD32BB2FE9385DEB7976BABF8F2AC1F73537DE8B4D60DED0E98F2D5F0F842151E731E9E23795C1CC8ED8C90F9E047ECEE217CBA7798F5E233078D990E7C832928926AF4B40E6138743682E8E8341E9EBEC1EAB8FF286277B8566E660DBE0EA20F7EE0B6258D71D7326E995350B75504ACAF18479164DC770F43AC56B01076F7E87E2D3495402C6C2278E23582B63092336904CFDC6434DD430F4DE5FF062B76A547436F51596AA059DA42723A855CA248DFAA8D09FB75C692EAF55DEC3FC38DB284B565CE9DBD1A3688CAA664E0FD027E02F30FAA39" />
+					<Bitmap Name="Aliases.Ed_Fi_DataImport_1_0_725_pre.dlgEdFiDataImportSetup" Data="61717A697000000001000000360400007801C591CD4B024118C69FA03FA03FA163C7E8E0A14BD42528A2637436BC4404753028A420F42044501991111925E42582923A4474F250418720A8285A5357F37B77DD8F59B7D955635D45EAE40CCF30C3F0FCE699F71D1AB375C21836BAF6507555D5816EBAA3A37A5F3954560DED9FE1C006A6466CFF9239B5EE57B81C94620672210D39978294652165E290D2319412EF109867706F8FE05E1E8C77AC7E22145A32C4148352EC15FCC753737F89430323FF4DB324698E8491A3C6D0FF6A7D5F1579902A83F0799A250B45FF4B1386D57F75E4832A8B50250144E70845B46258FD37213FCA44FE1B83D6D5EA8F9C1DA2AC92168CFADE58FD771741689AD6C030D7C4DC5FAB3F79E2852E36E801BBBF88F8F62C626B767CB927C0B846C13807F139DFFFAB88BDB7AEFEBA57BB0D40BDF6835CFAA09CAF433EF5420AAD420CBA200416C0EFCD81DF994671CB817B475F83BF962179EC067BB08CC4AE13F1CD994A0ECF24A22BE3882E0DD32C03460E73FFDBB9FF01EBA33263" />
+				</NodeBitmaps>
 			</Extenders>
 		</Data>
 		<Children>
@@ -17,7 +20,7 @@
 				</Data>
 			</Operation>
 			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
-				<Data Description="Clicks the &apos;%n&apos; button." Action="ClickButton" InvokeKind="-1" Initialized="True">
+				<Data Description="Clicks the &apos;%n&apos; button." Action="ClickButton">
 					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.Ed_Fi_DataImport_1_0_725_pre.dlgEdFiDataImportSetup.btnNext;" />
 				</Data>
 			</Operation>
@@ -33,7 +36,7 @@
 				</Data>
 			</Operation>
 			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
-				<Data Description="Clicks the &apos;%n&apos; button." Action="ClickButton" InvokeKind="-1" Initialized="True">
+				<Data Description="Clicks the &apos;%n&apos; button." Action="ClickButton">
 					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.Ed_Fi_DataImport_1_0_725_pre.dlgEdFiDataImportSetup.btnNext;" />
 				</Data>
 			</Operation>
@@ -49,18 +52,26 @@
 				</Data>
 			</Operation>
 			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
-				<Data Description="Clicks the &apos;%n&apos; object." Action="Click" InvokeKind="-1" Initialized="True">
+				<Data Description="Clicks the &apos;%n&apos; object." Action="Click">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="Param1" DefVarType="0" VarType="3" ValueType="1" ValueValue="19" />
-						<Parameter Name="Param2" DefVarType="0" VarType="3" ValueType="1" ValueValue="5" />
+						<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="19" />
+						<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="5" />
+						<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+							<Values IsEnum="True">
+								<Value Type="1" Value="0" Text="skNoShift" />
+								<Value Type="1" Value="8192" Text="skShift" />
+								<Value Type="1" Value="32768" Text="skAlt" />
+								<Value Type="1" Value="16384" Text="skCtrl" />
+							</Values>
+						</Parameter>
 					</Parameters>
 					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.Ed_Fi_DataImport_1_0_725_pre.dlgEdFiDataImportSetup.cbxServer.Edit;" />
 				</Data>
 			</Operation>
 			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
-				<Data Description="Enters the text %p1 in the &apos;%n&apos; text editor." Action="SetText" InvokeKind="-1" Initialized="True">
+				<Data Description="Enters the text %p1 in the &apos;%n&apos; text editor." Action="SetText">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="Param1" DefVarType="0" VarType="8" ValueType="6" ValueValue="EDFISERVER" />
+						<Parameter Name="Text" DefVarType="8" VarType="8" ValueType="6" ValueValue="EDFISERVER" />
 					</Parameters>
 					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.Ed_Fi_DataImport_1_0_725_pre.dlgEdFiDataImportSetup.cbxServer;" />
 				</Data>
@@ -77,7 +88,7 @@
 				</Data>
 			</Operation>
 			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
-				<Data Description="Clicks the &apos;%n&apos; button." Action="ClickButton" InvokeKind="-1" Initialized="True">
+				<Data Description="Clicks the &apos;%n&apos; button." Action="ClickButton">
 					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.Ed_Fi_DataImport_1_0_725_pre.dlgEdFiDataImportSetup.btnTestSqlConnection;" />
 				</Data>
 			</Operation>
@@ -93,7 +104,7 @@
 				</Data>
 			</Operation>
 			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
-				<Data Description="Clicks the &apos;%n&apos; button." Action="ClickButton" InvokeKind="-1" Initialized="True">
+				<Data Description="Clicks the &apos;%n&apos; button." Action="ClickButton">
 					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.Ed_Fi_DataImport_1_0_725_pre.dlgEdFiDataImportSetup.btnNext;" />
 				</Data>
 			</Operation>
@@ -109,18 +120,26 @@
 				</Data>
 			</Operation>
 			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
-				<Data Description="Clicks the &apos;%n&apos; object." Action="Click" InvokeKind="-1" Initialized="True">
+				<Data Description="Clicks the &apos;%n&apos; object." Action="Click">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="Param1" DefVarType="0" VarType="3" ValueType="1" ValueValue="50" />
-						<Parameter Name="Param2" DefVarType="0" VarType="3" ValueType="1" ValueValue="7" />
+						<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="50" />
+						<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="7" />
+						<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+							<Values IsEnum="True">
+								<Value Type="1" Value="0" Text="skNoShift" />
+								<Value Type="1" Value="8192" Text="skShift" />
+								<Value Type="1" Value="32768" Text="skAlt" />
+								<Value Type="1" Value="16384" Text="skCtrl" />
+							</Values>
+						</Parameter>
 					</Parameters>
 					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.Ed_Fi_DataImport_1_0_725_pre.dlgEdFiDataImportSetup.editUserName;" />
 				</Data>
 			</Operation>
 			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
-				<Data Description="Enters the text %p1 in the &apos;%n&apos; text editor." Action="SetText" InvokeKind="-1" Initialized="True">
+				<Data Description="Enters the text %p1 in the &apos;%n&apos; text editor." Action="SetText">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="Param1" DefVarType="0" VarType="8" ValueType="6" ValueValue="alexretivov" />
+						<Parameter Name="Text" DefVarType="8" VarType="8" ValueType="6" ValueValue="alexretivov" />
 					</Parameters>
 					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.Ed_Fi_DataImport_1_0_725_pre.dlgEdFiDataImportSetup.editUserName;" />
 				</Data>
@@ -137,29 +156,45 @@
 				</Data>
 			</Operation>
 			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
-				<Data Description="Clicks the &apos;%n&apos; object." Action="Click" InvokeKind="-1" Initialized="True">
+				<Data Description="Clicks the &apos;%n&apos; object." Action="Click">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="Param1" DefVarType="0" VarType="3" ValueType="1" ValueValue="86" />
-						<Parameter Name="Param2" DefVarType="0" VarType="3" ValueType="1" ValueValue="12" />
+						<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="86" />
+						<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="12" />
+						<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+							<Values IsEnum="True">
+								<Value Type="1" Value="0" Text="skNoShift" />
+								<Value Type="1" Value="8192" Text="skShift" />
+								<Value Type="1" Value="32768" Text="skAlt" />
+								<Value Type="1" Value="16384" Text="skCtrl" />
+							</Values>
+						</Parameter>
 					</Parameters>
 					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.Ed_Fi_DataImport_1_0_725_pre.dlgEdFiDataImportSetup.editDomain;" />
 				</Data>
 			</Operation>
 			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
-				<Data Description="Drags the &apos;%n&apos; object." Action="Drag" InvokeKind="-1" Initialized="True">
+				<Data Description="Drags the &apos;%n&apos; object." Action="Drag">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="Param1" DefVarType="0" VarType="3" ValueType="1" ValueValue="86" />
-						<Parameter Name="Param2" DefVarType="0" VarType="3" ValueType="1" ValueValue="12" />
-						<Parameter Name="Param3" DefVarType="0" VarType="3" ValueType="1" ValueValue="-101" />
-						<Parameter Name="Param4" DefVarType="0" VarType="3" ValueType="1" ValueValue="-3" />
+						<Parameter Name="ClientX" DefVarType="3" VarType="3" ValueType="1" ValueValue="86" />
+						<Parameter Name="ClientY" DefVarType="3" VarType="3" ValueType="1" ValueValue="12" />
+						<Parameter Name="toX" DefVarType="3" VarType="3" ValueType="1" ValueValue="-101" />
+						<Parameter Name="toY" DefVarType="3" VarType="3" ValueType="1" ValueValue="-3" />
+						<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+							<Values IsEnum="True">
+								<Value Type="1" Value="0" Text="skNoShift" />
+								<Value Type="1" Value="8192" Text="skShift" />
+								<Value Type="1" Value="32768" Text="skAlt" />
+								<Value Type="1" Value="16384" Text="skCtrl" />
+							</Values>
+						</Parameter>
 					</Parameters>
 					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.Ed_Fi_DataImport_1_0_725_pre.dlgEdFiDataImportSetup.editDomain;" />
 				</Data>
 			</Operation>
 			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
-				<Data Description="Enters the text %p1 in the &apos;%n&apos; text editor." Action="SetText" InvokeKind="-1" Initialized="True">
+				<Data Description="Enters the text %p1 in the &apos;%n&apos; text editor." Action="SetText">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="Param1" DefVarType="0" VarType="8" ValueType="6" ValueValue="EDFISERVER" />
+						<Parameter Name="Text" DefVarType="8" VarType="8" ValueType="6" ValueValue="EDFISERVER" />
 					</Parameters>
 					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.Ed_Fi_DataImport_1_0_725_pre.dlgEdFiDataImportSetup.editDomain;" />
 				</Data>
@@ -176,29 +211,37 @@
 				</Data>
 			</Operation>
 			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
-				<Data Description="Clicks the &apos;%n&apos; object." Action="Click" InvokeKind="-1" Initialized="True">
+				<Data Description="Clicks the &apos;%n&apos; object." Action="Click">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="Param1" DefVarType="0" VarType="3" ValueType="1" ValueValue="44" />
-						<Parameter Name="Param2" DefVarType="0" VarType="3" ValueType="1" ValueValue="11" />
+						<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="44" />
+						<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="11" />
+						<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+							<Values IsEnum="True">
+								<Value Type="1" Value="0" Text="skNoShift" />
+								<Value Type="1" Value="8192" Text="skShift" />
+								<Value Type="1" Value="32768" Text="skAlt" />
+								<Value Type="1" Value="16384" Text="skCtrl" />
+							</Values>
+						</Parameter>
 					</Parameters>
 					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.Ed_Fi_DataImport_1_0_725_pre.dlgEdFiDataImportSetup.editPassword;" />
 				</Data>
 			</Operation>
 			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
-				<Data Description="Enters the text %p1 in the &apos;%n&apos; text editor." Action="SetText" InvokeKind="-1" Initialized="True">
+				<Data Description="Enters the text %p1 in the &apos;%n&apos; text editor." Action="SetText">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="Param1" DefVarType="0" VarType="8" ValueType="6" ValueValue="March1234$" />
+						<Parameter Name="Text" DefVarType="8" VarType="8" ValueType="6" ValueValue="March1234$" />
 					</Parameters>
 					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.Ed_Fi_DataImport_1_0_725_pre.dlgEdFiDataImportSetup.editPassword;" />
 				</Data>
 			</Operation>
 			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
-				<Data Description="Clicks the &apos;%n&apos; button." Action="ClickButton" InvokeKind="-1" Initialized="True">
+				<Data Description="Clicks the &apos;%n&apos; button." Action="ClickButton">
 					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.Ed_Fi_DataImport_1_0_725_pre.dlgEdFiDataImportSetup.btnNext;" />
 				</Data>
 			</Operation>
 			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
-				<Data Description="Clicks the &apos;%n&apos; button." Action="ClickButton" InvokeKind="-1" Initialized="True">
+				<Data Description="Clicks the &apos;%n&apos; button." Action="ClickButton">
 					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.Ed_Fi_DataImport_1_0_725_pre.dlgEdFiDataImportSetup.btnInstall;" />
 				</Data>
 			</Operation>
@@ -214,7 +257,7 @@
 				</Data>
 			</Operation>
 			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
-				<Data Description="Clicks the &apos;%n&apos; button." Action="ClickButton" InvokeKind="-1" Initialized="True">
+				<Data Description="Clicks the &apos;%n&apos; button." Action="ClickButton">
 					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.Ed_Fi_DataImport_1_0_725_pre.dlgEdFiDataImportSetup.btnFinish;" />
 				</Data>
 			</Operation>

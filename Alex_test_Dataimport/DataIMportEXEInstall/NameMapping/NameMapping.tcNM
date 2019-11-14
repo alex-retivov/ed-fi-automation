@@ -821,6 +821,33 @@
 											</Property>
 										</Properties>
 									</Child>
+									<Child Name="btn" Key="{4AA7EFC1-31BC-4601-8EAF-79C84C55A598}" ParallelWalk="True">
+										<Image FileName="-319095989" Left="86" Top="303" Right="149" Bottom="366" />
+										<TypeInfo Item0="{E8120D96-32A8-403D-B0CE-1809CC8A3D0A}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value PropertyType="0" Value="Button" Type="5" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value PropertyType="0" Value="" Type="5" />
+											</Property>
+											<Property Name="Index">
+												<Value PropertyType="0" Value="3" Type="0" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="btnRemove" Key="{44DC875A-5A4F-490D-8F3A-261D661F74DC}" ParallelWalk="True">
+										<Image FileName="-1934073256" Left="396" Top="437" Right="489" Bottom="465" />
+										<TypeInfo Item0="{E8120D96-32A8-403D-B0CE-1809CC8A3D0A}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value PropertyType="0" Value="Button" Type="5" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value PropertyType="0" Value="&amp;Remove" Type="5" />
+											</Property>
+										</Properties>
+									</Child>
 								</Children>
 							</Child>
 						</Children>
@@ -917,6 +944,8 @@
 				</Child>
 				<Child Name="Static" Owner="{084F6C0D-5D55-4C18-9C2F-8561CF52BC25}" />
 				<Child Name="btnTestSqlConnection" Owner="{3582AEF6-1B53-4128-985B-301A19D77F72}" />
+				<Child Name="btn" Owner="{4AA7EFC1-31BC-4601-8EAF-79C84C55A598}" />
+				<Child Name="btnRemove" Owner="{44DC875A-5A4F-490D-8F3A-261D661F74DC}" />
 			</Child>
 		</Child>
 	</LogicalNodes>
