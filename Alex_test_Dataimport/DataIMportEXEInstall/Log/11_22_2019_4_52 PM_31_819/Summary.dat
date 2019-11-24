@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="projects">
+			<Node name="project0">
+				<Node name="tests">
+					<Node name="test0">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="duration" type="I" value="31310"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA0ADYAMgBGADgANwAxAEUALQBBAEQAMABFAC0ANAAzADIAMAAtAEIAOAA3ADkALQA4AEMAQQA5ADMAOABGADEAMwAzADEANwB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="starttime" type="D" value="43791.7031462847"/>
+						<Prp name="durationwithoutchildren" type="I" value="31310"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="name" type="S" value="Data Import Install"/>
+					</Node>
+				</Node>
+				<Prp name="warningtests" type="I" value="0"/>
+				<Prp name="duration" type="I" value="31310"/>
+				<Prp name="incompletedtests" type="I" value="0"/>
+				<Prp name="starttime" type="D" value="43791.7031462847"/>
+				<Prp name="failedtests" type="I" value="0"/>
+				<Prp name="name" type="S" value="DataIMportEXEInstall"/>
+			</Node>
+		</Node>
+		<Prp name="key" type="S" value="{55EAEAA3-84FC-4300-9D70-7B3C2FED4AF1}"/>
+		<Prp name="failedtests" type="I" value="0"/>
+		<Prp name="incompletedtests" type="I" value="0"/>
+		<Prp name="name" type="S" value="DataIMportEXEInstall"/>
+		<Prp name="tests" type="I" value="1"/>
+		<Prp name="user" type="S" value="alexretivov"/>
+		<Prp name="warningtests" type="I" value="0"/>
+		<Prp name="testname" type="S" value="DataIMportEXEInstall"/>
+		<Prp name="starttime" type="D" value="43791.703146169"/>
+		<Prp name="stop" type="D" value="43791.7035190856"/>
+		<Prp name="executionstatus" type="I" value="0"/>
+		<Prp name="host" type="S" value="EDFISERVER"/>
+	</Node>
+</Nodes>

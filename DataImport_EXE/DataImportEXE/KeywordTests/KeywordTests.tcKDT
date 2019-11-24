@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="14.0">
+	<children>
+		<folder name="Start And Stop EXE">
+			<child name="openNext" key="{2EBAC446-60EF-4CBD-BAB5-A911A8F71659}" path="openNext.tcKDTest" />
+			<child name="finish" key="{63E07845-1D83-4048-BEB1-9E4DA048D8DA}" path="finish.tcKDTest" />
+			<child name="installerFolder" key="{73E96AD4-6333-401F-91B8-8E9750C8C960}" path="installerFolder.tcKDTest" />
+			<child name="sqlConnection" key="{24A8EBD5-5FDE-407C-A486-5E8975E02994}" path="sqlConnection.tcKDTest" />
+			<child name="install" key="{AB2926E1-A7CD-4399-B7D7-9186F4E492E5}" path="install.tcKDTest" />
+			<child name="remove" key="{EE7888A8-29AE-4FF7-B86A-3D92D86C96EA}" path="remove.tcKDTest" />
+			<child name="IISApplicationPoolLocal" key="{D07FFD3D-3963-43E8-A701-C33D87C75E2F}" path="IISApplicationPoolLocal.tcKDTest" />
+		</folder>
+		<folder name="baseInstallHappy">
+			<child name="exeLocal" key="{64E0654F-BE4D-4D7A-8ADE-E0DA7BDAE880}" path="exeLocal.tcKDTest" />
+		</folder>
+		<folder name="baseRemove">
+			<child name="exeRemove" key="{BCA25083-78C9-486B-8432-3F46C02C795D}" path="exeRemove.tcKDTest" />
+		</folder>
+	</children>
+</Root>
