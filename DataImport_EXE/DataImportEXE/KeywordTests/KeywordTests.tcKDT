@@ -9,6 +9,7 @@
 			<child name="install" key="{AB2926E1-A7CD-4399-B7D7-9186F4E492E5}" path="install.tcKDTest" />
 			<child name="remove" key="{EE7888A8-29AE-4FF7-B86A-3D92D86C96EA}" path="remove.tcKDTest" />
 			<child name="IISApplicationPoolLocal" key="{D07FFD3D-3963-43E8-A701-C33D87C75E2F}" path="IISApplicationPoolLocal.tcKDTest" />
+			<child name="cancelInstall" key="{71575A80-3C55-4C61-B588-A08804A9CA54}" path="cancelInstall.tcKDTest" />
 		</folder>
 		<folder name="baseInstallHappy">
 			<child name="exeLocal" key="{64E0654F-BE4D-4D7A-8ADE-E0DA7BDAE880}" path="exeLocal.tcKDTest" />
