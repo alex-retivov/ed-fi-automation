@@ -9,7 +9,16 @@
 	</children>
 	<config language="{90F89436-9452-4F95-9882-6B5210079F13}" />
 	<testItems key="{6F806521-061E-424C-8CA6-5774C656ED87}" version="14">
-		<children />
+		<children>
+			<testItem name="exeLocal" key="{E52E4DB0-E974-4C83-904A-6371966B8BFE}" group="False" enabled="True" testMoniker="KDT\{64E0654F-BE4D-4D7A-8ADE-E0DA7BDAE880}" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<children />
+			</testItem>
+			<testItem name="exeRemove" key="{18157691-1C35-4E34-AEC5-C7CC24C46874}" group="False" enabled="True" testMoniker="KDT\{BCA25083-78C9-486B-8432-3F46C02C795D}" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<children />
+			</testItem>
+		</children>
 	</testItems>
 	<variables key="{6A62E593-EEE7-42A2-AF42-768C95383441}">
 		<data Version="3" />
@@ -530,7 +539,7 @@
 			</data>
 		</setting>
 		<setting name="Playback_OverlappingWindow_IgnoreOverlappingWindow" type="1" value="False" />
-		<setting name="Playback_Runtime_AutoWaitTimeout" type="2" value="35000" />
+		<setting name="Playback_Runtime_AutoWaitTimeout" type="2" value="10000" />
 		<setting name="Playback_Runtime_DelayBetweenEvents" type="2" value="50" />
 		<setting name="Playback_Runtime_DisableMouse" type="1" value="False" />
 		<setting name="Playback_Runtime_MinimizeBeforePlayback" type="1" value="True" />

@@ -28,6 +28,9 @@
 									<Property Name="WndCaption">
 										<Value PropertyType="0" Value="Ed-Fi Data Import Setup" Type="5" />
 									</Property>
+									<Property Name="Visible">
+										<Value PropertyType="0" Value="True" Type="6" />
+									</Property>
 								</Properties>
 								<Children>
 									<Child Name="btnNext" Key="{72429EF8-8143-4DDE-85A1-E1D0CC1C3C32}" ParallelWalk="True">
@@ -39,6 +42,9 @@
 											</Property>
 											<Property Name="WndCaption">
 												<Value PropertyType="0" Value="&amp;Next &gt;" Type="5" />
+											</Property>
+											<Property Name="Visible">
+												<Value PropertyType="0" Value="True" Type="6" />
 											</Property>
 										</Properties>
 									</Child>
@@ -129,6 +135,9 @@
 												<Properties>
 													<Property Name="WndClass">
 														<Value PropertyType="0" Value="Edit" Type="5" />
+													</Property>
+													<Property Name="Visible">
+														<Value PropertyType="0" Value="True" Type="6" />
 													</Property>
 												</Properties>
 											</Child>
