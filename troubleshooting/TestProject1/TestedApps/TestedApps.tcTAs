@@ -10,7 +10,7 @@
 					<param name="RunAs" parameters="" workFolder="C:\Users\alexretivov\Desktop\DataImportInstallers" userName="" password="" domain="" />
 					<param name="Profile" parameters="" workFolder="C:\Users\alexretivov\Desktop\DataImportInstallers" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="0" forceRunMode="False" />
 					<param name="Debug" parameters="" workFolder="C:\Users\alexretivov\Desktop\DataImportInstallers" />
-					<param name="Simple" fileName="Ed-Fi_DataImport_1.0.732-pre.exe" filePath="C:\Users\alexretivov\Desktop\DataImportInstallers\" parameters="" workFolder="C:\Users\alexretivov\Desktop\DataImportInstallers" />
+					<param name="Simple" fileName="Ed-Fi_DataImport_1.0.732-pre.exe" filePath="C:\Users\odstoolsadmin\Desktop\DataImportInstallers\" parameters="" workFolder="C:\Users\alexretivov\Desktop\DataImportInstallers" />
 				</runModeParams>
 			</config>
 			<testData />

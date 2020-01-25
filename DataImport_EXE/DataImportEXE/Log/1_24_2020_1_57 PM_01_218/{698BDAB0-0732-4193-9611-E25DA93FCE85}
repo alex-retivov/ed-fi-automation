@@ -1,0 +1,704 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="child data"/>
+		<Node name="message 0">
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The application &quot;C:\Users\odstoolsadmin\Desktop\DataImportInstallers\Ed-Fi_DataImport_1.0.743.exe&quot; started."/>
+			<Prp name="remarks" type="S" value="The process ID is 764."/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="date" type="D" value="43854.5812665278"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 13">
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The text editor is disabled. The action cannot be executed."/>
+			<Prp name="remarks" type="S" value="&#xA;&#xA;Tested object:&#xA;Aliases.Ed_Fi_DataImport_1_0_743.dlgEdFiDataImportSetup.editDomain&#xA;(Sys.Process(&quot;Ed-Fi_DataImport_1.0.743&quot;).Window(&quot;#32770&quot;, &quot;Ed-Fi Data Import Setup&quot;, 1).Window(&quot;Edit&quot;, &quot;&quot;, 2))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="stack end" type="I" value="8"/>
+			<Prp name="stack beginning" type="I" value="8"/>
+			<Prp name="date" type="D" value="43854.5829278125"/>
+			<Prp name="picture" type="S" value="Picture9.png"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="id" type="I" value="13"/>
+			<Prp name="line no" type="I" value="13"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="item 10">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="15"/>
+			<Prp name="stacktext" type="S" value="Test2()"/>
+		</Node>
+		<Node name="item 11">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="18"/>
+			<Prp name="stacktext" type="S" value="Test2()"/>
+		</Node>
+		<Node name="item 6">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="11"/>
+			<Prp name="stacktext" type="S" value="Test2()"/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{FC7DEBFA-9FBD-4180-BA54-72043D2F4DD6}"/>
+		</Node>
+		<Node name="item 12">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="18"/>
+			<Prp name="stacktext" type="S" value="Test2()"/>
+		</Node>
+		<Node name="message 7">
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Unable to verify a value with the property checkpoint, because the target object does not exist."/>
+			<Prp name="remarks" type="S" value="&lt;!doctype html&gt; &lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;} th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;style&gt;.wide{width: 100%; margin: 0; padding:0; border:0;} .clsimg{width: 200px; margin: auto; border:0} td.row1{width: *;}  td.row2{width: 250px;}&lt;/style&gt;&lt;body&gt;&lt;div class=&quot;wide&quot;&gt;&lt;table class=&quot;wide&quot;&gt;&lt;thead&gt;&lt;tr&gt;&lt;td class=&quot;row1&quot;&gt;&lt;/td&gt;&lt;td class=&quot;row2&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;p&gt;Unable to find the following object when executing the &lt;code&gt;Property Checkpoint&lt;/code&gt; command:&lt;/p&gt;&lt;p style=&quot;margin-left: 10px;&quot;&gt;&lt;code&gt;Aliases.&amp;#8203;Ed_Fi_DataImport_1_0_743.&amp;#8203;dlgEdFiDataImportSetup.&amp;#8203;&lt;a href=&quot;lnamemapping://{72870BF6-5A62-4544-BB25-41ACC3DC086E}.Aliases.Ed_Fi_DataImport_1_0_743.dlgEdFiDataImportSetup.Static&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;Static&lt;/span&gt;&lt;/a&gt;&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; }&lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;helpme://54Wh5r2zAQAEAHJvb3QHAAcAcGljZmlsZQEAKgB7MTg1MDUxMTMtQzg4RC00OTVFLUE3RkMtMDQ2&#xA;NEE2MEQ2NzQwfS5wbmcGAGNvbmZpZwEAFQBEZWZhdWx0IENvbmZpZ3VyYXRpb24EAHR5cGUBAAsA&#xA;UmVjb2duaXRpb24CAG5tAQAkADUzNzJFM0U3eDM1NjJ4NEYwMHhCQkM0eEQ1MzgxQjlFNzgwRgcA&#xA;cHJvamVjdAEAJAA3Mjg3MEJGNng1QTYyeDQ1NDR4QkIyNXg0MUFDQzNEQzA4NkUJAHByb3Bjb3Vu&#xA;dAAAAgAIAGNhbGxuYW1lAQA+AEFsaWFzZXMuRWRfRmlfRGF0YUltcG9ydF8xXzBfNzQzLmRsZ0Vk&#xA;RmlEYXRhSW1wb3J0U2V0dXAuU3RhdGljBAALAGZvdW5kdmFsdWVzAgABADABABkAQDUzMDA3NDAw&#xA;NjEwMDc0MDA2OTAwNjMwMAEAMQEAIQBAMjYwMDQ2MDA2RjAwNkMwMDY0MDA2NTAwNzIwMDNBMDAA&#xA;AAYAdmFsdWVzAgABADABABkAQDUzMDA3NDAwNjEwMDc0MDA2OTAwNjMwMAEAMQEAVQBANDMwMDZG&#xA;MDA2RTAwNkUwMDY1MDA2MzAwNzQwMDY5MDA2RjAwNkUwMDIwMDA3MzAwNzUwMDYzMDA2MzAwNjUw&#xA;MDczMDA3MzAwNjYwMDc1MDA2QzAwAAAHAG1hdGNoZWQCAAEAMAAA77+/57+/AQAxAAABAAAABQBu&#xA;YW1lcwIAAQAwAQAIAFduZENsYXNzAQAxAQAKAFduZENhcHRpb24AAA==&quot;&gt;Intelligent Fix&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;The &lt;span style=&quot;color: red;&quot;&gt;missing object&lt;/span&gt; could be absent during the test run. Check the screenshot on the &lt;a href=&quot;showpicture://pic&quot;&gt;Picture&lt;/a&gt;  tab if the object existed.&lt;/li&gt;&lt;li&gt;If the object existed, &lt;a href=&quot;lnamemapping://{72870BF6-5A62-4544-BB25-41ACC3DC086E}.Aliases.Ed_Fi_DataImport_1_0_743.dlgEdFiDataImportSetup.Static&quot;&gt;view and change&lt;/a&gt; its recognition attributes.&lt;/li&gt;&lt;li&gt;If the object didn't exist, check if earlier test steps worked correctly.&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;aqa-help://2201&quot;&gt;Learn more&lt;/a&gt; about possible causes of the error.&lt;/li&gt;&lt;/ul&gt;&lt;/td&gt;&lt;td style=&quot;vertical-align:top;text-align:center&quot;&gt; &lt;a href=&quot;showpicturedialog://%%LogDir%%\{5372E3E7-3562-4F00-BBC4-D5381B9E780F}.png&quot;&gt; &lt;img title=&quot;The expected state of the tested application. The missing object (red frame) and the called test object (blue frame).&quot; class=&quot;clsimg&quot; src=&quot;%%LogDir%%\{5372E3E7-3562-4F00-BBC4-D5381B9E780F}.png&quot;&gt; &lt;/a&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="stack end" type="I" value="4"/>
+			<Prp name="stack beginning" type="I" value="4"/>
+			<Prp name="date" type="D" value="43854.5827350694"/>
+			<Prp name="picture" type="S" value="Picture5.png"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="id" type="I" value="7"/>
+			<Prp name="line no" type="I" value="7"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 15">
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The object &quot;editPassword&quot; does not exist."/>
+			<Prp name="remarks" type="S" value="&lt;!doctype html&gt; &lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;} th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;style&gt;.wide{width: 100%; margin: 0; padding:0; border:0;} .clsimg{width: 200px; margin: auto; border:0} td.row1{width: *;}  td.row2{width: 250px;}&lt;/style&gt;&lt;body&gt;&lt;div class=&quot;wide&quot;&gt;&lt;table class=&quot;wide&quot;&gt;&lt;thead&gt;&lt;tr&gt;&lt;td class=&quot;row1&quot;&gt;&lt;/td&gt;&lt;td class=&quot;row2&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;p&gt;Unable to find the following object when executing the &lt;code&gt;SetText&lt;/code&gt; command:&lt;/p&gt;&lt;p style=&quot;margin-left: 10px;&quot;&gt;&lt;code&gt;Aliases.&amp;#8203;Ed_Fi_DataImport_1_0_743.&amp;#8203;dlgEdFiDataImportSetup.&amp;#8203;&lt;a href=&quot;lnamemapping://{72870BF6-5A62-4544-BB25-41ACC3DC086E}.Aliases.Ed_Fi_DataImport_1_0_743.dlgEdFiDataImportSetup.editPassword&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;editPassword&lt;/span&gt;&lt;/a&gt;&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; }&lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;helpme://54Wh5r2zAQAEAHJvb3QHAAcAcGljZmlsZQEAKgB7NjExMDU4ODgtNTVFMy00MTYzLUI3ODEtMTY5&#xA;NzdDQTg3RTUxfS5wbmcCAG5tAQAkAEM3QUVGOTJBeEQzRUN4NDM2Nng4QUMyeDBEMDY3NEY3RkYx&#xA;OQcAcHJvamVjdAEAJAA3Mjg3MEJGNng1QTYyeDQ1NDR4QkIyNXg0MUFDQzNEQzA4NkUIAGNhbGxu&#xA;YW1lAQBEAEFsaWFzZXMuRWRfRmlfRGF0YUltcG9ydF8xXzBfNzQzLmRsZ0VkRmlEYXRhSW1wb3J0&#xA;U2V0dXAuZWRpdFBhc3N3b3JkBAB0eXBlAQALAFJlY29nbml0aW9uCQBwcm9wY291bnQAAAMABgBj&#xA;b25maWcBABUARGVmYXVsdCBDb25maWd1cmF0aW9uBAAGAHZhbHVlcwMAAQAwAQARAEA0NTAwNjQw&#xA;MDY5MDA3NDAwAQAyAQAgADAzMDAwMDAwMDAwMDAwMDAwMzAwMDAwMDAwMDAwMDAwAQAxAQABAEAA&#xA;AAUAbmFtZXMDAAEAMAEACABXbmRDbGFzcwEAMgEABQBJbmRleAEAMQEACgBXbmRDYXB0aW9uAAAL&#xA;AGZvdW5kdmFsdWVzAwABADABABEAQDQ1MDA2NDAwNjkwMDc0MDABADIBACAAMDMwMDAwMDAwMDAw&#xA;MDAwMDAxMDAwMDAwMDAwMDAwMDABADEBAAEAQAAABwBtYXRjaGVkAwABADAAAO+/v+e/vwEAMgAA&#xA;AAABADEAAO+/v+e/vwAA&quot;&gt;Intelligent Fix&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;The &lt;span style=&quot;color: red;&quot;&gt;missing object&lt;/span&gt; could be absent during the test run. Check the screenshot on the &lt;a href=&quot;showpicture://pic&quot;&gt;Picture&lt;/a&gt;  tab if the object existed.&lt;/li&gt;&lt;li&gt;If the object existed, &lt;a href=&quot;lnamemapping://{72870BF6-5A62-4544-BB25-41ACC3DC086E}.Aliases.Ed_Fi_DataImport_1_0_743.dlgEdFiDataImportSetup.editPassword&quot;&gt;view and change&lt;/a&gt; its recognition attributes.&lt;/li&gt;&lt;li&gt;If the object didn't exist, check if earlier test steps worked correctly.&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;aqa-help://2201&quot;&gt;Learn more&lt;/a&gt; about possible causes of the error.&lt;/li&gt;&lt;/ul&gt;&lt;/td&gt;&lt;td style=&quot;vertical-align:top;text-align:center&quot;&gt; &lt;a href=&quot;showpicturedialog://%%LogDir%%\{C7AEF92A-D3EC-4366-8AC2-0D0674F7FF19}_1.png&quot;&gt; &lt;img title=&quot;The expected state of the tested application. The missing object (red frame) and the called test object (blue frame).&quot; class=&quot;clsimg&quot; src=&quot;%%LogDir%%\{C7AEF92A-D3EC-4366-8AC2-0D0674F7FF19}_1.png&quot;&gt; &lt;/a&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="stack end" type="I" value="10"/>
+			<Prp name="stack beginning" type="I" value="10"/>
+			<Prp name="date" type="D" value="43854.5836546065"/>
+			<Prp name="picture" type="S" value="Picture11.png"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="id" type="I" value="15"/>
+			<Prp name="line no" type="I" value="15"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 4">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="line #" type="I" value="4"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="image file name" type="S" value="visImage1_Dif.png"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="389"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="135"/>
+					<Prp name="click point y" type="I" value="18"/>
+					<Prp name="object right" type="I" value="499"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="line #" type="I" value="4"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.Ed_Fi_DataImport_1_0_743.dlgEdFiDataImportSetup"/>
+					<Prp name="datetime" type="D" value="43854.8316460995"/>
+					<Prp name="image file name" type="S" value="visImage1.png"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+				<Node name="original">
+					<Prp name="object bottom" type="I" value="389"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="135"/>
+					<Prp name="click point y" type="I" value="18"/>
+					<Prp name="object right" type="I" value="499"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="line #" type="I" value="4"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.Ed_Fi_DataImport_1_0_743.dlgEdFiDataImportSetup"/>
+					<Prp name="datetime" type="D" value="43854.0633680556"/>
+					<Prp name="image file name" type="S" value="tcvi20532404626122.png"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+			</Node>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="remarks" type="S" value="A click at point (135, 18) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.Ed_Fi_DataImport_1_0_743.dlgEdFiDataImportSetup&#xA;(Sys.Process(&quot;Ed-Fi_DataImport_1.0.743&quot;).Window(&quot;#32770&quot;, &quot;Ed-Fi Data Import Setup&quot;, 1))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="date" type="D" value="43854.5816465625"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="line no" type="I" value="4"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 3">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="line #" type="I" value="3"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="image file name" type="S" value="visImage0_Dif.png"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="372"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="354"/>
+					<Prp name="click point y" type="I" value="361"/>
+					<Prp name="object right" type="I" value="391"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="line #" type="I" value="3"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="350"/>
+					<Prp name="object name" type="S" value="Aliases.Ed_Fi_DataImport_1_0_743.dlgEdFiDataImportSetup.btnNext"/>
+					<Prp name="datetime" type="D" value="43854.8316445949"/>
+					<Prp name="image file name" type="S" value="visImage0.png"/>
+					<Prp name="object left" type="I" value="317"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+				<Node name="original">
+					<Prp name="object bottom" type="I" value="372"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="356"/>
+					<Prp name="click point y" type="I" value="357"/>
+					<Prp name="object right" type="I" value="391"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="line #" type="I" value="3"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="350"/>
+					<Prp name="object name" type="S" value="Aliases.Ed_Fi_DataImport_1_0_743.dlgEdFiDataImportSetup.btnNext"/>
+					<Prp name="datetime" type="D" value="43854.0631018519"/>
+					<Prp name="image file name" type="S" value="tcvi20530132826121.png"/>
+					<Prp name="object left" type="I" value="317"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+			</Node>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.Ed_Fi_DataImport_1_0_743.dlgEdFiDataImportSetup.btnNext&#xA;(Sys.Process(&quot;Ed-Fi_DataImport_1.0.743&quot;).Window(&quot;#32770&quot;, &quot;Ed-Fi Data Import Setup&quot;, 1).Window(&quot;Button&quot;, &quot;&amp;Next &gt;&quot;, 1))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="date" type="D" value="43854.5816452893"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="line no" type="I" value="3"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="item 8">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="13"/>
+			<Prp name="stacktext" type="S" value="Test2()"/>
+		</Node>
+		<Node name="message 2">
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Unable to verify a value with the property checkpoint, because the target object does not exist."/>
+			<Prp name="remarks" type="S" value="&lt;!doctype html&gt; &lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;} th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;style&gt;.wide{width: 100%; margin: 0; padding:0; border:0;} .clsimg{width: 200px; margin: auto; border:0} td.row1{width: *;}  td.row2{width: 250px;}&lt;/style&gt;&lt;body&gt;&lt;div class=&quot;wide&quot;&gt;&lt;table class=&quot;wide&quot;&gt;&lt;thead&gt;&lt;tr&gt;&lt;td class=&quot;row1&quot;&gt;&lt;/td&gt;&lt;td class=&quot;row2&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;p&gt;Unable to find the following object when executing the &lt;code&gt;Property Checkpoint&lt;/code&gt; command:&lt;/p&gt;&lt;p style=&quot;margin-left: 10px;&quot;&gt;&lt;code&gt;Aliases.&amp;#8203;Ed_Fi_DataImport_1_0_743.&amp;#8203;dlgEdFiDataImportSetup.&amp;#8203;&lt;a href=&quot;lnamemapping://{72870BF6-5A62-4544-BB25-41ACC3DC086E}.Aliases.Ed_Fi_DataImport_1_0_743.dlgEdFiDataImportSetup.editUserName&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;editUserName&lt;/span&gt;&lt;/a&gt;&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;The &lt;span style=&quot;color: red;&quot;&gt;missing object&lt;/span&gt; could be absent during the test run. Check the screenshot on the &lt;a href=&quot;showpicture://pic&quot;&gt;Picture&lt;/a&gt;  tab if the object existed.&lt;/li&gt;&lt;li&gt;If the object existed, &lt;a href=&quot;lnamemapping://{72870BF6-5A62-4544-BB25-41ACC3DC086E}.Aliases.Ed_Fi_DataImport_1_0_743.dlgEdFiDataImportSetup.editUserName&quot;&gt;view and change&lt;/a&gt; its recognition attributes.&lt;/li&gt;&lt;li&gt;If the object didn't exist, check if earlier test steps worked correctly.&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;aqa-help://2201&quot;&gt;Learn more&lt;/a&gt; about possible causes of the error.&lt;/li&gt;&lt;/ul&gt;&lt;/td&gt;&lt;td style=&quot;vertical-align:top;text-align:center&quot;&gt; &lt;a href=&quot;showpicturedialog://%%LogDir%%\{83D8EA52-8076-4C9F-9515-B816F3CE5415}.png&quot;&gt; &lt;img title=&quot;The expected state of the tested application. The missing object (red frame) and the called test object (blue frame).&quot; class=&quot;clsimg&quot; src=&quot;%%LogDir%%\{83D8EA52-8076-4C9F-9515-B816F3CE5415}.png&quot;&gt; &lt;/a&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="stack end" type="I" value="1"/>
+			<Prp name="stack beginning" type="I" value="1"/>
+			<Prp name="date" type="D" value="43854.5816443634"/>
+			<Prp name="picture" type="S" value="Picture2.png"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="line no" type="I" value="2"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="item 2">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="5"/>
+			<Prp name="stacktext" type="S" value="Test2()"/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="message 18">
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Unable to verify a value with the property checkpoint, because the target object does not exist."/>
+			<Prp name="remarks" type="S" value="&lt;p&gt;Unable to verify a value with the property checkpoint, because the target object does not exist.&lt;/p&gt;&lt;p&gt;Possible causes of the problem:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;You obtained a reference to the object before calling the checkpoint, and when it is called, the object does not exist.&lt;/li&gt;&lt;li&gt;You specified the object name incorrectly (for instance, you could misspell it).&lt;/li&gt;&lt;li&gt;The specified object is returned by a property of another object, and the property has returned the null (nil) value.&lt;/li&gt;&lt;li&gt;The specified object is a stub object. The properties of these objects cannot be verified.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;In order for the checkpoint to pass, modify your test so that the object is available at the moment of the call.&lt;/p&gt;&lt;p style='margin-bottom: 0px'&gt;Tested object:&lt;/p&gt;(Stub Object)"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="stack end" type="I" value="12"/>
+			<Prp name="stack beginning" type="I" value="12"/>
+			<Prp name="date" type="D" value="43854.5840292361"/>
+			<Prp name="picture" type="S" value="Picture13.png"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="id" type="I" value="18"/>
+			<Prp name="line no" type="I" value="18"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 1">
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The button 'Next &gt;' is disabled. The action cannot be executed."/>
+			<Prp name="remarks" type="S" value="&#xA;&#xA;Tested object:&#xA;Aliases.Ed_Fi_DataImport_1_0_743.dlgEdFiDataImportSetup.btnNext&#xA;(Sys.Process(&quot;Ed-Fi_DataImport_1.0.743&quot;).Window(&quot;#32770&quot;, &quot;Ed-Fi Data Import Setup&quot;, 1).Window(&quot;Button&quot;, &quot;&amp;Next &gt;&quot;, 2))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="stack end" type="I" value="0"/>
+			<Prp name="stack beginning" type="I" value="0"/>
+			<Prp name="date" type="D" value="43854.581285162"/>
+			<Prp name="picture" type="S" value="Picture1.png"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="item 4">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="7"/>
+			<Prp name="stacktext" type="S" value="Test2()"/>
+		</Node>
+		<Node name="message 17">
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Cannot obtain the window with the window class 'Static', window caption 'Click the &quot;Finish&quot; button to exit the Setup Wizard.' and index -1. See Details for additional information."/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;body&gt;&lt;p&gt;The window with the specified attributes does not exist.&lt;/p&gt;&lt;p style=&quot;margin-top: 12px;&quot;&gt;&lt;a href=&quot;aqa-help://2203&quot;&gt;Possible causes of the error&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;&lt;br /&gt;Tested object:&lt;br /&gt;Sys.Process(&quot;Ed-Fi_DataImport_1.0.743&quot;).Window(&quot;#32770&quot;, &quot;Ed-Fi Data Import Setup&quot;, 1)"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="stack end" type="I" value="11"/>
+			<Prp name="stack beginning" type="I" value="11"/>
+			<Prp name="date" type="D" value="43854.5840195139"/>
+			<Prp name="picture" type="S" value="Picture12.png"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="id" type="I" value="17"/>
+			<Prp name="line no" type="I" value="18"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="item 0">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="1"/>
+			<Prp name="stacktext" type="S" value="Test2()"/>
+		</Node>
+		<Node name="item 1">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="2"/>
+			<Prp name="stacktext" type="S" value="Test2()"/>
+		</Node>
+		<Node name="message 5">
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The object &quot;cbxServer&quot; does not exist."/>
+			<Prp name="remarks" type="S" value="&lt;!doctype html&gt; &lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;} th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;style&gt;.wide{width: 100%; margin: 0; padding:0; border:0;} .clsimg{width: 200px; margin: auto; border:0} td.row1{width: *;}  td.row2{width: 250px;}&lt;/style&gt;&lt;body&gt;&lt;div class=&quot;wide&quot;&gt;&lt;table class=&quot;wide&quot;&gt;&lt;thead&gt;&lt;tr&gt;&lt;td class=&quot;row1&quot;&gt;&lt;/td&gt;&lt;td class=&quot;row2&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;p&gt;Unable to find the following object when executing the &lt;code&gt;SetText&lt;/code&gt; command:&lt;/p&gt;&lt;p style=&quot;margin-left: 10px;&quot;&gt;&lt;code&gt;Aliases.&amp;#8203;Ed_Fi_DataImport_1_0_743.&amp;#8203;dlgEdFiDataImportSetup.&amp;#8203;&lt;a href=&quot;lnamemapping://{72870BF6-5A62-4544-BB25-41ACC3DC086E}.Aliases.Ed_Fi_DataImport_1_0_743.dlgEdFiDataImportSetup.cbxServer&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;cbxServer&lt;/span&gt;&lt;/a&gt;&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;The &lt;span style=&quot;color: red;&quot;&gt;missing object&lt;/span&gt; could be absent during the test run. Check the screenshot on the &lt;a href=&quot;showpicture://pic&quot;&gt;Picture&lt;/a&gt;  tab if the object existed.&lt;/li&gt;&lt;li&gt;If the object existed, &lt;a href=&quot;lnamemapping://{72870BF6-5A62-4544-BB25-41ACC3DC086E}.Aliases.Ed_Fi_DataImport_1_0_743.dlgEdFiDataImportSetup.cbxServer&quot;&gt;view and change&lt;/a&gt; its recognition attributes.&lt;/li&gt;&lt;li&gt;If the object didn't exist, check if earlier test steps worked correctly.&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;aqa-help://2201&quot;&gt;Learn more&lt;/a&gt; about possible causes of the error.&lt;/li&gt;&lt;/ul&gt;&lt;/td&gt;&lt;td style=&quot;vertical-align:top;text-align:center&quot;&gt; &lt;a href=&quot;showpicturedialog://%%LogDir%%\{C27D1801-9CD7-4FF8-B15F-4BB9001ABCED}.png&quot;&gt; &lt;img title=&quot;The expected state of the tested application. The missing object (red frame) and the called test object (blue frame).&quot; class=&quot;clsimg&quot; src=&quot;%%LogDir%%\{C27D1801-9CD7-4FF8-B15F-4BB9001ABCED}.png&quot;&gt; &lt;/a&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="stack end" type="I" value="2"/>
+			<Prp name="stack beginning" type="I" value="2"/>
+			<Prp name="date" type="D" value="43854.5820067824"/>
+			<Prp name="picture" type="S" value="Picture3.png"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="id" type="I" value="5"/>
+			<Prp name="line no" type="I" value="5"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="item 3">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="6"/>
+			<Prp name="stacktext" type="S" value="Test2()"/>
+		</Node>
+		<Node name="item 9">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="14"/>
+			<Prp name="stacktext" type="S" value="Test2()"/>
+		</Node>
+		<Node name="message 12">
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The text editor is disabled. The action cannot be executed."/>
+			<Prp name="remarks" type="S" value="&#xA;&#xA;Tested object:&#xA;Aliases.Ed_Fi_DataImport_1_0_743.dlgEdFiDataImportSetup.editDomain&#xA;(Sys.Process(&quot;Ed-Fi_DataImport_1.0.743&quot;).Window(&quot;#32770&quot;, &quot;Ed-Fi Data Import Setup&quot;, 1).Window(&quot;Edit&quot;, &quot;&quot;, 2))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="stack end" type="I" value="7"/>
+			<Prp name="stack beginning" type="I" value="7"/>
+			<Prp name="date" type="D" value="43854.5829171643"/>
+			<Prp name="picture" type="S" value="Picture8.png"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="id" type="I" value="12"/>
+			<Prp name="line no" type="I" value="12"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 10">
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The window was destroyed during method execution."/>
+			<Prp name="remarks" type="S" value="The window with the handle 0x001a03fe does not exist.&#xA;Most likely, this error occurred because the tested object (window or control) or its parent object was deleted or recreated during the method call or before it. For instance, the window could be destroyed or recreated after you stored the object reference to a variable and before you called the object method through this variable.&#xA;If the object is recreated, then to avoid the error, check the object's Exists property before calling the method, and if the object does not exist, obtain a reference to the new object.&#xA;&#xA;Tested object:&#xA;Aliases.Ed_Fi_DataImport_1_0_743.dlgEdFiDataImportSetup.editUserName&#xA;(Sys.Process(&quot;Ed-Fi_DataImport_1.0.743&quot;).Window(&quot;#32770&quot;, &quot;Ed-Fi Data Import Setup&quot;, 1).Window(&quot;Edit&quot;, &quot;&quot;, 1))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="stack end" type="I" value="5"/>
+			<Prp name="stack beginning" type="I" value="5"/>
+			<Prp name="date" type="D" value="43854.5828978357"/>
+			<Prp name="picture" type="S" value="Picture6.png"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="id" type="I" value="10"/>
+			<Prp name="line no" type="I" value="10"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 16">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="line #" type="I" value="16"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="image file name" type="S" value="visImage8_Dif.png"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="372"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="354"/>
+					<Prp name="click point y" type="I" value="361"/>
+					<Prp name="object right" type="I" value="391"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="line #" type="I" value="16"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="350"/>
+					<Prp name="object name" type="S" value="Aliases.Ed_Fi_DataImport_1_0_743.dlgEdFiDataImportSetup.btnNext"/>
+					<Prp name="datetime" type="D" value="43854.833654838"/>
+					<Prp name="image file name" type="S" value="visImage8.png"/>
+					<Prp name="object left" type="I" value="317"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+				<Node name="original">
+					<Prp name="object bottom" type="I" value="372"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="358"/>
+					<Prp name="click point y" type="I" value="359"/>
+					<Prp name="object right" type="I" value="391"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="line #" type="I" value="16"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="350"/>
+					<Prp name="object name" type="S" value="Aliases.Ed_Fi_DataImport_1_0_743.dlgEdFiDataImportSetup.btnNext"/>
+					<Prp name="datetime" type="D" value="43854.0638888889"/>
+					<Prp name="image file name" type="S" value="tcvi205368843261214.png"/>
+					<Prp name="object left" type="I" value="317"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+			</Node>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.Ed_Fi_DataImport_1_0_743.dlgEdFiDataImportSetup.btnNext&#xA;(Sys.Process(&quot;Ed-Fi_DataImport_1.0.743&quot;).Window(&quot;#32770&quot;, &quot;Ed-Fi Data Import Setup&quot;, 1).Window(&quot;Button&quot;, &quot;&amp;Next &gt;&quot;, 2))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="date" type="D" value="43854.5836616667"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="id" type="I" value="16"/>
+			<Prp name="line no" type="I" value="16"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="item 5">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="10"/>
+			<Prp name="stacktext" type="S" value="Test2()"/>
+		</Node>
+		<Node name="message 9">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="line #" type="I" value="9"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="image file name" type="S" value="visImage5_Dif.png"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="218"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="80"/>
+					<Prp name="click point y" type="I" value="213"/>
+					<Prp name="object right" type="I" value="363"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="line #" type="I" value="9"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="194"/>
+					<Prp name="object name" type="S" value="Aliases.Ed_Fi_DataImport_1_0_743.dlgEdFiDataImportSetup.editUserName"/>
+					<Prp name="datetime" type="D" value="43854.832737037"/>
+					<Prp name="image file name" type="S" value="visImage5.png"/>
+					<Prp name="object left" type="I" value="27"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+				<Node name="original">
+					<Prp name="object bottom" type="I" value="188"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="122"/>
+					<Prp name="click point y" type="I" value="183"/>
+					<Prp name="object right" type="I" value="427"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="line #" type="I" value="9"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="164"/>
+					<Prp name="object name" type="S" value="Aliases.Ed_Fi_DataImport_1_0_743.dlgEdFiDataImportSetup.editUserName"/>
+					<Prp name="datetime" type="D" value="43854.0636805556"/>
+					<Prp name="image file name" type="S" value="tcvi20535143726127.png"/>
+					<Prp name="object left" type="I" value="69"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+			</Node>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="remarks" type="S" value="A click at point (53, 19) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.Ed_Fi_DataImport_1_0_743.dlgEdFiDataImportSetup.editUserName&#xA;(Sys.Process(&quot;Ed-Fi_DataImport_1.0.743&quot;).Window(&quot;#32770&quot;, &quot;Ed-Fi Data Import Setup&quot;, 1).Window(&quot;Edit&quot;, &quot;&quot;, 1))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="date" type="D" value="43854.5827491898"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="id" type="I" value="9"/>
+			<Prp name="line no" type="I" value="9"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 11">
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The text editor is disabled. The action cannot be executed."/>
+			<Prp name="remarks" type="S" value="&#xA;&#xA;Tested object:&#xA;Aliases.Ed_Fi_DataImport_1_0_743.dlgEdFiDataImportSetup.editDomain&#xA;(Sys.Process(&quot;Ed-Fi_DataImport_1.0.743&quot;).Window(&quot;#32770&quot;, &quot;Ed-Fi Data Import Setup&quot;, 1).Window(&quot;Edit&quot;, &quot;&quot;, 2))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="stack end" type="I" value="6"/>
+			<Prp name="stack beginning" type="I" value="6"/>
+			<Prp name="date" type="D" value="43854.5829072106"/>
+			<Prp name="picture" type="S" value="Picture7.png"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="id" type="I" value="11"/>
+			<Prp name="line no" type="I" value="11"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 8">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="line #" type="I" value="8"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="image file name" type="S" value="visImage4_Dif.png"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="372"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="354"/>
+					<Prp name="click point y" type="I" value="361"/>
+					<Prp name="object right" type="I" value="391"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="line #" type="I" value="8"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="350"/>
+					<Prp name="object name" type="S" value="Aliases.Ed_Fi_DataImport_1_0_743.dlgEdFiDataImportSetup.btnNext"/>
+					<Prp name="datetime" type="D" value="43854.8327353009"/>
+					<Prp name="image file name" type="S" value="visImage4.png"/>
+					<Prp name="object left" type="I" value="317"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+				<Node name="original">
+					<Prp name="object bottom" type="I" value="372"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="371"/>
+					<Prp name="click point y" type="I" value="361"/>
+					<Prp name="object right" type="I" value="391"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="line #" type="I" value="8"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="350"/>
+					<Prp name="object name" type="S" value="Aliases.Ed_Fi_DataImport_1_0_743.dlgEdFiDataImportSetup.btnNext"/>
+					<Prp name="datetime" type="D" value="43854.0635763889"/>
+					<Prp name="image file name" type="S" value="tcvi20534182826126.png"/>
+					<Prp name="object left" type="I" value="317"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+			</Node>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.Ed_Fi_DataImport_1_0_743.dlgEdFiDataImportSetup.btnNext&#xA;(Sys.Process(&quot;Ed-Fi_DataImport_1.0.743&quot;).Window(&quot;#32770&quot;, &quot;Ed-Fi Data Import Setup&quot;, 1).Window(&quot;Button&quot;, &quot;&amp;Next &gt;&quot;, 1))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="date" type="D" value="43854.5827361111"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="id" type="I" value="8"/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 6">
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The object &quot;btnTestSqlConnection&quot; does not exist."/>
+			<Prp name="remarks" type="S" value="&lt;!doctype html&gt; &lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;} th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;style&gt;.wide{width: 100%; margin: 0; padding:0; border:0;} .clsimg{width: 200px; margin: auto; border:0} td.row1{width: *;}  td.row2{width: 250px;}&lt;/style&gt;&lt;body&gt;&lt;div class=&quot;wide&quot;&gt;&lt;table class=&quot;wide&quot;&gt;&lt;thead&gt;&lt;tr&gt;&lt;td class=&quot;row1&quot;&gt;&lt;/td&gt;&lt;td class=&quot;row2&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;p&gt;Unable to find the following object when executing the &lt;code&gt;ClickButton&lt;/code&gt; command:&lt;/p&gt;&lt;p style=&quot;margin-left: 10px;&quot;&gt;&lt;code&gt;Aliases.&amp;#8203;Ed_Fi_DataImport_1_0_743.&amp;#8203;dlgEdFiDataImportSetup.&amp;#8203;&lt;a href=&quot;lnamemapping://{72870BF6-5A62-4544-BB25-41ACC3DC086E}.Aliases.Ed_Fi_DataImport_1_0_743.dlgEdFiDataImportSetup.btnTestSqlConnection&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;btnTestSqlConnection&lt;/span&gt;&lt;/a&gt;&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; }&lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;helpme://54Wh5r2zAQAEAHJvb3QHAAkAcHJvcGNvdW50AAACAAYAY29uZmlnAQAVAERlZmF1bHQgQ29uZmln&#xA;dXJhdGlvbggAY2FsbG5hbWUBAEwAQWxpYXNlcy5FZF9GaV9EYXRhSW1wb3J0XzFfMF83NDMuZGxn&#xA;RWRGaURhdGFJbXBvcnRTZXR1cC5idG5UZXN0U3FsQ29ubmVjdGlvbgQAdHlwZQEACwBSZWNvZ25p&#xA;dGlvbgIAbm0BACQAQkJBOTUyNEF4QUIyRng0NjRGeEE3M0R4MUE3NDk2OTU1MEY5BwBwaWNmaWxl&#xA;AQAqAHs4Mjg0OEEzRi01Nzg0LTQ5OUItOTM5Mi00ODRFRTU4MjE3NjR9LnBuZwcAcHJvamVjdAEA&#xA;JAA3Mjg3MEJGNng1QTYyeDQ1NDR4QkIyNXg0MUFDQzNEQzA4NkUEAAUAbmFtZXMCAAEAMAEACABX&#xA;bmRDbGFzcwEAMQEACgBXbmRDYXB0aW9uAAALAGZvdW5kdmFsdWVzAgABADABABkAQDQyMDA3NTAw&#xA;NzQwMDc0MDA2RjAwNkUwMAEAMQEAHQBAMjYwMDRFMDA2NTAwNzgwMDc0MDAyMDAwM0UwMAAABwBt&#xA;YXRjaGVkAgABADAAAO+/v+e/vwEAMQAAAQAAAAYAdmFsdWVzAgABADABABkAQDQyMDA3NTAwNzQw&#xA;MDc0MDA2RjAwNkUwMAEAMQEATQBANTQwMDY1MDA3MzAwNzQwMDIwMDA1MzAwNzEwMDZDMDAyMDAw&#xA;NDMwMDZGMDA2RTAwNkUwMDY1MDA2MzAwNzQwMDY5MDA2RjAwNkUwMAAA&quot;&gt;Intelligent Fix&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;The &lt;span style=&quot;color: red;&quot;&gt;missing object&lt;/span&gt; could be absent during the test run. Check the screenshot on the &lt;a href=&quot;showpicture://pic&quot;&gt;Picture&lt;/a&gt;  tab if the object existed.&lt;/li&gt;&lt;li&gt;If the object existed, &lt;a href=&quot;lnamemapping://{72870BF6-5A62-4544-BB25-41ACC3DC086E}.Aliases.Ed_Fi_DataImport_1_0_743.dlgEdFiDataImportSetup.btnTestSqlConnection&quot;&gt;view and change&lt;/a&gt; its recognition attributes.&lt;/li&gt;&lt;li&gt;If the object didn't exist, check if earlier test steps worked correctly.&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;aqa-help://2201&quot;&gt;Learn more&lt;/a&gt; about possible causes of the error.&lt;/li&gt;&lt;/ul&gt;&lt;/td&gt;&lt;td style=&quot;vertical-align:top;text-align:center&quot;&gt; &lt;a href=&quot;showpicturedialog://%%LogDir%%\{BBA9524A-AB2F-464F-A73D-1A74969550F9}.png&quot;&gt; &lt;img title=&quot;The expected state of the tested application. The missing object (red frame) and the called test object (blue frame).&quot; class=&quot;clsimg&quot; src=&quot;%%LogDir%%\{BBA9524A-AB2F-464F-A73D-1A74969550F9}.png&quot;&gt; &lt;/a&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="stack end" type="I" value="3"/>
+			<Prp name="stack beginning" type="I" value="3"/>
+			<Prp name="date" type="D" value="43854.582371169"/>
+			<Prp name="picture" type="S" value="Picture4.png"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="id" type="I" value="6"/>
+			<Prp name="line no" type="I" value="6"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="item 7">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="12"/>
+			<Prp name="stacktext" type="S" value="Test2()"/>
+		</Node>
+		<Node name="message 14">
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The object &quot;editPassword&quot; does not exist."/>
+			<Prp name="remarks" type="S" value="&lt;!doctype html&gt; &lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;} th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;style&gt;.wide{width: 100%; margin: 0; padding:0; border:0;} .clsimg{width: 200px; margin: auto; border:0} td.row1{width: *;}  td.row2{width: 250px;}&lt;/style&gt;&lt;body&gt;&lt;div class=&quot;wide&quot;&gt;&lt;table class=&quot;wide&quot;&gt;&lt;thead&gt;&lt;tr&gt;&lt;td class=&quot;row1&quot;&gt;&lt;/td&gt;&lt;td class=&quot;row2&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;p&gt;Unable to find the following object when executing the &lt;code&gt;Click&lt;/code&gt; command:&lt;/p&gt;&lt;p style=&quot;margin-left: 10px;&quot;&gt;&lt;code&gt;Aliases.&amp;#8203;Ed_Fi_DataImport_1_0_743.&amp;#8203;dlgEdFiDataImportSetup.&amp;#8203;&lt;a href=&quot;lnamemapping://{72870BF6-5A62-4544-BB25-41ACC3DC086E}.Aliases.Ed_Fi_DataImport_1_0_743.dlgEdFiDataImportSetup.editPassword&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;editPassword&lt;/span&gt;&lt;/a&gt;&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; }&lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;helpme://54Wh5r2zAQAEAHJvb3QHAAkAcHJvcGNvdW50AAADAAgAY2FsbG5hbWUBAEQAQWxpYXNlcy5FZF9G&#xA;aV9EYXRhSW1wb3J0XzFfMF83NDMuZGxnRWRGaURhdGFJbXBvcnRTZXR1cC5lZGl0UGFzc3dvcmQH&#xA;AHBpY2ZpbGUBACoAe0Q5OTg4NjQwLTM4NjktNDUyMy1CNDJFLUE4MEY4MTZBOTdGMn0ucG5nBwBw&#xA;cm9qZWN0AQAkADcyODcwQkY2eDVBNjJ4NDU0NHhCQjI1eDQxQUNDM0RDMDg2RQQAdHlwZQEACwBS&#xA;ZWNvZ25pdGlvbgIAbm0BACQAQzdBRUY5MkF4RDNFQ3g0MzY2eDhBQzJ4MEQwNjc0RjdGRjE5BgBj&#xA;b25maWcBABUARGVmYXVsdCBDb25maWd1cmF0aW9uBAAHAG1hdGNoZWQDAAEAMAAA77+/57+/AQAy&#xA;AAAAAAEAMQAA77+/57+/AAAFAG5hbWVzAwABADABAAgAV25kQ2xhc3MBADIBAAUASW5kZXgBADEB&#xA;AAoAV25kQ2FwdGlvbgAACwBmb3VuZHZhbHVlcwMAAQAwAQARAEA0NTAwNjQwMDY5MDA3NDAwAQAy&#xA;AQAgADAzMDAwMDAwMDAwMDAwMDAwMTAwMDAwMDAwMDAwMDAwAQAxAQABAEAAAAYAdmFsdWVzAwAB&#xA;ADABABEAQDQ1MDA2NDAwNjkwMDc0MDABADIBACAAMDMwMDAwMDAwMDAwMDAwMDAzMDAwMDAwMDAw&#xA;MDAwMDABADEBAAEAQAAA&quot;&gt;Intelligent Fix&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;The &lt;span style=&quot;color: red;&quot;&gt;missing object&lt;/span&gt; could be absent during the test run. Check the screenshot on the &lt;a href=&quot;showpicture://pic&quot;&gt;Picture&lt;/a&gt;  tab if the object existed.&lt;/li&gt;&lt;li&gt;If the object existed, &lt;a href=&quot;lnamemapping://{72870BF6-5A62-4544-BB25-41ACC3DC086E}.Aliases.Ed_Fi_DataImport_1_0_743.dlgEdFiDataImportSetup.editPassword&quot;&gt;view and change&lt;/a&gt; its recognition attributes.&lt;/li&gt;&lt;li&gt;If the object didn't exist, check if earlier test steps worked correctly.&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;aqa-help://2201&quot;&gt;Learn more&lt;/a&gt; about possible causes of the error.&lt;/li&gt;&lt;/ul&gt;&lt;/td&gt;&lt;td style=&quot;vertical-align:top;text-align:center&quot;&gt; &lt;a href=&quot;showpicturedialog://%%LogDir%%\{C7AEF92A-D3EC-4366-8AC2-0D0674F7FF19}.png&quot;&gt; &lt;img title=&quot;The expected state of the tested application. The missing object (red frame) and the called test object (blue frame).&quot; class=&quot;clsimg&quot; src=&quot;%%LogDir%%\{C7AEF92A-D3EC-4366-8AC2-0D0674F7FF19}.png&quot;&gt; &lt;/a&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="stack end" type="I" value="9"/>
+			<Prp name="stack beginning" type="I" value="9"/>
+			<Prp name="date" type="D" value="43854.5832910648"/>
+			<Prp name="picture" type="S" value="Picture10.png"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="id" type="I" value="14"/>
+			<Prp name="line no" type="I" value="14"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Prp name="status" type="I" value="2"/>
+	</Node>
+</Nodes>

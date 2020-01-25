@@ -4,13 +4,13 @@
 	<testData />
 	<data />
 	<children>
-		<child key="{76116A50-4F98-49B4-A6C8-0117B5831922}">
-			<config nodeName="Ed_Fi_DataImport_1_0" autorunOnRecording="True" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="True">
+		<child key="{3463D01B-51A1-49F3-8896-5F1630AF581F}">
+			<config nodeName="Ed_Fi_DataImport_1_0_743" autorunOnRecording="True" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
 				<runModeParams activeRunMode="Simple">
 					<param name="RunAs" parameters="" workFolder="" userName="" password="" domain="" />
 					<param name="Profile" parameters="" workFolder="" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="0" forceRunMode="False" />
 					<param name="Debug" parameters="" workFolder="" />
-					<param name="Simple" fileName="Ed-Fi_DataImport_1.0.732-pre.exe" filePath="C:\Users\alexretivov\Desktop\DataImportInstallers\" parameters="" workFolder="" />
+					<param name="Simple" fileName="Ed-Fi_DataImport_1.0.743.exe" filePath="C:\Users\odstoolsadmin\Desktop\DataImportInstallers\" parameters="" workFolder="" />
 				</runModeParams>
 			</config>
 			<testData />

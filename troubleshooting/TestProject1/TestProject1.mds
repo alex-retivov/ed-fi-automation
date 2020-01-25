@@ -8,7 +8,12 @@
 	</children>
 	<config language="{90F89436-9452-4F95-9882-6B5210079F13}" />
 	<testItems key="{0E726095-A5DB-4ADC-9557-3A873A857914}" version="14">
-		<children />
+		<children>
+			<testItem name="FreshInstallTest" key="{607C3E41-A220-4E27-8F0D-E8B4207C6E96}" group="False" enabled="True" testMoniker="KDT\{575C748E-DE5D-4495-813B-97AA9C880C52}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<children />
+			</testItem>
+		</children>
 	</testItems>
 	<variables key="{95D52787-CE4F-403F-AE84-C9DFC46F6F4D}">
 		<data Version="3" />
@@ -529,7 +534,7 @@
 			</data>
 		</setting>
 		<setting name="Playback_OverlappingWindow_IgnoreOverlappingWindow" type="1" value="False" />
-		<setting name="Playback_Runtime_AutoWaitTimeout" type="2" value="10000" />
+		<setting name="Playback_Runtime_AutoWaitTimeout" type="2" value="30000" />
 		<setting name="Playback_Runtime_DelayBetweenEvents" type="2" value="50" />
 		<setting name="Playback_Runtime_DisableMouse" type="1" value="False" />
 		<setting name="Playback_Runtime_MinimizeBeforePlayback" type="1" value="False" />

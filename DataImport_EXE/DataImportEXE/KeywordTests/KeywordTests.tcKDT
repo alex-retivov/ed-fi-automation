@@ -12,10 +12,11 @@
 			<child name="cancelInstall" key="{71575A80-3C55-4C61-B588-A08804A9CA54}" path="cancelInstall.tcKDTest" />
 		</folder>
 		<folder name="baseInstallHappy">
-			<child name="exeLocal" key="{64E0654F-BE4D-4D7A-8ADE-E0DA7BDAE880}" path="exeLocal.tcKDTest" />
+			<child name="dataImportInstallHappy" key="{C8AA95A6-B017-42A0-A3FD-25ED1401544F}" path="dataImportInstallHappy.tcKDTest" />
 		</folder>
 		<folder name="baseRemove">
-			<child name="exeRemove" key="{BCA25083-78C9-486B-8432-3F46C02C795D}" path="exeRemove.tcKDTest" />
+			<child name="dataImportRemove" key="{FD97FF2D-EBA2-40AF-94E6-A70DA85AEFF8}" path="dataImportRemove.tcKDTest" />
 		</folder>
+		<child name="Test2" key="{FC7DEBFA-9FBD-4180-BA54-72043D2F4DD6}" path="Test2.tcKDTest" />
 	</children>
 </Root>
