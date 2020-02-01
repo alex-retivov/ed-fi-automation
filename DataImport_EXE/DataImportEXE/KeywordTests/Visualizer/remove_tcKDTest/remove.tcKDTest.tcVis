@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
-	<data key="{EE7888A8-29AE-4FF7-B86A-3D92D86C96EA}">
-		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="0" kind="0" dateTime="43793.6758101852" objectName="Aliases.Ed_Fi_DataImport_1_0_732_pre.dlgEdFiDataImportSetup.btn" objectLeft="136" objectTop="482" objectRight="237" objectBottom="583" clickPointX="188" clickPointY="526" imageFileName="tcvi6846765611240.png" storageFileName="" needUpdate="False" rectColor="255" />
-		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="1" kind="0" dateTime="43793.6758564815" objectName="Aliases.Ed_Fi_DataImport_1_0_732_pre.dlgEdFiDataImportSetup.btnRemove" objectLeft="632" objectTop="696" objectRight="781" objectBottom="741" clickPointX="716" clickPointY="726" imageFileName="tcvi6847206211241.png" storageFileName="" needUpdate="False" rectColor="255" />
-	</data>
-</Root>

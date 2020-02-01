@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="14.0">
+	<TestData Description="" Key="{01E38BD8-FED0-4124-A732-D569DF4D2172}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="Data_Import_EXE_Happy_Path" />
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="dataImportRemove" />
+			</Operation>
+		</Children>
+	</TestData>
+	<Variables Version="3" Key="{9E9EA283-3B67-453C-A0F8-E8B994FA7A7F}" />
+	<Parameters Key="{A99F07AE-283A-45C0-AA21-61B8195158B7}" />
+</Root>

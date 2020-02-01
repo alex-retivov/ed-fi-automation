@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
-	<data key="{24A8EBD5-5FDE-407C-A486-5E8975E02994}">
-		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="43793.6714351852" objectName="Aliases.Ed_Fi_DataImport_1_0_732_pre.dlgEdFiDataImportSetup.cbxServer2.Edit" objectLeft="259" objectTop="219" objectRight="885" objectBottom="246" clickPointX="358" clickPointY="232" imageFileName="tcvi6808962569840.png" storageFileName="" needUpdate="False" rectColor="255" />
-		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="3" kind="0" dateTime="43793.6714814815" objectName="Aliases.Ed_Fi_DataImport_1_0_732_pre.dlgEdFiDataImportSetup.cbxServer2" objectLeft="259" objectTop="219" objectRight="885" objectBottom="246" clickPointX="-1913" clickPointY="-875" imageFileName="tcvi6809184369845.png" storageFileName="" needUpdate="False" rectColor="255" />
-		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="7" kind="0" dateTime="43793.6721064815" objectName="Aliases.Ed_Fi_DataImport_1_0_732_pre.dlgEdFiDataImportSetup.btnNext" objectLeft="632" objectTop="696" objectRight="781" objectBottom="741" clickPointX="734" clickPointY="714" imageFileName="tcvi68147984698411.png" storageFileName="" needUpdate="False" rectColor="255" />
-	</data>
-</Root>

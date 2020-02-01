@@ -1,22 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="14.0">
 	<children>
-		<folder name="Start And Stop EXE">
-			<child name="openNext" key="{2EBAC446-60EF-4CBD-BAB5-A911A8F71659}" path="openNext.tcKDTest" />
-			<child name="finish" key="{63E07845-1D83-4048-BEB1-9E4DA048D8DA}" path="finish.tcKDTest" />
-			<child name="installerFolder" key="{73E96AD4-6333-401F-91B8-8E9750C8C960}" path="installerFolder.tcKDTest" />
-			<child name="sqlConnection" key="{24A8EBD5-5FDE-407C-A486-5E8975E02994}" path="sqlConnection.tcKDTest" />
-			<child name="install" key="{AB2926E1-A7CD-4399-B7D7-9186F4E492E5}" path="install.tcKDTest" />
-			<child name="remove" key="{EE7888A8-29AE-4FF7-B86A-3D92D86C96EA}" path="remove.tcKDTest" />
-			<child name="IISApplicationPoolLocal" key="{D07FFD3D-3963-43E8-A701-C33D87C75E2F}" path="IISApplicationPoolLocal.tcKDTest" />
-			<child name="cancelInstall" key="{71575A80-3C55-4C61-B588-A08804A9CA54}" path="cancelInstall.tcKDTest" />
-		</folder>
 		<folder name="baseInstallHappy">
-			<child name="dataImportInstallHappy" key="{C8AA95A6-B017-42A0-A3FD-25ED1401544F}" path="dataImportInstallHappy.tcKDTest" />
+			<child name="Data_Import_EXE_Happy_Path" key="{FC7DEBFA-9FBD-4180-BA54-72043D2F4DD6}" path="Data_Import_EXE_Happy_Path.tcKDTest" />
 		</folder>
 		<folder name="baseRemove">
-			<child name="dataImportRemove" key="{FD97FF2D-EBA2-40AF-94E6-A70DA85AEFF8}" path="dataImportRemove.tcKDTest" />
+			<child name="dataImportRemove" key="{FEB3E9E5-1B8D-4FCF-8168-89CBBDD062A5}" path="dataImportRemove.tcKDTest" />
 		</folder>
-		<child name="Test2" key="{FC7DEBFA-9FBD-4180-BA54-72043D2F4DD6}" path="Test2.tcKDTest" />
+		<folder name="InstallAndRemove">
+			<child name="InstallRemove" key="{43F904DF-8E4B-4D2A-9AE2-E2A62DE02843}" path="InstallRemove.tcKDTest" />
+		</folder>
+		<folder name="Data Import Keyword Blocks" />
 	</children>
 </Root>
