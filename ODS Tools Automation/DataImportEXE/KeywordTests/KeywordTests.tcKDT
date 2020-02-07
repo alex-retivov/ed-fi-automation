@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="14.0">
+	<children>
+		<folder name="Data Import Keyword Blocks" />
+		<folder name="Admin App instal" />
+		<folder name="ODS v3 App Install">
+			<folder name="EXE Database Install">
+				<child name="Trusted_Happy_Path" key="{D95933D9-8B84-490E-BB96-8CA606AA6809}" path="Trusted_Happy_Path.tcKDTest" />
+				<child name="Uninstall_Database" key="{3A0339AF-4BB1-4C7F-B0A2-63F1742A976E}" path="Uninstall_Database.tcKDTest" />
+			</folder>
+			<folder name="EXE Websites Install">
+				<child name="Trusted_Web_Install" key="{21E9DF8F-1F6E-40DE-B138-0321FF62D839}" path="Trusted_Web_Install.tcKDTest" />
+				<child name="Uninstall_Web" key="{B61EFDD5-D262-4AAC-BDF2-CA3224B71B42}" path="Uninstall_Web.tcKDTest" />
+			</folder>
+		</folder>
+		<folder name="Data Import Install">
+			<folder name="baseRemove">
+				<child name="dataImportRemove" key="{FEB3E9E5-1B8D-4FCF-8168-89CBBDD062A5}" path="dataImportRemove.tcKDTest" />
+			</folder>
+			<folder name="baseInstallHappy">
+				<child name="Data_Import_EXE_Happy_Path" key="{FC7DEBFA-9FBD-4180-BA54-72043D2F4DD6}" path="Data_Import_EXE_Happy_Path.tcKDTest" />
+			</folder>
+			<folder name="Web UI" />
+		</folder>
+	</children>
+</Root>
